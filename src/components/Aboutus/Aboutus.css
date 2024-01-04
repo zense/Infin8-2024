@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Carter+One&family=Fondamento&family=Lobster&family=Poly&family=Rammetto+One&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.au-content{
+    font-family: 'Poly', serif;
+}
+.au-about{
+    font-family: 'Fondamento', cursive;
+    line-height: 4.5rem !important;
+}
+.au-infin8{
+    font-family: 'Lobster', sans-serif;
+}
+
+@media(max-width:810px){
+    .au-container{
+        flex-direction: column;
+        margin-top: 120px !important;
+    }
+    .au-heading{
+        width: 90vw !important;
+        height: 300px !important;
+    }
+    .au-about{
+        font-size: 25vw !important;
+    }
+    .au-infin8{
+        font-size: 25vw !important;
+    }
+    .au-content{
+        font-size: 22px;
+        line-height: normal;
+    }
+    .au-cont{
+        width: 100vw !important;
+    }
+}
