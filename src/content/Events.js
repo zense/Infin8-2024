@@ -110,3 +110,5 @@ const events = [
     image: "",
   },
 ];
+
+export default events;

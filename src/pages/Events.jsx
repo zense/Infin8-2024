@@ -1,65 +1,68 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
+import events from "../content/Events";
 
 const Events = () => {
   return (
     <>
-      <div className="bg-purple-500 h-full">
+      <div className="bg-purple h-full">
         <div className="flex flex-col">
-          <h1 className="ml-2 text-4xl text-yellow-400">Events</h1>
-          <h3 className="ml-10 text-teal-500 font-lobster text-4xl font-normal mb-4">
+          <h1 className="ml-2 text-4xl text-yellow title ">Events</h1>
+          <h3 className="ml-10 text-textblue register text-4xl font-normal mb-4">
             Register here
           </h3>
         </div>
+
         <div className="">
           <hr style={{ border: " 1px solid black" }} />
-          <p className="my-2 text-xl font-medium font-GloriaHallelujah">
+          <p className="my-2 games text-xl text-textdarkblue font-medium ">
             Valorant. Stand-Up. DJ-Night. Call Of Duty. Duet Dance
           </p>
           <hr style={{ border: " 1px solid black" }} />
         </div>
       </div>
-      <div className="bg-red-500">
-        <div className=" bg-yellow-300">
-          <div className="text-red-600 font-archivo text-7xl font-medium  rotate-5">
+      <div className="bg-red">
+        <div className="bg-red h-32"></div>
+        <div className=" bg-yellow flex">
+          <div className="text-red banner text-7xl font-medium ">
             INFIN8. 2023. INFIN8. 2023. INFIN8. 2023.
           </div>
         </div>
 
-        <div className="flex">
-          <div className="w-1/2">
+        <div className="flex footer">
+          <div className="w-1/2 ">
             <img src="../iiitblogo.png" />
           </div>
-          <div className="flex flex-col text-yellow-300 text-xl">
+          <div className="flex font-medium flex-col text-yellow text-4xl">
             Get in Touch.
-            <div>
+            <div className="text-3xl">
               Twitter{" "}
               <SocialIcon
-                bgColor="#EF4444"
+                bgColor="#D90429"
                 fgColor="yellow"
                 url="https://twitter.com/infin8_iiitb"
               />{" "}
             </div>
-            <div>
+            <div className="text-3xl">
               Instagram{" "}
               <SocialIcon
-                bgColor="#EF4444"
+                bgColor="#D90429"
                 fgColor="yellow"
                 url="https://www.instagram.com/infin8_iiitb/"
               />
             </div>
-            <div>
+            <div className="text-3xl">
               Facebook
               <SocialIcon
-                bgColor="#EF4444"
+                bgColor="#D90429"
                 fgColor="yellow"
                 url="https://www.facebook.com/infin8.iiitb/"
               />
             </div>
-            <div>
+            <div className="text-3xl">
               Linkedln
               <SocialIcon
-                bgColor="#EF4444"
+                bgColor="#D90429"
                 fgColor="yellow"
                 url="https://www.linkedin.com/company/infin8-iiitb/"
               />
