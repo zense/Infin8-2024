@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Carter+One&family=Fondamento&family=Lobster&family=Poly&family=Rammetto+One&family=Righteous&display=swap');
+
+.MegaEvents-screen{
+    height: 70vh;
+    font-family: 'Archivo', sans-serif;
+    overflow: hidden;
+}
+.MegaEvents-screen img{
+    z-index: 2;
+    height: 29vw;
+}
+.bg-text{
+    transform: rotateZ(-5deg) skew(-10deg);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 0;
+}
+.bg-text-top{
+    top: 20%;
+}
+.bg-text-bottom{
+    top: 60%;
+}

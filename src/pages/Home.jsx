@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import Aboutus from '../components/Aboutus/Aboutus'
 import Slider from '../components/Slider/Slider'
 import Timeline from '../components/Timeline/Timeline'
+import MegaEvents from '../components/MegaEvents/MegaEvents'
 
 function App() {
   useEffect(() => {
@@ -65,6 +66,7 @@ function App() {
       <Aboutus/>
       <Slider/>
       <Timeline/>
+      <MegaEvents/>
     </div>
   )
 }
