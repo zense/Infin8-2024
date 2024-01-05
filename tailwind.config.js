@@ -8,10 +8,10 @@ export default {
       'red':'#D90429',
       'white':'#FFF',
       'bgreddark':'#D30C28',
-      'bgredlight':'#E5203B'
+      'bgredlight':'#E5203B',
       'textblue': "#33B8C9",
       'textdarkblue': "#4A3AFF",
-      'blue':'#17ADC1'
+      'blue':'#17ADC1',
     },
     extend: {},
   },
