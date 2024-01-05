@@ -3,10 +3,11 @@ import logo from '../assets/logo.png'
 import vector from '../assets/vector.png'
 import { useEffect } from 'react'
 import Aboutus from '../components/Aboutus/Aboutus'
+import Slider from '../components/Slider/Slider'
+import Timeline from '../components/Timeline/Timeline'
 
 function App() {
   useEffect(() => {
-    console.log(window.innerWidth)
     if(window.innerWidth < 810){
       let list = document.getElementById('nav');
       list.style.display = 'none';
@@ -62,6 +63,8 @@ function App() {
         </div>
       </div>
       <Aboutus/>
+      <Slider/>
+      <Timeline/>
     </div>
   )
 }

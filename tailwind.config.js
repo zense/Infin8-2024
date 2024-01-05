@@ -8,7 +8,9 @@ export default {
       'purple':'#881E82',
       'yellow':'#FDC500',
       'red':'#D90429',
-      'white':'#FFF'
+      'white':'#FFF',
+      'bgreddark':'#D30C28',
+      'bgredlight':'#E5203B'
     },
     extend: {},
   },
