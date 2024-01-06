@@ -1,7 +1,9 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import events from "../content/Events";
-
+import EventCard from "../components/EventCard/EventCard";
+import "./Events.css";
+import Footer from "../components/Footer/Footer";
 const Events = () => {
   return (
     <>
@@ -21,55 +23,19 @@ const Events = () => {
           <hr style={{ border: " 1px solid black" }} />
         </div>
       </div>
-      <div className="bg-red">
-        <div className="bg-red h-16"></div>
-        <div className=" bg-yellow banner flex my-10">
-          <div className="text-red  text-7xl p-3 font-medium ">
-            INFIN8. 2023. INFIN8. 2023. INFIN8.
-          </div>
-        </div>
-
-        <div className="flex footer">
-          <div className="w-1/2 ">
-            <img src="../iiitblogo.png" />
-          </div>
-          <div className="flex font-medium flex-col text-yellow text-4xl">
-            Get in Touch.
-            <div className="text-3xl">
-              Twitter{" "}
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://twitter.com/infin8_iiitb"
-              />{" "}
-            </div>
-            <div className="text-3xl">
-              Instagram{" "}
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://www.instagram.com/infin8_iiitb/"
-              />
-            </div>
-            <div className="text-3xl">
-              Facebook
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://www.facebook.com/infin8.iiitb/"
-              />
-            </div>
-            <div className="text-3xl">
-              Linkedln
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://www.linkedin.com/company/infin8-iiitb/"
-              />
-            </div>
-          </div>
-        </div>
+      {/* to add cards */}
+      <div className="card-container">
+        {events.map((element, index) => (
+          <EventCard
+            key={index}
+            title={element.title}
+            description={element.description}
+            image={element.image}
+            prizes={element.prizes}
+          />
+        ))}
       </div>
+      <Footer />
     </>
   );
 };

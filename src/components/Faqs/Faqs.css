@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Carter+One&family=Fondamento&family=Lobster&family=Poly&family=Rammetto+One&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.faqs-heading-container{
+    height: 10vw;
+}
+.faqs-heading{
+    background: url(../../assets/YellowBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1000px;
+    height: 200px;
+    font-family: 'Carter One', system-ui;
+}
+.faq-container{
+    font-family: 'Archivo', sans-serif;
+}
+.faq-q:hover{
+    cursor: pointer;
+}
+.faq-a{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+svg{
+    transition: all 0.5s;
+}
+@media(max-width:810px){
+    .faqs-heading-container{
+        height: auto;
+    }
+    .faqs-heading{
+        width: 95vw !important;
+        height: auto;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        font-size: 20px !important;
+    }
+    .faq-q{
+        font-size: 20px !important;
+    }
+    .faq-a{
+        font-size: 16px !important;
+    }
+}

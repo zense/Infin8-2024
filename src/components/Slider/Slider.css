@@ -25,3 +25,17 @@
     display: none;
 }
 
+@media(max-width:810px){
+    .image-track{
+        top: 45%;
+    }
+    .slider-screen{
+        height: 140vw !important;
+        padding-bottom: 10vw !important;
+    }
+    .image-track img{
+        max-width: 100vmin;
+        width: 80vmin;
+        height: 90vmin;
+    }
+}
