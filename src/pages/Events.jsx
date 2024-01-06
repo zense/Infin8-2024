@@ -1,7 +1,8 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import events from "../content/Events";
-
+import EventCard from "../components/EventCard/EventCard"
+import "./Events.css"
 const Events = () => {
   return (
     <>
@@ -20,6 +21,12 @@ const Events = () => {
           </p>
           <hr style={{ border: " 1px solid black" }} />
         </div>
+      </div>
+      {/* to add cards */}
+      <div className="card-container">
+        {events.map((element,index)=>(
+          <EventCard key={index} title={element.title} description={element.description} image={element.image} prizes={element.prizes} />
+        ))}
       </div>
       <div className="bg-red">
         <div className="bg-red h-32"></div>
