@@ -24,7 +24,7 @@ const Events = () => {
         </div>
       </div>
       {/* to add cards */}
-      <div className="card-container">
+      <div className="  card-container">
         {events.map((element, index) => (
           <EventCard
             key={index}

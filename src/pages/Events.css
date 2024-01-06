@@ -1,8 +1,9 @@
-.card-container{
-    background-color:#881E82;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-around;
-    align-items:center;
-    padding:30px;
+.card-container {
+  background-color: #881e82;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
 }
