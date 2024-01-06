@@ -12,6 +12,7 @@
     background: url(../../assets/YellowBanner.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     width: 1000px;
     height: 200px;
     font-family: 'Carter One', system-ui;
@@ -29,4 +30,22 @@
 }
 svg{
     transition: all 0.5s;
+}
+@media(max-width:810px){
+    .faqs-heading-container{
+        height: auto;
+    }
+    .faqs-heading{
+        width: 95vw !important;
+        height: auto;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        font-size: 20px !important;
+    }
+    .faq-q{
+        font-size: 20px !important;
+    }
+    .faq-a{
+        font-size: 16px !important;
+    }
 }

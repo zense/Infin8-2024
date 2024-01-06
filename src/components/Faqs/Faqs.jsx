@@ -1,7 +1,6 @@
 import React from 'react'
 import './Faqs.css'
 import faqs from '../../content/Faqs'
-import YellowBanner from '../../assets/YellowBanner.png'
 
 const Faqs = () => {
     const handleClick = (e)=>{
@@ -23,7 +22,7 @@ const Faqs = () => {
         }
     }
     return (
-        <div className='w-screen h-auto pb-20'>
+        <div className='w-screen h-auto pb-20' id='faqs'>
             <div className='faqs-heading-container flex w-screen items-center justify-center' >
                 <div className='text-black faqs-heading flex items-center justify-center text-3xl'>Frequently Asked Questions</div>
             </div>

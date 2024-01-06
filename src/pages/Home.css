@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Carter+One&family=Fondamento&family=Lobster&family=Poly&family=Rammetto+One&family=Righteous&display=swap");
 @import url(https://db.onlinewebfonts.com/c/7e96eba370659b4e4563309dc4ebb33f?family=Samarkan+Normal+V2);
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
