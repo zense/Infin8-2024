@@ -22,10 +22,10 @@ const Events = () => {
         </div>
       </div>
       <div className="bg-red">
-        <div className="bg-red h-32"></div>
-        <div className=" bg-yellow flex">
-          <div className="text-red banner text-7xl font-medium ">
-            INFIN8. 2023. INFIN8. 2023. INFIN8. 2023.
+        <div className="bg-red h-16"></div>
+        <div className=" bg-yellow banner flex my-10">
+          <div className="text-red  text-7xl p-3 font-medium ">
+            INFIN8. 2023. INFIN8. 2023. INFIN8.
           </div>
         </div>
 

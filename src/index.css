@@ -11,7 +11,6 @@
   font-family: "Fondamento", cursive;
 }
 .banner {
-  margin-top: 50px;
   font-family: "Archivo";
   transform: rotate(5deg);
 }
@@ -19,7 +18,7 @@
   font-family: "Archivo";
 }
 .games {
-  font-family: "Gloria Hallelujah";
+  font-family: "Gloria Hallelujah", cursive;
   font-weight: 400;
   line-height: normal;
 }
