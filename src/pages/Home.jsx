@@ -6,6 +6,7 @@ import Timeline from '../components/Timeline/Timeline'
 import MegaEvents from '../components/MegaEvents/MegaEvents'
 import Faqs from '../components/Faqs/Faqs'
 import LandingScreen from '../components/LandingScreen/LandingScreen'
+import Footer from '../components/Footer/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Timeline/>
       <MegaEvents/>
       <Faqs/>
+      <Footer/>
     </div>
   )
 }

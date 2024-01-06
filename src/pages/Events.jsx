@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import events from "../content/Events";
 import EventCard from "../components/EventCard/EventCard"
 import "./Events.css"
+import Footer from "../components/Footer/Footer";
 const Events = () => {
   return (
     <>
@@ -28,55 +29,7 @@ const Events = () => {
           <EventCard key={index} title={element.title} description={element.description} image={element.image} prizes={element.prizes} />
         ))}
       </div>
-      <div className="bg-red">
-        <div className="bg-red h-32"></div>
-        <div className=" bg-yellow flex">
-          <div className="text-red banner text-7xl font-medium ">
-            INFIN8. 2023. INFIN8. 2023. INFIN8. 2023.
-          </div>
-        </div>
-
-        <div className="flex footer">
-          <div className="w-1/2 ">
-            <img src="../iiitblogo.png" />
-          </div>
-          <div className="flex font-medium flex-col text-yellow text-4xl">
-            Get in Touch.
-            <div className="text-3xl">
-              Twitter{" "}
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://twitter.com/infin8_iiitb"
-              />{" "}
-            </div>
-            <div className="text-3xl">
-              Instagram{" "}
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://www.instagram.com/infin8_iiitb/"
-              />
-            </div>
-            <div className="text-3xl">
-              Facebook
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://www.facebook.com/infin8.iiitb/"
-              />
-            </div>
-            <div className="text-3xl">
-              Linkedln
-              <SocialIcon
-                bgColor="#D90429"
-                fgColor="yellow"
-                url="https://www.linkedin.com/company/infin8-iiitb/"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      <Footer/>
     </>
   );
 };
