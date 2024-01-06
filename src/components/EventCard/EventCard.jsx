@@ -6,8 +6,8 @@ const EventCard=({title,description,image,prizes:{first,second}})=>{
         <div className="event-card">
             <img src={image} alt="event-image" className="card-img"/>
            <h1 className="card-text">{title}</h1>
-           <h1 className="incentive-text">{first}</h1>
-            <h1 className="incentive-text">{second}</h1>
+           <h1 className="incentive-text">First Prize: {first}</h1>
+            <h1 className="incentive-text">Second Prize: {second}</h1>
         </div>
     )
 }
