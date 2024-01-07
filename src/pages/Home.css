@@ -112,15 +112,15 @@ html{
   .countdown-container {
     padding-top: 10vw;
     align-items: start !important;
-    gap: 20px !important;
+    gap: 10px !important;
   }
   .countdown {
-    width: 25vw !important;
-    height: 25vw !important;
-    font-size: 11vw !important;
+    width: 22vw !important;
+    height: 22vw !important;
+    font-size: 10vw !important;
   }
   .countdown-text {
-    font-size: 8vw !important;
+    font-size: 7vw !important;
   }
   .nav-container {
     padding-inline: 0px !important;

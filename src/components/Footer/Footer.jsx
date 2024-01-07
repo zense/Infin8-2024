@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="w-screen bg-bgredlight footer">
       <div className="skewtext flex items-center justify-center relative">
         <div className="infin8-text bg-yellow text-bgredlight absolute flex items-center justify-center w-screen text-8xl p-5">
-          INFIN8. 2024. INFIN8. 2024. INFIN8. 2024. INFIN8. 2024
+          INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;
         </div>
       </div>
       <div className="handles flex">

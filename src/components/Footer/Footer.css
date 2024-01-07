@@ -10,8 +10,8 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #EEE;
     overflow: hidden;
-    transform: rotateZ(5deg) ;
-    white-space: nowrap;
+    transform: rotateZ(5deg);
+    width: fit-content;
 }
 .logos img{
     width: 250px;

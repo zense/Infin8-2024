@@ -8,6 +8,7 @@ const LandingScreen = () => {
     const [days, setDays] = useState(0) 
     const [hours, setHours] = useState(0)
     const [minutes, setMinutes] = useState(0)
+    const [seconds,setSeconds] = useState(0)
   
     useEffect(() => {
       let myinterval = setInterval(()=>{
@@ -15,7 +16,8 @@ const LandingScreen = () => {
         setDays(32-currentDate.getDate())
         setHours(24 - currentDate.getHours())
         setMinutes(60 - currentDate.getMinutes())
-      },1800)
+        setSeconds(60-currentDate.getSeconds())
+      },100)
       return ()=>{
         clearInterval(myinterval)
       }
@@ -60,18 +62,22 @@ const LandingScreen = () => {
               <img src={logo} className='logo' alt="logo" />
               <div className="eventTheme h-28 items-center justify-center flex text-yellow text-5xl">Rangtarang Elysium</div>
             </div>
-            <div className="countdown-container right flex w-3/5 h-4/5 justify-center items-center gap-9 text-7xl">
+            <div className="countdown-container right flex w-3/5 h-4/5 justify-center items-center gap-7 text-6xl">
               <div className='flex flex-col items-center gap-3'>
-                <div className='countdown w-44 h-44 flex items-center justify-center '>{days}</div>
-                <h1 className='countdown-text text-purple text-6xl'>Days</h1>
-              </div>
-              <div className='countdown-element flex flex-col items-center gap-3'>
-                <div className='countdown w-44 h-44 flex items-center justify-center'>{hours}</div>
-                <h1 className='countdown-text text-purple text-6xl'>Hours</h1>
+                <div className='countdown w-36 h-36 flex items-center justify-center '>{days}</div>
+                <h1 className='countdown-text text-purple text-5xl'>Days</h1>
               </div>
               <div className='flex flex-col items-center gap-3'>
-                <div className='countdown w-44 h-44 flex items-center justify-center'>{minutes}</div>
-                <h1 className='countdown-text text-purple text-6xl'>Minutes</h1>
+                <div className='countdown w-36 h-36 flex items-center justify-center'>{hours}</div>
+                <h1 className='countdown-text text-purple text-5xl'>Hours</h1>
+              </div>
+              <div className='flex flex-col items-center gap-3'>
+                <div className='countdown w-36 h-36 flex items-center justify-center'>{minutes}</div>
+                <h1 className='countdown-text text-purple text-5xl'>Minutes</h1>
+              </div>
+              <div className='flex flex-col items-center gap-3'>
+                <div className='countdown w-36 h-36 flex items-center justify-center'>{seconds}</div>
+                <h1 className='countdown-text text-purple text-5xl'>Seconds</h1>
               </div>
             </div>
           </div>
