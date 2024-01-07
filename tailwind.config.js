@@ -11,7 +11,15 @@ export default {
       'bgredlight':'#E5203B',
       'textblue': "#33B8C9",
       'textdarkblue': "#4A3AFF",
+      "dark-purple":"#6E1069",
       'blue':'#17ADC1',
+    },
+    extend: {
+      screens: {
+        
+        'md': '1005px',
+        
+      },
     },
   },
   plugins: [],
