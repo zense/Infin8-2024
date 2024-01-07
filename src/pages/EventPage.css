@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Carter+One&family=Radio+Canada:wght@500&display=swap');
+
+.back {
+    font-family: 'Rammetto One';
+  }
+  
+  .competitionName {
+    font-family: 'Lobster';
+    font-size: 120px;
+  }
+  
+  @keyframes rotate-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .flower1 {
+    /* position: relative;
+    width: 70%;
+    height: auto; */
+    z-index:1;
+    animation: rotate-animation 10s linear infinite; /* Adjust the duration (5s) as needed */
+  }
+  .main{
+    width: 100vw;
+    
+  }
+  .h1 {
+    font-family: 'Fondamento';
+    font-style: italic;
+  }
+  
+  .h2 {
+    font-family: 'Poly';
+  }
+  .headBoxL
+  {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  }
+
+  .headBoxR
+  {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
+  .smallBox1
+  {
+    width: 40px;
+    height: 40px;
+   
+    
+    transform: rotate(45deg);
+    
+  }
+  .about
+  {
+    font-family: Carter One;
+  }
