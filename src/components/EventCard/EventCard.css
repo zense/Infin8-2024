@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lora:ital@1&family=Orbitron&family=Oswald&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.event-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+  width: 400px;
+  flex-shrink: 0;
+  background-color: #881e82;
+  margin-bottom: 150px;
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  cursor: pointer;
+}
+.card-img {
+  width: 300px;
+  border: 1px solid #fdc500;
+  height: 400px;
+  box-shadow: 10px 10px #fdc500;
+}
+.card-img:hover {
+  transition: transform 0.3s;
+  transform: translate(0, 10px);
+}
+.para {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+.card-text {
+  margin: 10px;
+  color: #fdc500;
+  font-family: "Poppins";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.incentive-text {
+  color: #f1cf43;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Carter+One&family=Fondamento&family=Lobster&family=Poly&family=Rammetto+One&family=Righteous&display=swap');
+
+.MegaEvents-screen{
+    height: 80vh;
+    font-family: 'Archivo', sans-serif;
+    overflow: hidden;
+}
+.MegaEvents-screen img{
+    z-index: 2;
+    height: min(600px,35vw);
+}
+.bg-text{
+    transform: rotateZ(-5deg) skew(-10deg);
+    overflow: hidden;
+    z-index: 0;
+}
+.bg-text-top{
+    top: 20%;
+}
+.bg-text-bottom{
+    top: 60%;
+}
+.bg-text-mobile{
+    display: none;
+     -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #881E82;
+}
+
+@media(max-width:810px){
+    .MegaEvents-screen{
+        flex-direction: column !important;
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        gap: 20px !important;
+    }
+    .MegaEvents-screen img{
+        height: 90vw;
+    }
+    .bg-text-bottom{
+        top: 80%;
+    }
+    .bg-text-mobile{
+        display: block;
+    }
+}

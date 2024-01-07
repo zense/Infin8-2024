@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=Carter+One&family=Fondamento&family=Lobster&family=Poly&family=Rammetto+One&family=Righteous&display=swap');
+.footer{
+    font-family: 'Archivo', sans-serif;
+}
+.skewtext{
+    height: 50vh;
+    overflow: hidden;
+}
+.infin8-text{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #EEE;
+    overflow: hidden;
+    transform: rotateZ(5deg);
+    width: fit-content;
+}
+.logos img{
+    width: 250px;
+}
+
+@media(max-width:810px){
+    .handles{
+        flex-direction: column-reverse;
+    }
+    .logos{
+        width: 100vw !important;
+        padding: 0 !important;
+        gap: 5vw !important;
+        justify-content: center !important;
+    }
+    .contact{
+        width: 100vw !important;
+    }
+    .logos img{
+        width: 40vw;
+    }
+}
