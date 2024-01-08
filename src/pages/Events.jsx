@@ -32,6 +32,7 @@ const Events = () => {
             description={element.description}
             image={element.image}
             prizes={element.prizes}
+            eventId={element.eventId}
           />
         ))}
       </div>

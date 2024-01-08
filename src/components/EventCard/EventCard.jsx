@@ -1,19 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./EventCard.css";
+import {Link} from 'react-router-dom'
 const EventCard = ({
   title,
   description,
+  eventId,
   image,
   prizes: { first, second },
 }) => {
+    const totalPrize=first+second;
+    const link="/events/"+eventId;
   return (
     <div className="event-card ">
-      <img src={image} alt="event-image" className="card-img" />
+    <Link to={link}>
+            <img src={image} alt="event-image" className="card-img" />
+    </Link>
       <h1 className="card-text">{title}</h1>
-      <p className="text-yellow text-lg para">{description}</p>
-      <h1 className="incentive-text mt-2">First Prize: {first}</h1>
-      <h1 className="incentive-text mt-1">Second Prize: {second}</h1>
+      <h1 className="incentive-text mt-2">Prize Pool: {totalPrize} Rs.</h1>
     </div>
   );
 };
