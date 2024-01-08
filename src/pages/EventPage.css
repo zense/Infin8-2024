@@ -6,9 +6,14 @@
   
   .competitionName {
     font-family: 'Lobster';
-    font-size: 120px;
+    z-index: 2;
   }
-  
+  .eventpage-container{
+    height: 90vh;
+  }
+  .blue-stripe{
+    height: 10vh;
+  }
   @keyframes rotate-animation {
     0% {
       transform: rotate(0deg);
@@ -20,13 +25,14 @@
       transform: rotate(360deg);
     }
   }
-  
+  .upper-text-eventpage{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
   .flower1 {
-    /* position: relative;
-    width: 70%;
-    height: auto; */
+    bottom: -130px;
+    left: -130px;
     z-index:1;
-    animation: rotate-animation 10s linear infinite; /* Adjust the duration (5s) as needed */
+    animation: rotate-animation 30s linear infinite;
   }
   .main{
     width: 100vw;
@@ -77,4 +83,14 @@
   .reg
   {
     font-family: Carter One;
+  }
+
+  @media(max-width:810px){
+    .eventpage-container{
+      flex-direction: column;
+      height: auto;
+    }
+    .upper-text-eventpage{
+      width: 100vw;
+    }
   }
