@@ -6,13 +6,14 @@ import infin8whitelogo from "../../assets/infin8white.png";
 
 const Footer = () => {
   return (
-    <div className="w-screen bg-bgredlight footer">
+    <div className="w-screen  bg-bgredlight  footer">
       <div className="skewtext flex items-center justify-center relative">
         <div className="infin8-text bg-yellow text-bgredlight absolute flex items-center justify-center w-screen text-8xl p-5">
           INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;
         </div>
+         
       </div>
-      <div className="handles flex">
+      <div className="handles   flex">
         <div className="logos w-3/5 flex items-center justify-start pl-40 gap-20">
           <img src={infin8whitelogo} alt="" />
           <img src={IIITBlogo} alt="" />
