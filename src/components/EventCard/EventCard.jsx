@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./EventCard.css";
 import {Link} from 'react-router-dom'
+import { useEffect } from "react";
 const EventCard = ({
   title,
   description,
@@ -11,9 +12,13 @@ const EventCard = ({
 }) => {
     const totalPrize=first+second;
     const link="/events/"+eventId;
+    const handleClick=()=>{
+        history.replace(link)
+        window.scrollTo(0,0)
+    }
   return (
     <div className="event-card ">
-    <Link to={link}>
+    <Link to={link} onClick={handleClick}>
             <img src={image} alt="event-image" className="card-img" />
     </Link>
       <h1 className="card-text">{title}</h1>

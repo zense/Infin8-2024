@@ -2,7 +2,7 @@
   background-color: #881e82;
   display: flex;
   flex-wrap: wrap;
-
+  width:100%;
   justify-content: space-around;
   align-items: center;
   padding: 30px;
