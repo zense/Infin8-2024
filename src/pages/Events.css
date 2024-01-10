@@ -14,6 +14,23 @@ body{
 .heading {
   font-family: "Righteous", cursive;
 }
+.moving-text{
+  white-space: nowrap;
+  animation: move-animation-events 30s infinite linear;
+}
+
+@keyframes move-animation-events{
+  0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-650px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
 
 @media screen and (max-width:425px){
   .event-card{

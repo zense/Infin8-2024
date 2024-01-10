@@ -27,7 +27,9 @@ const Events = () => {
 
         <div className="">
           <hr style={{ border: " 1px solid black" }} />
-          <p className="my-2 games text-xl text-textdarkblue font-medium truncate ">
+          <p className="my-2 games text-xl text-textdarkblue font-medium moving-text">
+            Valorant. Stand-Up. DJ-Night. Call Of Duty. Duet Dance Valorant.
+            Stand-Up. DJ-Night. Call Of Duty. Duet Dance Valorant.Stand-Up.
             Valorant. Stand-Up. DJ-Night. Call Of Duty. Duet Dance Valorant.
             Stand-Up. DJ-Night. Call Of Duty. Duet Dance Valorant.Stand-Up.
           </p>
