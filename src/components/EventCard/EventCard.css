@@ -14,31 +14,11 @@
   background-color: #881e82;
   margin-bottom: 150px;
   margin-top: 20px;
-  margin-left: 90px;
-  margin-right: 90px;
-  transition: transform 0.3s ease in ease-in-out;
+  margin-left: 60px;
+  margin-right: 60px;
+  transition: transform 1s ease in ease-in-out;
 }
 
-.event-card:hover {
-  cursor: pointer;
-  transform:scale(1.18);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  
-}
-.event-card:hover .card-img{
-  transform:translateY(-20px);
-}
-.card-img {
-  width: 300px;
-  border: 1px solid #fdc500;
-  height: 400px;
-  box-shadow: 10px 10px #fdc500;
-  transition: transform 0.3s ease-in-out;
-}
-.card-img:hover {
-  transition: transform 0.3s;
-  transform: translate(0, 10px);
-}
 .card-text {
   margin: 10px;
   color: #fdc500;
@@ -56,3 +36,29 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.card-img {
+  width: 300px;
+  border: 1px solid #fdc500;
+  height: 400px;
+  box-shadow: 10px 10px #fdc500;
+}
+.event-card:hover {
+  border-radius:15px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px #fdc500;
+  .card-img{
+    transition: transform 1s ease-in-out;
+    box-shadow: 5px 5px 5px 5px #fdc500;
+    transform: translate(0, 3px);
+  }
+  .card-text,.incentive-text{
+    text-shadow:2px 2px 4px #fdc500;
+  }
+  
+}
+.card-img:hover {
+  transition: transform 1s;
+ 
+}
+

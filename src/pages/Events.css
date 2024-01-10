@@ -1,12 +1,25 @@
+body{
+  overflow-x: hidden;
+}
 .card-container {
   background-color: #881e82;
   display: flex;
   flex-wrap: wrap;
-  width:100%;
+  width:100vw;
   justify-content: space-around;
   align-items: center;
   padding: 30px;
+  overflow-y:hidden;
 }
 .heading {
   font-family: "Righteous", cursive;
+}
+
+@media screen and (max-width:425px){
+  .event-card{
+    width:100%;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
 }

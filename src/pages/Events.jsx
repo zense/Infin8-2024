@@ -8,19 +8,19 @@ const Events = () => {
   return (
     <>
       <div className="bg-purple h-full">
-        {/* <div className="flex "> */}
+        <div className="flex ">
         <div className="flex justify-between ">
           <div>
             <h1 className="ml-2 text-8xl text-yellow  title ">Events</h1>
           </div>
-          <div
+          {/* <div
             className="bg-yellow text-red rounded-md text-center h-10 px-4 text-2xl mr-5 mt-4 cursor-pointer heading  "
             onClick={() => navigate("/")}
           >
             Home
-          </div>
+          </div> */}
         </div>
-        {/* </div> */}
+        </div>
         <h3 className="ml-10 text-textblue register text-4xl font-normal mb-4">
           Register here
         </h3>
