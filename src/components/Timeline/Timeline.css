@@ -9,13 +9,7 @@
     height: 20vh;
 }
 .gallery-screen{
-    height: 180vh; 
-    /* 170vh */
-}
-.gallery{
-    width: 100vw;
-    height: 170vh;
-    overflow: hidden;
+    height: 130vh; 
 }
 
 .gallery-container{
@@ -25,14 +19,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150vh;
+    height: 110vh;
     width: 100vw;
     overflow: hidden;
 }
 .gallery-item{
     height: 500px;
     position: absolute;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease;
     
     width: 400px;
     border-radius: 15px;
@@ -41,7 +35,7 @@
 }
 
 .gallery-item-1{
-    transform: translate(-190%, -60%) rotate(-30deg);
+    transform: translate(-210%, -29%) rotate(-40deg);
 }
 
 .gallery-item-2, .gallery-item-4{
@@ -49,7 +43,7 @@
 }
 
 .gallery-item-2{
-    transform: translate(-100%,-25%) rotate(-20deg);
+    transform: translate(-105%,-15%) rotate(-20deg);
 }
 
 .gallery-item-3{
@@ -57,23 +51,25 @@
 }
 
 .gallery-item-4{
-    transform: translate(100%,25%) rotate(20deg);
+    transform: translate(105%,25%) rotate(20deg);
 }   
 
 .gallery-item-5{
-    transform: translate(185%, 80%) rotate(35deg);
+    transform: translate(200%, 70%) rotate(40deg);
 }
 
 .gallery-item-6{
-    z-index:0;
-    transform: translate(320%, 150%) rotate(60deg);
+    z-index:-1;
+    transform: translate(320%, 120%) rotate(60deg);
 }
 
 .gallery-item-8{
-    transform: translate(-320%, -150%) rotate(-60deg);
+    z-index: -1;
+    transform: translate(-300%, -40%) rotate(-60deg);
 }
 .gallery-item-7{
-    transform: translate(-503%, 910%) rotate(-60deg);
+    z-index: -1;
+    transform: translate(-490%, 320%) rotate(60deg);
 }
 .button{
     z-index: 100;

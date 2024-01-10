@@ -13,7 +13,9 @@ const LandingScreen = () => {
     useEffect(() => {
       let myinterval = setInterval(()=>{
         const currentDate = new Date();
-        setDays(32-currentDate.getDate())
+        const month = currentDate.getMonth();
+        if(month)  setDays(15-currentDate.getDate());
+        else setDays(15+31-currentDate.getDate());
         setHours(24 - currentDate.getHours())
         setMinutes(60 - currentDate.getMinutes())
         setSeconds(60-currentDate.getSeconds())

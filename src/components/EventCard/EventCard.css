@@ -47,16 +47,18 @@
   border-radius:15px;
   cursor: pointer;
   box-shadow: 0 8px 16px #fdc500;
-  .card-img{
-    transition: transform 1s ease-in-out;
-    box-shadow: 5px 5px 5px 5px #fdc500;
-    transform: translate(0, 3px);
-  }
-  .card-text,.incentive-text{
-    text-shadow:2px 2px 4px #fdc500;
-  }
-  
 }
+.event-card:hover .card-img{
+  transition: transform 1s ease-in-out;
+  box-shadow: 5px 5px 5px 5px #fdc500;
+  transform: translate(0, 3px);
+}
+
+
+.event-card:hover .card-text,.incentive-text{
+  text-shadow:2px 2px 4px #fdc500;
+}
+
 .card-img:hover {
   transition: transform 1s;
  
