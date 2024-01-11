@@ -32,11 +32,17 @@ body{
 }
 
 
+.register-text{
+  margin-bottom:0px;
+}
+.markee{
+  margin-top:15px;
+}
+
 @media screen and (max-width:425px){
   .event-card{
     width:100%;
     margin-left:10px;
     margin-right:10px;
   }
-
 }

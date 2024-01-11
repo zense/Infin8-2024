@@ -1,0 +1,9 @@
+.btn-wrapper{
+    background-color:#881E82;
+    display:flex;
+    justify-content: flex-end;
+    margin-right:5px;
+}
+.btn{
+    border-radius:20px;
+}

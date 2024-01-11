@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./EventCard.css";
-import {Link} from 'react-router-dom'
+import {Link,Navigate} from 'react-router-dom'
 import { useEffect } from "react";
 const EventCard = ({
   title,
