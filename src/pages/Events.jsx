@@ -33,7 +33,7 @@ const Events = () => {
       </div>
       
       {/* to add cards */}
-      <div className="  card-container">
+      <div className="card-container w-screen">
         {events.map((element, index) => (
           <EventCard
             key={index}

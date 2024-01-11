@@ -16,7 +16,7 @@
   margin-top: 20px;
   margin-left: 60px;
   margin-right: 60px;
-  transition: transform 1s ease in ease-in-out;
+  transition: transform 1s ease;
   padding-bottom:70px;
 }
 
@@ -69,7 +69,12 @@
   transition: transform 1s;
  
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:625px){
+  .event-card{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px !important;
+  }
   .card-img{
     margin-bottom:20px;
   }
