@@ -49,12 +49,11 @@ const LandingScreen = () => {
             <div className='nav-container w-full flex items-center justify-end px-40 h-1/6' id='nav' >
               <div className="navbar bg-red text-white rounded-3xl text-xl">
                 <ul className=' navbar-list flex gap-20 p-3 px-10'>
-                  
                   <li className=''><Link to={"/"} >Home</Link></li>
                   <li><Link to={"/events"} >Events</Link></li>
                   <li><a href="#gallery">Gallery</a> </li>
                   <li><a href="#faqs">FAQs</a></li>
-                  <li>Contact Us</li>
+                  <li><a href="#contactus">Contact Us</a></li>
                 </ul>
               </div>
             </div>
