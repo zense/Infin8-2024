@@ -40,6 +40,9 @@ body{
 }
 
 @media screen and (max-width:425px){
+  .body{
+    overflow-x:hidden;
+  }
   .event-card{
     width:100%;
     margin-left:10px;
