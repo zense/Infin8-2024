@@ -7,9 +7,9 @@ import infin8whitelogo from "../../assets/infin8white.png";
 const Footer = () => {
   return (
     <div className="w-screen  bg-bgredlight  footer">
-      <div className="skewtext flex items-center justify-center relative">
-        <div className="infin8-text bg-yellow text-bgredlight absolute flex w-screen text-8xl p-5">
-          <p className="moving-infin8">
+      <div className="skewtext flex items-center justify-center relative ">
+        <div className="infin8-text bg-yellow text-bgredlight absolute flex text-8xl p-5">
+          <p className="moving-infin8 w-screen">
             INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;
           </p>
         </div>

@@ -9,8 +9,9 @@
 .infin8-text{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #EEE;
-    /* overflow: hidden; */
+    overflow: hidden;
     transform: rotateZ(5deg);
+    width: 100vw;
 }
 .logos img{
     width: 250px;

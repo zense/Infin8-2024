@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Events = () => {
   return (
     <>
-      <div className="bg-purple h-full">
+      <div className="bg-purple h-full w-screen">
       <HomeButton/>
         <div className="flex ">
         <div className="flex justify-between ">
