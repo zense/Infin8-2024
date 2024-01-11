@@ -11,7 +11,7 @@ import Footer from '../components/Footer/Footer'
 function App() {
 
   return (
-    <div className='bg-purple'>
+    <div className='bg-purple background-main'>
       <LandingScreen/>
       <Aboutus/>
       <Slider/>

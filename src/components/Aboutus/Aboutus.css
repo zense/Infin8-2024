@@ -15,6 +15,23 @@
 .au-infin8{
     font-family: 'Lobster', sans-serif;
 }
+.lotus{
+    left: -200px;
+    bottom: -150px;
+    animation: rotate-lotus 30s infinite linear;
+}
+
+@keyframes rotate-lotus{
+    0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+}
 
 @media(max-width:810px){
     .au-container{
@@ -22,7 +39,7 @@
         margin-top: 120px !important;
     }
     .au-heading{
-        width: 90vw !important;
+        width: 100vw !important;
         height: 300px !important;
     }
     .au-about{
@@ -37,5 +54,12 @@
     }
     .au-cont{
         width: 100vw !important;
+        padding: 0 !important;
+    }
+    .img-border{
+        display: none;
+    }
+    .lotus{
+        display: none;
     }
 }

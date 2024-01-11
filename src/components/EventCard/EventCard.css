@@ -45,9 +45,14 @@
   height: 400px;
   box-shadow: 10px 10px #fdc500;
   margin-bottom:-150px;
+  transition: all 0.5s ease;
+}
+.card-img:hover{
+  box-shadow: 20px 20px #fdc500;
+  transform: translate(-10px,-10px);
 }
 
-.event-card:hover {
+/* .event-card:hover {
   border-radius:15px;
   cursor: pointer;
   box-shadow: 0 8px 16px #fdc500;
@@ -67,8 +72,8 @@
 
 .card-img:hover {
   transition: transform 1s;
- 
-}
+} */
+
 @media screen and (max-width:625px){
   .event-card{
     margin-left: 0px !important;
