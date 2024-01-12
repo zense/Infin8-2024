@@ -14,12 +14,12 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="handles   flex">
+      <div className="handles flex">
         <div className="logos w-3/5 flex items-center justify-start pl-40 gap-20">
           <img src={infin8whitelogo} alt="" />
           <img src={IIITBlogo} alt="" />
         </div>
-        <div className="contact w-2/5 h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center">
+        <div className="contact-footer w-2/5 h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center">
           <div className="h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center pb-6">
             <h1 className="text-5xl font-bold pb-9">Get in touch.</h1>
             <div className="flex justify-between w-full">
