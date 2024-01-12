@@ -51,8 +51,12 @@ const LandingScreen = () => {
                 <ul className=' navbar-list flex gap-20 p-3 px-10'>
                   <li className=''><Link to={"/"} >Home</Link></li>
                   <li><Link to={"/events"} >Events</Link></li>
-                  <li><a href="#gallery">Gallery</a> </li>
-                  <li><a href="#faqs">FAQs</a></li>
+                  <li><Link to={"/team"} >Team</Link></li>
+                  <li><Link to={"/sponsors"} >Sponsosrs</Link></li>
+
+                  {/* <li><a href="#gallery">Gallery</a> </li>
+                  <li><a href="#faqs">FAQs</a></li> */}
+
                   <li><a href="#contactus">Contact Us</a></li>
                 </ul>
               </div>

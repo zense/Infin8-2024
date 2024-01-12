@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { SocialIcon } from "react-social-icons";
 import IIITBlogo from "../../assets/IIITBlogo.png";
-import infin8whitelogo from "../../assets/infin8white.png";
+import infin8whitelogo from "../../assets/infin8white.svg";
 
 const Footer = () => {
   return (
