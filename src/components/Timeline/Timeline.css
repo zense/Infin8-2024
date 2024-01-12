@@ -5,9 +5,12 @@
     background-image: url(../../assets/bg-left.svg);
 }
 .timeline-heading{
-    z-index: 5;
+    z-index: 2;
     font-family: 'Rammetto One', sans-serif;
     height: 20vh;
+}
+.day-btns{
+    font-family: 'Righteous', sans-serif;
 }
 .gallery-screen{
     height: 130vh; 
@@ -16,8 +19,7 @@
 
 .gallery-container{
     z-index: 2;
-    margin-top: 20vh;
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,18 +28,18 @@
     overflow: hidden;
 }
 .gallery-item{
-    height: 500px;
+    height: 470px;
     position: absolute;
-    transition: all 0.6s ease;
+    transition: all 0.3s ease-in-out;
     
-    width: 400px;
+    width: 370px;
     border-radius: 15px;
     background-size: contain;
     box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
 }
 
 .gallery-item-1{
-    transform: translate(-210%, -29%) rotate(-40deg);
+    transform: translate(-210%, -30%) rotate(-35deg);
 }
 
 .gallery-item-2, .gallery-item-4{
@@ -53,16 +55,16 @@
 }
 
 .gallery-item-4{
-    transform: translate(105%,25%) rotate(20deg);
+    transform: translate(105%,20%) rotate(20deg);
 }   
 
 .gallery-item-5{
-    transform: translate(200%, 70%) rotate(40deg);
+    transform: translate(200%, 60%) rotate(35deg);
 }
 
 .gallery-item-6{
     z-index:-1;
-    transform: translate(320%, 120%) rotate(60deg);
+    transform: translate(340%, 110%) rotate(60deg);
 }
 
 .gallery-item-8{
