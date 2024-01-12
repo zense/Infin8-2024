@@ -1,0 +1,50 @@
+.heading {
+  color: #fe9;
+
+  text-align: center;
+  font-family: Rammetto One;
+  font-size: 6.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.titleS {
+  width: 25rem;
+  height: 5rem;
+  flex-shrink: 0;
+  background-color: #fa0;
+}
+.titleS h1 {
+  color: #000;
+
+  text-align: center;
+  font-family: Righteous;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact {
+  width: 25rem;
+  height: 5rem;
+  flex-shrink: 0;
+  background-color: #e7f3fe;
+}
+.contactd {
+  background-color: #2dc653;
+}
+.contact h1 {
+  color: #000;
+  text-align: center;
+  font-family: Righteous;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.box {
+  width: 21.25rem;
+  height: 20.8125rem;
+  flex-shrink: 0;
+  background-color: #e7f3fe;
+}
