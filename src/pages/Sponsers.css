@@ -48,6 +48,16 @@
   flex-shrink: 0;
   background-color: #e7f3fe;
 }
+.box-text {
+  color: #10451d;
+
+  text-align: center;
+  font-family: Righteous;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .partners {
   width: 25rem;
   height: 5rem;
