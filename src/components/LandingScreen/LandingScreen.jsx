@@ -16,8 +16,8 @@ const LandingScreen = () => {
         const month = currentDate.getMonth();
         if(month)  setDays(15-currentDate.getDate());
         else setDays(15+31-currentDate.getDate());
-        setHours(24 - currentDate.getHours())
-        setMinutes(60 - currentDate.getMinutes())
+        setHours(23 - currentDate.getHours())
+        setMinutes(59 - currentDate.getMinutes())
         setSeconds(60-currentDate.getSeconds())
       },100)
       return ()=>{
