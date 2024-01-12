@@ -7,6 +7,8 @@ import sponsors from "../content/sponsors";
 import { IoCallOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import Footer from "../components/Footer/Footer";
+import design from "../assets/sponsordesign.svg";
+import design1 from "../assets/spd.svg";
 
 const Sponsors = () => {
   const navigate = useNavigate();
@@ -19,11 +21,11 @@ const Sponsors = () => {
         &lt;Back
       </div>
       <div className="bg-purple flex flex-col justify-center items-center">
-        <div>
-          <img src="../assets/sponsordesign.svg" alt="" />
+        <div className="flex">
+          <img src={design1} alt="" />
           <h1 className="heading">SPONSORS</h1>
 
-          <img src="../assets/sponsordesign.svg" alt="" />
+          <img src={design} alt="" />
         </div>
         <div className="flex flex-col items-center justify-center">
           <div className="titleS flex justify-center items-center">
