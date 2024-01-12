@@ -2,7 +2,7 @@ import React from "react";
 import "./TitleSponsorCard.css";
 
 // use width=60 for smaller cards and width =
-const SponsorCard = ({ sponsor }) => {
+const TitleSponsorCard = ({ sponsor }) => {
   return (
     //change width value according to the page
     <div className={`bg-blue flex flex-col`} style={{ width: "550px" }}>
@@ -20,4 +20,4 @@ const SponsorCard = ({ sponsor }) => {
   );
 };
 
-export default SponsorCard;
+export default TitleSponsorCard;

@@ -2,7 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Sponsers.css";
 import { MdOutlineMail } from "react-icons/md";
-import SponsorCard from "../components/TitleSponsorCard/TitleSponsorCard";
+import SponsorCard from "../components/SponsorCard/SponsorCard";
+import TitleSponsorCard from "../components/TitleSponsorCard/TitleSponsorCard";
 import sponsors from "../content/sponsors";
 import { IoCallOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
@@ -20,7 +21,7 @@ const Sponsors = () => {
       >
         &lt;Back
       </div>
-      <div className="bg-purple flex flex-col justify-center items-center">
+      <div className="bg-purple flex flex-col justify-center items-center ">
         <div className="flex">
           <img src={design1} alt="" />
           <h1 className="heading">SPONSORS</h1>
@@ -32,12 +33,14 @@ const Sponsors = () => {
             <h1>Title Sponsor</h1>
           </div>
           <div className="mt-10 ">
-            <SponsorCard sponsor={{ name: "Infin8", logo: "amazon.webp" }} />
+            <TitleSponsorCard
+              sponsor={{ name: "Infin8", logo: "amazon.webp" }}
+            />
           </div>
           <div className="partners flex justify-center items-center my-16">
             Our Partners
           </div>
-          <div className="flex justify-between flex-wrap m-5 gap-11 ">
+          <div className="flex justify-around flex-wrap m-5 gap-11  ">
             {sponsors.map((element) => (
               <SponsorCard
                 key={element.id}

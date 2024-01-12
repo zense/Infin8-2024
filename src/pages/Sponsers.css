@@ -9,7 +9,7 @@
   line-height: normal;
 }
 .titleS {
-  width: 25rem;
+  width: 18rem;
   height: 5rem;
   flex-shrink: 0;
   background-color: #fa0;
@@ -59,7 +59,7 @@
   line-height: normal;
 }
 .partners {
-  width: 25rem;
+  width: 20rem;
   height: 5rem;
   flex-shrink: 0;
   background-color: #07beb8;
