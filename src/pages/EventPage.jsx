@@ -5,6 +5,7 @@ import "./EventPage.css";
 import back from "../assets/back.png";
 import white_img from "../assets/white_img.png";
 import { Link } from "react-router-dom";
+import Footer from '../components/Footer/Footer'
 const EventPage = () => {
   return (
     <>
@@ -44,7 +45,7 @@ const EventPage = () => {
 
       {/* Additional Content Section */}
 
-      <div className="flex flex-col h-auto pb-16  bg-red main">
+      <div className="flex flex-col h-auto pb-16 bg-red main">
         <div className="faqs-heading-container flex w-screen items-center justify-center">
           <div className="text-red faqs-heading flex items-center justify-center text-3xl">
             About
@@ -114,6 +115,7 @@ const EventPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

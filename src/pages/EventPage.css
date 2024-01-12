@@ -36,6 +36,7 @@
   }
   .main{
     width: 100vw;
+    background-image: url(../assets/bg-left.svg);
     
   }
   .h1 {
