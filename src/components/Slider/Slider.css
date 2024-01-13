@@ -7,18 +7,43 @@
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
-    object-position: center;
+    object-position: center center;
+    animation: image-parallax 20s infinite linear
+}
+@keyframes image-parallax{
+    0%{
+        object-position: 0% center;
+    }
+    50% {
+        object-position: 100% center;
+    }
+    100% {
+        object-position: 0% center;
+    }
 }
 
 .image-track{
     position: absolute;
-    left: 50%;
     top: 50%;
     transform: translate(0%,-50%);
+    animation: auto-scroll 20s infinite linear;
+}
+
+@keyframes auto-scroll{
+      0%{
+        transform: translate(0%,-50%);
+      }
+      50% {
+        transform: translate(-70%,-50%);
+      }
+      100% {
+        transform: translate(0%,-50%);
+      }
 }
 .slider-screen{
     -ms-overflow-style: none;  /* IE and Edge */
      scrollbar-width: none;  /* Firefox */
+     height: 80vh;
 }
 .slider-screen::-webkit-scrollbar {
     /* Hide scrollbar for Chrome, Safari and Opera */
