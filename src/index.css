@@ -6,22 +6,4 @@
   margin: 0;
   padding: 0%;
 }
-/* event page css */
-.title {
-  font-family: "Fondamento", cursive;
-}
-.banner {
-  font-family: "Archivo";
-  transform: rotate(5deg);
-}
-.footer {
-  font-family: "Archivo";
-}
-.games {
-  font-family: "Gloria Hallelujah", cursive;
-  font-weight: 400;
-  line-height: normal;
-}
-.register {
-  font-family: "lobster";
-}
+

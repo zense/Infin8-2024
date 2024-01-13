@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import vector3 from "../assets/vector3.png";
 import vector2 from "../assets/vector2.png";
 import "./EventPage.css";
 import back from "../assets/back.png";
 import white_img from "../assets/white_img.png";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import Footer from '../components/Footer/Footer'
+import events from "../content/Events";
+import image1 from "../assets/white_img.png"
+import image2 from "../assets/white_img.png"
+import image3 from "../assets/white_img.png"
+import image4 from "../assets/white_img.png"
+import image5 from "../assets/white_img.png"
+import image6 from "../assets/white_img.png"
+import image7 from "../assets/white_img.png"
+import image8 from "../assets/white_img.png"
 const EventPage = () => {
+  let {id} = useParams()
+  
   return (
     <>
       <div className="flex bg-purple w-screen eventpage-container">
@@ -18,7 +30,7 @@ const EventPage = () => {
           </div>
 
           <div className="text-white flex competitionName w-full h-1/2 items-center justify-start px-12 text-6xl sm:text-9xl">
-            <div className="">Competiton Name</div>
+            <div className="">{events[Number(id)-1].title}</div>
           </div>
 
           <div className="text-white text-xl sm:text-3xl text-right h-1/2 flex flex-col items-end justify-center px-3 sm:px-12 pb-8 sm:pb-0">
@@ -27,14 +39,15 @@ const EventPage = () => {
               20 February 2024
             </div>
             <div className="h1">Prize pool</div>
-            <div className="h2 text-3xl sm:text-5xl">Rs.1,00,000</div>
+            <div className="h2 text-3xl sm:text-5xl">Rs. {events[Number(id)-1].prizePool}</div>
           </div>
 
           <img className="absolute flower1" src={vector2}></img>
         </div>
 
         <div className="flex items-center flex-col bg-dark-purple flex justify-center md:w-1/3 eventpage-image sm:pb-0 pb-12">
-          <img className=" mt-10 w-3/4" src={white_img} alt="White Image" />
+          <img className=" mt-10 w-3/4" src={eval(`image${id}`)} alt="White Image" />
+          {console.log(`image${id}`)}
           <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue">
             REGISTER
           </button>
@@ -44,7 +57,7 @@ const EventPage = () => {
 
       {/* Additional Content Section */}
 
-      <div className="flex flex-col h-auto pb-16  bg-red main">
+      <div className="flex flex-col h-auto pb-16 bg-red main">
         <div className="faqs-heading-container flex w-screen items-center justify-center">
           <div className="text-red faqs-heading flex items-center justify-center text-3xl">
             About
@@ -53,17 +66,7 @@ const EventPage = () => {
 
         <div className="flex justify-center w-full">
           <div className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-            minima ipsa eius quis nam ea consequatur cupiditate, sunt eos
-            voluptatibus impedit quaerat fuga in consectetur error suscipit,
-            ipsam voluptatem aperiam. Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Adipisci voluptatem totam deleniti, alias,
-            obcaecati ratione at sapiente excepturi expedita distinctio dolores,
-            dolore cupiditate quo ducimus ut inventore! Officiis, ratione.
-            Voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dolore veritatis praesentium fuga placeat, reiciendis, enim non
-            nostrum tempore sit earum repudiandae consequatur laboriosam at
-            cupiditate asperiores nemo exercitationem quaerat fugit?
+            {events[Number(id)-1].description}
           </div>
         </div>
 
@@ -74,19 +77,9 @@ const EventPage = () => {
         </div>
 
         <div className="flex justify-center w-full">
-          <div className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-            minima ipsa eius quis nam ea consequatur cupiditate, sunt eos
-            voluptatibus impedit quaerat fuga in consectetur error suscipit,
-            ipsam voluptatem aperiam. Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Adipisci voluptatem totam deleniti, alias,
-            obcaecati ratione at sapiente excepturi expedita distinctio dolores,
-            dolore cupiditate quo ducimus ut inventore! Officiis, ratione.
-            Voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dolore veritatis praesentium fuga placeat, reiciendis, enim non
-            nostrum tempore sit earum repudiandae consequatur laboriosam at
-            cupiditate asperiores nemo exercitationem quaerat fugit?
-          </div>
+          <a className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl" href={events[Number(id)-1].rules}>
+            1. RuleBook
+          </a>
         </div>
       </div>
 
@@ -94,7 +87,7 @@ const EventPage = () => {
         <div className="bg-blue w-5/6 flex p-7">
           <div className=" sm:w-1/4 w-1/2 p-4 sm:p-7 flex flex-col justify-center items-center gap-5 ">
             <img src={vector3}></img>
-            <div className="contact text-dark-purple text-xl sm:text-3xl text-center flex items-center justify-center">
+            <div className="contact-eventpage text-dark-purple text-xl sm:text-3xl text-center flex items-center justify-center">
               Contact the Organisers
             </div>
           </div>
@@ -114,6 +107,7 @@ const EventPage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

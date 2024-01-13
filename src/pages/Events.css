@@ -1,52 +1,12 @@
-body{
-  overflow-x: hidden;
-}
-.card-container {
-  background-color: #881e82;
-  display: flex;
-  flex-wrap: wrap;
-  width:100vw;
-  justify-content:center;
-  align-items: center;
-  padding: 30px;
-  overflow-y:hidden;
-}
-.heading {
-  font-family: "Righteous", cursive;
-}
-.moving-text{
-  white-space: nowrap;
-  animation: move-animation-events 30s infinite linear;
-}
-
-@keyframes move-animation-events{
-  0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-650px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Righteous&display=swap');
 
 
-.register-text{
-  margin-bottom:0px;
+.events-wrapper{
+  background-image: url(../assets/events-bg.svg);
 }
-.markee{
-  margin-top:15px;
-  overflow: hidden;
+.events-heading{
+  font-family: 'Rammetto One', sans-serif;
 }
-
-@media screen and (max-width:425px){
-  .body{
-    overflow-x:hidden;
-  }
-  .event-card{
-    width:100%;
-    margin-left:10px;
-    margin-right:10px;
-  }
+.button-back-events{
+  font-family: 'Righteous', sans-serif;
 }
