@@ -5,19 +5,19 @@ import "./EventPage.css";
 import back from "../assets/back.png";
 import white_img from "../assets/white_img.png";
 import { Link, useParams } from "react-router-dom";
-import Footer from '../components/Footer/Footer'
+import Footer from "../components/Footer/Footer";
 import events from "../content/Events";
-import image1 from "../assets/white_img.png"
-import image2 from "../assets/white_img.png"
-import image3 from "../assets/white_img.png"
-import image4 from "../assets/white_img.png"
-import image5 from "../assets/white_img.png"
-import image6 from "../assets/white_img.png"
-import image7 from "../assets/white_img.png"
-import image8 from "../assets/white_img.png"
+import image1 from "../assets/white_img.png";
+import image2 from "../assets/white_img.png";
+import image3 from "../assets/white_img.png";
+import image4 from "../assets/white_img.png";
+import image5 from "../assets/white_img.png";
+import image6 from "../assets/white_img.png";
+import image7 from "../assets/white_img.png";
+import image8 from "../assets/white_img.png";
 const EventPage = () => {
-  let {id} = useParams()
-  
+  let { id } = useParams();
+
   return (
     <>
       <div className="flex bg-purple w-screen eventpage-container">
@@ -30,7 +30,7 @@ const EventPage = () => {
           </div>
 
           <div className="text-white flex competitionName w-full h-1/2 items-center justify-start px-12 text-6xl sm:text-9xl">
-            <div className="">{events[Number(id)-1].title}</div>
+            <div className="">{events[Number(id) - 1].title}</div>
           </div>
 
           <div className="text-white text-xl sm:text-3xl text-right h-1/2 flex flex-col items-end justify-center px-3 sm:px-12 pb-8 sm:pb-0">
@@ -39,14 +39,20 @@ const EventPage = () => {
               20 February 2024
             </div>
             <div className="h1">Prize pool</div>
-            <div className="h2 text-3xl sm:text-5xl">Rs. {events[Number(id)-1].prizePool}</div>
+            <div className="h2 text-3xl sm:text-5xl">
+              Rs. {events[Number(id) - 1].prizePool}
+            </div>
           </div>
 
           <img className="absolute flower1" src={vector2}></img>
         </div>
 
         <div className="flex items-center flex-col bg-dark-purple flex justify-center md:w-1/3 eventpage-image sm:pb-0 pb-12">
-          <img className=" mt-10 w-3/4" src={eval(`image${id}`)} alt="White Image" />
+          <img
+            className=" mt-10 w-3/4"
+            src={eval(`image${id}`)}
+            alt="White Image"
+          />
           {console.log(`image${id}`)}
           <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue">
             REGISTER
@@ -66,7 +72,7 @@ const EventPage = () => {
 
         <div className="flex justify-center w-full">
           <div className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
-            {events[Number(id)-1].description}
+            {events[Number(id) - 1].description}
           </div>
         </div>
 
@@ -77,7 +83,10 @@ const EventPage = () => {
         </div>
 
         <div className="flex justify-center w-full">
-          <a className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl" href={events[Number(id)-1].rules}>
+          <a
+            className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl"
+            href={events[Number(id) - 1].rules}
+          >
             1. RuleBook
           </a>
         </div>
@@ -93,21 +102,39 @@ const EventPage = () => {
           </div>
           <div className="flex flex-col sm:flex-row  items-center justify-center sm:w-3/4 w-1/2 gap-4 sm:gap-9 sm:text-3xl p-3">
             <div className="flex flex-col person  text-dark-purple items-center justify-center">
-              Person 1:
-              <div className="">+91XXXXXXXXXX</div>
+              {events[Number(id) - 1].spocs[0] !== undefined
+                ? events[Number(id) - 1].spocs[0]
+                : ""}
+              <div className="">
+                {events[Number(id) - 1].contacts[0] !== undefined
+                  ? events[Number(id) - 1].contacts[0]
+                  : ""}
+              </div>
             </div>
             <div className="flex flex-col person text-dark-purple items-center justify-center">
-              Person 2:
-              <div className="">+91XXXXXXXXXX</div>
+              {events[Number(id) - 1].spocs[1] !== undefined
+                ? events[Number(id) - 1].spocs[1]
+                : ""}
+              <div className="">
+                {events[Number(id) - 1].contacts[1] !== undefined
+                  ? events[Number(id) - 1].contacts[1]
+                  : ""}
+              </div>
             </div>
             <div className="flex flex-col person text-dark-purple items-center justify-center text-center">
-              Person 3:
-              <div className="">+91XXXXXXXXXX</div>
+              {events[Number(id) - 1].spocs[2] !== undefined
+                ? events[Number(id) - 1].spocs[2]
+                : ""}
+              <div className="">
+                {events[Number(id) - 1].contacts[2] !== undefined
+                  ? events[Number(id) - 1].contacts[2]
+                  : ""}
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
