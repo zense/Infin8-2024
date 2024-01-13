@@ -27,7 +27,7 @@ const Team = () => {
           <Link to={"/"}>
             <div className='back-btn-wrapper'>
               <img src={back} alt='back-img'/>
-              <button className='home-btn'>Home</button>
+              <button className='home-btn'>Back</button>
             </div>
           </Link>
           <div className='team-txt-container'>
@@ -73,7 +73,7 @@ const Team = () => {
             })}
         </div>
       </div>
-        <Footer/>
+        {/* <Footer/> */}
     </>
   )
 }
