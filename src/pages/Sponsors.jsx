@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Sponsers.css";
 import { MdOutlineMail } from "react-icons/md";
 import SponsorCard from "../components/SponsorCard/SponsorCard";
@@ -9,46 +9,47 @@ import { IoCallOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import Footer from "../components/Footer/Footer";
 import design from "../assets/sponsordesign.svg";
-import design1 from "../assets/spd.svg";
 
 const Sponsors = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div
-        className="text-xl text-white ml-0 bg-purple cursor-pointer left-0"
-        onClick={() => navigate(-1)}
-      >
-        &lt;Back
-      </div>
-      <div className="bg-purple flex flex-col justify-center items-center ">
-        <div className="flex">
-          <img src={design1} alt="" />
-          <h1 className="heading">SPONSORS</h1>
+      <div className="sponsors-wrapper bg-purple w-screen ">
+        <div className="events-header flex justify-center items-center relative w-screen pb-2">
+          <Link
+            className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold"
+            to={"/"}
+          >
+            &lt; Back
+          </Link>
+          <img src={design} className="rotate-180 w-12 md:w-auto" alt="" />
+          <h1 className="heading text-5xl md:text-9xl text-yellow px-3 md:px-9 py-20">
+            SPONSORS
+          </h1>
+          <img src={design} className="w-12 md:w-auto" alt="" />
+        </div>
 
-          <img src={design} alt="" />
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <div className="titleS flex justify-center items-center">
-            <h1>Title Sponsor</h1>
-          </div>
-          <div className="mt-10 ">
-            <TitleSponsorCard
-              sponsor={{ name: "Infin8", logo: "amazon.webp" }}
-            />
-          </div>
-          <div className="partners flex justify-center items-center my-16">
-            Our Partners
-          </div>
-          <div className="flex justify-around flex-wrap m-5 gap-11  ">
-            {sponsors.map((element) => (
-              <SponsorCard
-                key={element.id}
-                sponsor={{ name: element.name, logo: element.logo }}
+          <div className="flex flex-col items-center justify-center">
+            <div className="titleS flex justify-center items-center p-4 px-12 text-3xl">
+              <h1>Title Sponsor</h1>
+            </div>
+            <div className="mt-10">
+              <TitleSponsorCard
+                sponsor={{ name: "Infin8", logo: "amazon.webp" }}
               />
-            ))}
+            </div>
+            <div className="partners flex justify-center items-center my-16">
+              Our Partners
+            </div>
+            <div className="flex justify-around flex-wrap m-5 gap-11  ">
+              {sponsors.map((element) => (
+                <SponsorCard
+                  key={element.id}
+                  sponsor={{ name: element.name, logo: element.logo }}
+                />
+              ))}
+            </div>
           </div>
-        </div>
       </div>
       <div className=" contactd flex flex-col items-center justify-center">
         <div className="contact flex justify-center items-center mt-16">
