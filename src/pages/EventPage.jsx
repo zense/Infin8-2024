@@ -77,9 +77,9 @@ const EventPage = () => {
         </div>
 
         <div className="flex justify-center w-full">
-          <div className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
-            {events[Number(id)-1].rules}
-          </div>
+          <a className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl" href={events[Number(id)-1].rules}>
+            1. RuleBook
+          </a>
         </div>
       </div>
 
