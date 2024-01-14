@@ -16,11 +16,11 @@ const EventCardNew = ({
         className="object-cover w-full h-40 shadow"
         src={imageDestination}
         alt={`${name}'s profile`}
-        style={{ width: "340px", height: "370px" }}
+        style={{height: "370px" }}
       />
       <div
         className={`p-4 bg-${colour} flex flex-col justify-center items-center shadow text-white`}
-        style={{ width: "340px", height: "95px " }}
+        style={{height: "95px " }}
       >
         <h2 className="text-3xl text1 mb-1">{name}</h2>
         <p className="text-2xl text2">{Rollno}</p>

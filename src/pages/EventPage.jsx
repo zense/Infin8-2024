@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import vector3 from "../assets/vector3.png";
 import vector2 from "../assets/vector2.png";
 import "./EventPage.css";
 import back from "../assets/back.png";
 import white_img from "../assets/white_img.png";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import events from "../content/Events";
 import image1 from "../assets/white_img.png";
@@ -38,11 +38,12 @@ import image28 from "../assets/white_img.png";
 const EventPage = () => {
   let { id } = useParams();
   useEffect(() => {
-    document.body.scrollTo(0, 0)
+    const element = document.getElementById("cont");
+    element.scrollIntoView();
   }, [])
 
   return (
-    <>
+    <div className="overflow-hidden w-auto" id="cont"> 
       <div className="flex bg-purple w-screen eventpage-container">
         <div className="bg-purple relative w-2/3 flex flex-col upper-text-eventpage">
           <div className="flex items-center p-5">
@@ -135,7 +136,7 @@ const EventPage = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
