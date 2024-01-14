@@ -3,9 +3,17 @@ import "./Footer.css";
 import { SocialIcon } from "react-social-icons";
 import IIITBlogo from "../../assets/IIITBlogo.png";
 import infin8whitelogo from "../../assets/infin8white.svg";
+import { Link, useLocation, useParams } from "react-router-dom";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
+    
     <div className="w-screen  bg-bgredlight footer" id="contactus">
       <div className="skewtext flex items-center justify-center relative ">
         <div className="infin8-text bg-yellow text-bgredlight absolute flex text-8xl p-5">
@@ -16,8 +24,14 @@ const Footer = () => {
       </div>
       <div className="handles flex">
         <div className="logos w-3/5 flex items-center justify-start pl-40 gap-20">
-          <img src={infin8whitelogo} alt="" />
+        <Link to={"/"} className="text-white sm:text-2xl back block" onClick={scrollToTop}>
+      <img src={infin8whitelogo} alt="" />
+    </Link>
+          <a href="https://www.iiitb.ac.in/" target="_blank">
+          <button >
           <img src={IIITBlogo} alt="" />
+          </button>
+          </a>
         </div>
         <div className="contact-footer w-2/5 h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center">
           <div className="h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center pb-6">
