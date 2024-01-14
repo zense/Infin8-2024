@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 const Events = () => {
   return (
     <>
-      <div className="events-wrapper bg-blue w-screen">
+      <div className="events-wrapper bg-yellow w-screen">
         <div className="events-header flex justify-center items-center relative w-screen">
           <Link className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold" to={"/"} >&lt; Back</Link>
-          <img src={eventsDesign} className="rotate-180 w-12 md:w-auto" alt="" />
-          <h1 className="events-heading text-5xl md:text-9xl text-yellow px-3 md:px-9 py-20">EVENTS</h1>
-          <img src={eventsDesign} className="w-12 md:w-auto" alt="" />
+          <img src={eventsDesign} className="rotate-180 w-12 md:w-24" alt="" />
+          <h1 className="events-heading text-5xl md:text-8xl text-red px-3 md:px-9 py-20">EVENTS</h1>
+          <img src={eventsDesign} className="w-12 md:w-24" alt="" />
         </div>
         <div className="event-cards flex flex-wrap items-center justify-center 2xl:px-32 md:pt-10 pb-20">
           <div className="flex flex-wrap items-center justify-center gap-20 2xl:gap-36 md:gap-32">
