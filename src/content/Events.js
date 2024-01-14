@@ -1,3 +1,66 @@
+const Eventss = [
+  [
+    {
+      title: "Nukkad Naatak",
+      description:
+        "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
+      prizePool: 12000,
+      eventId: 8,
+      rules: [
+        "Time limit - Maximum 15 minutes from entry to exit.",
+        "We can provide basic props if informed in advance.",
+        "Instruments are allowed.",
+        "There’s no upper bound on team sizes.",
+        "Script submissions due by 10th Feb 2023. Please mail them to parvaaz@iiitb.ac.in.",
+        "The play should preferably be in Hindi, English, or Kannada.",
+        "The organizers have the power to disqualify any team based on any grounds they seem fit."
+      ],
+      contacts: [
+        { name: "Aaditya Gole", number: "7972513736" },
+        { name: "Chandrima Nandi", number: "9028872476" }
+      ],
+    },
+    {
+    title: "Clash Royale",
+    description:
+      "Dive into the thrilling world of Clash Royale in our ESports event! Experience the strategic rush of this vintage Supercell classic tower rush and strategy game. Showcase your gaming prowess, join the online competition, and compete for the top spot. It's your chance to enjoy the excitement of Clash Royale, prove your skills, and have a blast in this action-packed gaming showdown!",
+    prizePool: 2000,
+    eventId: "23",
+
+    rules: [
+      "The tournament is only open to invited participants, who will receive the necessary login information an hour before the event starts.",
+      "The tournament will last for 4 hours and will involve normal matches in Clash Royale.",
+      "Matches will be played according to the standard rules of the game.",
+      "Cheating is not allowed and may result in disqualification.",
+      "The player with the most trophies at the end of the tournament will be declared the winner and will receive a prize.",
+      "Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/"
+    ],
+    contacts: [
+      { name: "Narayana Srimanth", number: "9032959454" }
+    ],
+  },
+  {
+    title: "Jijñāsa - Spiritual Quest",
+    description:
+      "Embark on a transformative journey of self-discovery with 'Jijñāsa - Spiritual Quest.' Engage in a riveting quest that challenges your intellect and spiritual insight through a series of interdependent puzzles. Join the exploration for fun and enlightenment, where the fastest and most accurate participant emerges victorious.",
+    prizePool:3000,
+    eventId: 12,
+  
+    rules: [
+      "Participants will be given a booklet and a puzzle, they have to solve the puzzles with the help of a booklet.",
+      "Participants are expected to solve three levels of the quiz which are interdependent on each other.",
+      "Finally, there will be a take-home message which can be framed with the help of 3 puzzles.",
+      "Participants who solve the 3 puzzles and frame the correct message in the minimum time will get the prize.",
+      "Participants are expected to reach the venue 15 minutes before the announced time."
+    ],
+    contacts: [
+      { name: "Amar Pratap Singh", number: "8197367978" },
+      { name: "Dhruv Gupta", number: "9015346166" }
+    ]
+  },
+  
+  ]
+]
 const events = [
   {
     title: "Nritta",
@@ -96,7 +159,6 @@ const events = [
       { name: "Aaditya Gole", number: "7972513736" },
       { name: "Chandrima Nandi", number: "9028872476" }
     ],
-    spocs: ["Aaditya Gole", "Chandrima Nandi"]
   },
 
 {
@@ -182,8 +244,7 @@ const events = [
   contacts: [
     { name: "Amar Pratap Singh", number: "8197367978" },
     { name: "Dhruv Gupta", number: "9015346166" }
-  ],
-  spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
+  ]
 }
 
 ,
@@ -398,8 +459,7 @@ const events = [
       { name: "Kunal Narang", number: "9012252500" }
     ],
     spocs: ["Pushkar Kulkarni", "Kunal Narang"]
-  }
-  ,
+  },
   {
     title: "Clash Royale",
     description:
@@ -418,7 +478,6 @@ const events = [
     contacts: [
       { name: "Narayana Srimanth", number: "9032959454" }
     ],
-    spocs: ["Narayana Srimanth"]
   }
   ,
   {
@@ -479,3 +538,4 @@ const events = [
 ];
 
 export default events;
+export {Eventss};

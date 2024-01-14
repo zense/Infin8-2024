@@ -26,8 +26,20 @@ import image16 from "../assets/white_img.png";
 import image17 from "../assets/white_img.png";
 import image18 from "../assets/white_img.png";
 import image19 from "../assets/white_img.png";
+import image20 from "../assets/white_img.png";
+import image21 from "../assets/white_img.png";
+import image22 from "../assets/white_img.png";
+import image23 from "../assets/white_img.png";
+import image24 from "../assets/white_img.png";
+import image25 from "../assets/white_img.png";
+import image26 from "../assets/white_img.png";
+import image27 from "../assets/white_img.png";
+import image28 from "../assets/white_img.png";
 const EventPage = () => {
   let { id } = useParams();
+  useEffect(() => {
+    document.body.scrollTo(0, 0)
+  }, [])
 
   return (
     <>

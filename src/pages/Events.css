@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 .events-wrapper{
   background-image: url(../assets/events-bg.svg);
+}
+.day-heading{
+  font-family: 'Righteous', sans-serif;
 }
 .events-heading{
   font-family: 'Mochiy Pop P One', sans-serif;
