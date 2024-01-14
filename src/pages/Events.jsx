@@ -1,7 +1,7 @@
 import events from "../content/Events";
 import "./Events.css";
 import Footer from "../components/Footer/Footer";
-import TeamCard from "../components/TeamCard/TeamCard"
+import EventCardNew from "../components/EventCardNew/EventCardNew"
 import eventsDesign from "../assets/events-dots.svg"
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Events = () => {
         </div>
         <div className="event-cards flex flex-wrap items-center justify-center 2xl:px-32 md:pt-10 pb-20">
           <div className="flex flex-wrap items-center justify-center gap-20 2xl:gap-36 md:gap-32">
-          {events.map((event)=>(<Link to={`/events/${event.eventId}`}><TeamCard name={event.title} Rollno={"Prize pool : "+event.prizePool} colour={"purple"} imageDestination = {"https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" }/></Link>))}
+          {events.map((event)=>(<Link to={`/events/${event.eventId}`}><EventCardNew name={event.title} Rollno={"Prize pool : "+event.prizePool} colour={"red"}  addShadows={true} imageDestination = {"https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" }/></Link>))}
           </div>
         </div>
       </div>
