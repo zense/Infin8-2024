@@ -3,6 +3,8 @@
 
 html{
   scroll-behavior: smooth;
+  background-image: url(../assets/infin8white.svg);
+  background-color: purple;
 }
 
 * {

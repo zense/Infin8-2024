@@ -8,19 +8,12 @@ import EventPage from './pages/EventPage.jsx';
 import Error from './pages/Error.jsx';
 import Team from './pages/Team.jsx';
 import Sponsors from './pages/Sponsors.jsx';
+import AnimatedRoutes from './components/AnimatedRoutes.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/events' element={<Events />} />
-        <Route path='/events/:id' element={<EventPage />} />
-        <Route path='/sponsors' element={<Sponsors />} />
-        <Route path='/team' element={<Team />} />
-       
-        <Route path='*' element={<Error />} />
-      </Routes>
+     <AnimatedRoutes/>
     </BrowserRouter>
   </React.StrictMode>,
 );

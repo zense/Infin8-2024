@@ -7,11 +7,12 @@ import MegaEvents from '../components/MegaEvents/MegaEvents'
 import Faqs from '../components/Faqs/Faqs'
 import LandingScreen from '../components/LandingScreen/LandingScreen'
 import Footer from '../components/Footer/Footer'
+import {motion} from "framer-motion"
 
 function App() {
 
   return (
-    <div className='bg-purple background-main'>
+    <motion.div className='bg-purple background-main' initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:0.5}}>  
       <LandingScreen/>
       <Aboutus/>
       <Slider/>
@@ -19,7 +20,7 @@ function App() {
       <MegaEvents/>
       <Faqs/>
       <Footer/>
-    </div>
+    </motion.div>
   )
 }
 
