@@ -22,11 +22,11 @@ const Sponsors = () => {
           >
             &lt; Back
           </Link>
-          <img src={design} className="rotate-180 w-12 md:w-auto" alt="" />
-          <h1 className="heading text-5xl md:text-9xl text-yellow px-3 md:px-9 py-20">
+          <img src={design} className="rotate-180 w-10 md:w-auto" alt="" />
+          <h1 className="heading text-4xl md:text-9xl text-yellow px-3 md:px-9 py-20">
             SPONSORS
           </h1>
-          <img src={design} className="w-12 md:w-auto" alt="" />
+          <img src={design} className="w-10 md:w-auto" alt="" />
         </div>
 
           <div className="flex flex-col items-center justify-center">
