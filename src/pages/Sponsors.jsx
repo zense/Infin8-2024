@@ -8,8 +8,8 @@ import sponsors from "../content/sponsors";
 import { IoCallOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import Footer from "../components/Footer/Footer";
-import design from "../assets/sponsordesign.svg";
-import design1 from "../assets/spd.svg";
+import design from "../assets/vec2.svg";
+import design1 from "../assets/vec1.svg";
 
 const Sponsors = () => {
   const navigate = useNavigate();
