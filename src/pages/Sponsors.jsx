@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Sponsers.css";
 import { MdOutlineMail } from "react-icons/md";
 import SponsorCard from "../components/SponsorCard/SponsorCard";
@@ -15,18 +15,19 @@ const Sponsors = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div
-        className="text-xl text-white ml-0 bg-purple cursor-pointer left-0"
-        onClick={() => navigate(-1)}
-      >
-        &lt;Back
-      </div>
-      <div className="bg-purple flex flex-col justify-center items-center ">
-        <div className="flex">
-          <img src={design1} alt="" />
-          <h1 className="heading">SPONSORS</h1>
-
-          <img src={design} alt="" />
+      <div className="sponsors-wrapper bg-purple w-screen ">
+        <div className="events-header flex justify-center items-center relative w-screen pb-2">
+          <Link
+            className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold"
+            to={"/"}
+          >
+            &lt; Back
+          </Link>
+          <img src={design} className="rotate-180 w-10 md:w-auto" alt="" />
+          <h1 className="heading text-4xl md:text-9xl text-yellow px-3 md:px-9 py-20">
+            SPONSORS
+          </h1>
+          <img src={design} className="w-10 md:w-auto" alt="" />
         </div>
         <div className="flex flex-col items-center justify-center">
           <div className="titleS flex justify-center items-center">

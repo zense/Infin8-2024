@@ -1,0 +1,28 @@
+/* EventCardNew.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Carter+One&family=Lobster&family=Poly:ital,wght@0,1&family=Radio+Canada:wght@500&display=swap');
+
+.text1 {
+  font-family: 'Lobster'; /* Use single quotes for font names with spaces */
+}
+
+.text2 {
+  font-family: 'Poly';
+}
+
+.max-w-xs {
+  position: relative; /* Ensure positioning context for absolute shadow */
+}
+
+.shadow1 {
+  box-shadow: 10px 10px 0px rgba(0,0,0,0.5); /* Darker shadow - Adjust values as needed */
+  transition: all 0.3s;
+}
+.shadow1:hover{
+  box-shadow: 20px 20px 0px rgba(0,0,0,0.5);
+  transform: translate(-10px,-10px);
+}
+
+
+
+/* Rest of your existing styles */

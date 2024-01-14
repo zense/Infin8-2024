@@ -10,16 +10,16 @@ const Timeline = () => {
     for(let i = 0; i<todisable.length;i++){
       todisable[i].style.display="none"
     }
-    choice.classList.remove("bg-yellow")
-    choice.classList.add("text-yellow")
+    choice.classList.add("bg-yellow")
+    choice.classList.remove("text-yellow")
     const toshow = document.getElementById(`events-${day}`);
     toshow.style.display = "flex"
   }, [day])
 
   const handleClick = (e) =>{
     const choice = document.getElementById(day)
-    choice.classList.add("bg-yellow")
-    choice.classList.remove("text-yellow")
+    choice.classList.remove("bg-yellow")
+    choice.classList.add("text-yellow")
     setDay(e.target.id)
   }
   const handleNextClick = () => {
@@ -56,13 +56,13 @@ const Timeline = () => {
         <h1>TIMELINE</h1>
       </div>
       <div className='w-full h-20 flex items-center justify-center day-btns z-10 text-xl md:gap- pt-28'>
-        <div className="btn-1 border-yellow border-4 px-3 p-1 bg-yellow cursor-pointer" id='btn-1' onClick={handleClick}>
+        <div className="btn-1 border-yellow border-4 px-3 p-1 text-yellow cursor-pointer" id='btn-1' onClick={handleClick}>
             Day 1
         </div>
-        <div className="btn-2 border-yellow border-4 px-3 p-1 bg-yellow cursor-pointer" id='btn-2' onClick={handleClick}>
+        <div className="btn-2 border-yellow border-4 px-3 p-1 text-yellow cursor-pointer" id='btn-2' onClick={handleClick}>
             Day 2
         </div>
-        <div className="btn-3 border-yellow border-4 px-3 p-1 bg-yellow cursor-pointer" id='btn-3' onClick={handleClick}>
+        <div className="btn-3 border-yellow border-4 px-3 p-1 text-yellow cursor-pointer" id='btn-3' onClick={handleClick}>
             Day 3
         </div>
       </div>

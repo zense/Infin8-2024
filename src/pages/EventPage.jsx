@@ -15,6 +15,17 @@ import image5 from "../assets/white_img.png";
 import image6 from "../assets/white_img.png";
 import image7 from "../assets/white_img.png";
 import image8 from "../assets/white_img.png";
+import image9 from "../assets/white_img.png";
+import image10 from "../assets/white_img.png";
+import image11 from "../assets/white_img.png";
+import image12 from "../assets/white_img.png";
+import image13 from "../assets/white_img.png";
+import image14 from "../assets/white_img.png";
+import image15 from "../assets/white_img.png";
+import image16 from "../assets/white_img.png";
+import image17 from "../assets/white_img.png";
+import image18 from "../assets/white_img.png";
+import image19 from "../assets/white_img.png";
 const EventPage = () => {
   let { id } = useParams();
 
@@ -83,12 +94,13 @@ const EventPage = () => {
         </div>
 
         <div className="flex justify-center w-full">
-          <a
-            className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl"
-            href={events[Number(id) - 1].rules}
-          >
-            1. RuleBook
-          </a>
+          <p className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
+            <ul className="rules-list">
+              {events[Number(id) - 1].rules.map((rule) => (
+                <li>{rule}</li>
+              ))}
+            </ul>
+          </p>
         </div>
       </div>
 
@@ -101,36 +113,12 @@ const EventPage = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row  items-center justify-center sm:w-3/4 w-1/2 gap-4 sm:gap-9 sm:text-3xl p-3">
-            <div className="flex flex-col person  text-dark-purple items-center justify-center">
-              {events[Number(id) - 1].spocs[0] !== undefined
-                ? events[Number(id) - 1].spocs[0]
-                : ""}
-              <div className="">
-                {events[Number(id) - 1].contacts[0] !== undefined
-                  ? events[Number(id) - 1].contacts[0]
-                  : ""}
+            {events[Number(id) - 1].contacts.map((contact) => (
+              <div className="flex flex-col person  text-dark-purple items-center justify-center">
+                <div>{contact.name}</div>
+                <div>{contact.number}</div>
               </div>
-            </div>
-            <div className="flex flex-col person text-dark-purple items-center justify-center">
-              {events[Number(id) - 1].spocs[1] !== undefined
-                ? events[Number(id) - 1].spocs[1]
-                : ""}
-              <div className="">
-                {events[Number(id) - 1].contacts[1] !== undefined
-                  ? events[Number(id) - 1].contacts[1]
-                  : ""}
-              </div>
-            </div>
-            <div className="flex flex-col person text-dark-purple items-center justify-center text-center">
-              {events[Number(id) - 1].spocs[2] !== undefined
-                ? events[Number(id) - 1].spocs[2]
-                : ""}
-              <div className="">
-                {events[Number(id) - 1].contacts[2] !== undefined
-                  ? events[Number(id) - 1].contacts[2]
-                  : ""}
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

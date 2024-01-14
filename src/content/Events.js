@@ -2,14 +2,13 @@ const events = [
   {
     title: "Nritta",
     description:
-      "Dazzling solo duo and group dance competitions bound to capture hearts and break all linguistic barriers through dance",
+      "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
     prizePool: 30000,
     eventId: 1,
     image: "../assets/banner.png",
-    rules:
-      "https://drive.google.com/file/d/1vKYP92tGkx-9zqNpBLZXJL6YU033bEdf/view?usp=sharing",
+    rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
+    contacts:[{name:"Aditya Nangarath",number:"7022271553"},{name:"Bysani Akshaya",number:"7799008583"}],
     spocs: ["Aditya Nangarath", "Bysani Akshaya"],
-    contacts: ["7022271553", "7799008583"],
   },
   {
     title: "Blitz",
@@ -49,12 +48,26 @@ const events = [
   {
     title: "Battle of Bands",
     description:
-      "Battalions of music enthusiasts come together to mesmerise us with their brilliant vocals and instrumental performances.",
+      "Battle of Bands is where battalions of music enthusiasts come together and strum their vocal cords against one another in a fierce battle to claim the glory of victory. Spectators will witness a plethora of notes each competing against the other to capture the hearts of dazzled listeners.",
     prizePool: 25000,
     eventId: "6",
-    spocs: ["Karanveer Singh", "Saket Gurjar"],
-    contacts: ["6268463824", "8502883397"],
-  },
+    rules: [
+      "Time Limit: Bands are allocated a maximum of 20 minutes for their performance, inclusive of stage setup.",
+      "Member Limit: Each participating band can consist of up to 8 members.",
+      "Instrumentalists Requirement: Bands must include a minimum of 2 instrumentalists among their members.",
+      "On-Stage Presence: At any given moment during the performance, there should be a minimum of 3 band members actively performing on stage.",
+      "Genre Freedom: There are no restrictions on the genre of the musical performance; bands are free to explore and showcase their preferred style.",
+      "Pre-recorded Backing Tracks: The use of pre-recorded backing tracks during the performance is strictly prohibited.",
+      "Original Composition Bonus: Extra points will be awarded to bands that present an impressive original composition during their performance.",
+      "Judging Criteria: Bands will be evaluated based on various criteria, including the tightness of their performance, individual skills of each member, musicality, and overall stage presence. Judges will consider these elements to determine the winners of the competition."
+    ],
+    contacts: [
+      { name: "Karanveer Singh", number: "6268463824" },
+      { name: "Saket Gurjar", number: "8502883397" }
+    ],
+    spocs: ["Karanveer Singh", "Saket Gurjar"]
+  }
+  ,
   {
     title: "Case in Point",
     description:
@@ -67,47 +80,113 @@ const events = [
   {
     title: "Nukkad Naatak",
     description:
-      "Theatrical/Drama face-off between student teams displaying their drama prowess",
+      "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
     prizePool: 12000,
-    eventId: "8",
-    spocs: ["Aaditya", "Chandrima"],
-    contacts: ["7972513736", "9028872476"],
+    eventId: 8,
+    rules: [
+      "Time limit - Maximum 15 minutes from entry to exit.",
+      "We can provide basic props if informed in advance.",
+      "Instruments are allowed.",
+      "There’s no upper bound on team sizes.",
+      "Script submissions due by 10th Feb 2023. Please mail them to parvaaz@iiitb.ac.in.",
+      "The play should preferably be in Hindi, English, or Kannada.",
+      "The organizers have the power to disqualify any team based on any grounds they seem fit."
+    ],
+    contacts: [
+      { name: "Aaditya Gole", number: "7972513736" },
+      { name: "Chandrima Nandi", number: "9028872476" }
+    ],
+    spocs: ["Aaditya Gole", "Chandrima Nandi"]
   },
-  {
-    title: "Rang Manch",
-    description:
-      "Theatrical/Drama face-off between student teams displaying their drama prowess",
-    prizePool: 20000,
-    eventId: "9",
-    spocs: ["Arjun Subhedar", "Divyansh Singhal"],
-    contacts: ["77028770201", "7023333611"],
-  },
-  {
-    title: "Sargam",
-    description:
-      "Battalions of music enthusiasts come together to mesmerise us with their brilliant vocals and instrumental performances.",
-    prizePool: 10000,
-    eventId: "10",
-    spocs: ["Rishabh Dixit", "Veddant M"],
-    contacts: ["6366258170", "7588069853"],
-  },
-  {
-    title: "Codm",
-    description:
-      "Welcome to IIITBs rendition of the CODM World Championship. Battle it out in team deathmatch to claim top cash prizes. ",
-    prizePool: 3000,
-    eventId: "11",
-    spocs: ["Prasanth Kumar", "Sasank Karamsetty"],
-    contacts: [""],
-  },
-  {
-    title: "Jijnasa",
-    description: "",
-    prizePool: 3000,
-    eventId: "12",
-    spocs: ["Amar Pratap Singh", "Dhruv Gupta"],
-    contacts: ["8197367978", "9015346166"],
-  },
+
+{
+  title: "Rang Manch",
+  description:
+    "Unleash your unique talents on the theatrical battlefield. Join the Rang Manch and let the curtains rise on your unique talents as you vie for the spotlight in this thrilling showcase of theatrical brilliance!",
+  prizePool: 20000,
+  eventId: 9,
+ 
+  rules: [
+    "Time limit - The play should be around a minimum of 15 minutes around a maximum of 45 minutes from ‘stage entry’ to ‘stage exit’.",
+    "There’s no upper bound on team sizes.",
+    "We can provide basic props if informed in advance.",
+    "Script submissions are due by 10th Feb 2023, along with a 10-minute recording of the play for the screening round. Please mail them to parvaaz@iiitb.ac.in.",
+    "The organizers have the power to disqualify any team based on any grounds they seem fit."
+  ],
+  contacts: [
+    { name: "Arjun Subhedar", number: "7028770201" },
+    { name: "Divyansh Singhal", number: "7023333611" }
+  ],
+  spocs: ["Arjun Subhedar", "Divyansh Singhal"]
+},
+
+{
+  title: "Sargam",
+  description:
+    "Join us for an evening filled with soulful voices and captivating tunes as talented individuals take the stage to serenade you with their musical prowess. Let the enchanting melodies create a memorable atmosphere, celebrating the beauty of music in this vibrant showcase of vocal talent.",
+  prizePool: 10000,
+  eventId: 10,
+  rules: [
+    "Time Limit: Solo singers are allotted a maximum of 4 minutes for their entire stage performance.",
+    "Musical Diversity: Participants are required to showcase their versatility by presenting one of these - (i) Indian classical/semi-classical (ii) non-classical genre. Separate prizes will be awarded for each category.",
+    "Restrictions on Beatboxing and Rapping: Beatboxing and rapping are not allowed as part of the solo singing performance.",
+    "Backing Track or Accompanist Options: Participants may choose to use a pre-submitted backing track, have one accompanist, or play a musical instrument themselves. However, it is emphasized that the judging will solely be based on the singer's vocals, not the backing track.",
+    "Basic Effects Allowance: Singers are permitted to request basic effects such as compression, reverb, etc., to enhance their performance.",
+    "Judging Criteria: Performances will be evaluated based on several factors, including pitch accuracy, rhythm, musicality, skill level, stage presence, and other relevant aspects. The judging panel will consider these elements to determine the overall quality of the solo singing performance."
+  ],
+  contacts: [
+    { name: "Rishabh Dixit", number: "6366258170" },
+    { name: "Vedant Manglurkar", number: "7588069853" }
+  ],
+  spocs: ["Rishabh Dixit", "Vedant Manglurkar"]
+}
+,
+{
+  title: "CODM ",
+  description:
+    "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
+  prizePool: 3000,
+  eventId:11,
+
+  rules: [
+    "Minimum 2 IIITB members, current or alumni.",
+    "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
+    "You are only allowed to play on mobile phones. (No tablets and No controllers allowed)",
+    "Cheating, aim assists, emulation, wall hacks, or any tampering with the CODM client will lead to an instaban from the match and tournament.",
+    "Scoring will be based on position and kills.",
+    "If there are more registrations than expected, we'll have a prelims of Battle Royale.",
+    "Results will be announced on our Instagram handle [Instagram Link](https://www.instagram.com/infin8_iiitb/).",
+    "NOTE: All IIITB students have to play in the allotted venues."
+  ],
+  contacts: [
+    { name: "Prasanth Kumar", number: "7989839700" },
+    { name: "Sasank Karamsetty", number: "8328596959" }
+  ],
+  spocs: ["Prasanth Kumar", "Sasank Karamsetty"]
+}
+,
+{
+  title: "Jijñāsa - Spiritual Quest",
+  description:
+    "Embark on a transformative journey of self-discovery with 'Jijñāsa - Spiritual Quest.' Engage in a riveting quest that challenges your intellect and spiritual insight through a series of interdependent puzzles. Join the exploration for fun and enlightenment, where the fastest and most accurate participant emerges victorious.",
+  prizePool:3000,
+  eventId: 12,
+
+  rules: [
+    "Participants will be given a booklet and a puzzle, they have to solve the puzzles with the help of a booklet.",
+    "Participants are expected to solve three levels of the quiz which are interdependent on each other.",
+    "Finally, there will be a take-home message which can be framed with the help of 3 puzzles.",
+    "Participants who solve the 3 puzzles and frame the correct message in the minimum time will get the prize.",
+    "Participants are expected to reach the venue 15 minutes before the announced time."
+  ],
+  contacts: [
+    { name: "Amar Pratap Singh", number: "8197367978" },
+    { name: "Dhruv Gupta", number: "9015346166" }
+  ],
+  spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
+}
+
+,
   {
     title: "Slam poetry",
     description: "",
@@ -116,29 +195,76 @@ const events = [
     spocs: ["Ayush Gupta"],
     contacts: ["8884803648"],
   },
-  {
-    title: "Lost in Action",
-    description: "",
-    prizePool: 4000,
-    eventId: "14",
-    spocs: ["Vyom Sharma", "Bhavjyot Singh"],
-    contacts: ["7060886758", "9855498265"],
-  },
-  {
-    title: "Cards Against Humanity",
-    description: "",
-    prizePool: 4000,
-    eventId: "15",
-    spocs: ["Pranav Vajreshwari"],
-  },
-  {
-    title: "JAM",
-    description: "",
-    prizePool: 8000,
-    eventId: "16",
-    spocs: ["Vishruth Vijay", "Vikas Kalyanapuram"],
-    contacts: ["9449960095", "8762175731"],
-  },
+
+
+{
+  title: "Lost in Action",
+  description:
+    "Experience the classic joy of Dumb Charades, every kid's beloved pastime. Engage in three thrilling rounds where only the best move forward to the finals. It's a test of your acting skills and team chemistry. Join the fun and aim for the top spot.",
+  prizePool: 4000,
+  eventId: "14",
+
+  rules: [
+    "Each group can have 4 or 5 members.",
+    "The performance has to be silent with no words as the word ‘dumb’ goes.",
+    "The player has to use facial expressions, gestures, and body language.",
+    "Clues like lip-reading, humming songs, pointing, and spelling are banned.",
+    "Scoreboard will be maintained by the judges.",
+    "Usage of the internet is prohibited and will lead to disqualification.",
+    "Organizers reserve the right to disqualify teams on any grounds they deem fit at their discretion."
+  ],
+  contacts: [
+    { name: "Vyom Sharma", number: "7060886758" },
+    { name: "Bhavjyot Singh", number: "9855498265" }
+  ],
+  spocs: ["Vyom Sharma", "Bhavjyot Singh"]
+}
+,
+{
+  title: "Cards Against Humanity",
+  description:
+    "Get ready for a laughter-packed session with Cards Against Humanity! Join the fun, where participants use random answer cards to respond to unknown questions. The game, marked by blindfolded judges and diverse judging criteria, promises quick-witted amusement and an evening of delightful chaos.",
+  prizePool: 4000,
+  eventId: "15",
+
+  rules: [
+    "Participants will be grouped into groups of five.",
+    "Each participant will be given 5 cards that contain random answers to random questions.",
+    "In each round, one of the players will have to become a judge. The judge will have to choose a question from a given collection of unknown questions.",
+    "The other four players will have to pick one of the answer cards given to them to answer the question posed by the judge.",
+    "The judge will be blindfolded while the answers are being read out loud. The criteria for judging depends on the judge (most funny, most appropriate, etc.), and the winner of that round is awarded with a point.",
+    "Once the round ends, the players can replace the answer card that they’ve used, and then another player becomes the judge.",
+    "The players with the most number of points in each group are chosen and are grouped into groups of five again, and the process continues until there is a single player left."
+  ],
+  contacts: [
+    { name: "Jinesh Pagaria", number: "9653616341" }
+  ],
+  spocs: ["Jinesh Pagaria"]
+}
+,
+{
+  title: "JAM (Just A Minute)",
+  description:
+    "JAM, originating from the renowned BBC radio show, is a captivating verbal challenge game where participants strive to speak for exactly one minute on a given topic without breaking three fundamental rules. The game has evolved into a delightful and light-hearted event, emphasizing wit, spontaneity, and linguistic agility.",
+  prizePool: 8000,
+  eventId: "16",
+
+  rules: [
+    "Repetition: Avoid repeating any word or phrase, particularly common and proper nouns. Synonyms, even obscure ones, are encouraged to maintain variety in speech.",
+    "Hesitation: Speak fluently without any momentary pauses or stumbling over words. Any noticeable pause can lead to a successful challenge.",
+    "Deviation: Stay on the chosen topic and avoid veering off into unrelated subjects. While some deviation is allowed, outright straying from the topic or language norms is subject to challenge.",
+    "Challenges: JAMmers score a point for a correct challenge against the current speaker. A challenge is considered correct if it adheres to the rules.",
+    "Speaker Points: The speaker gains a point if the challenge is deemed incorrect. Speakers also earn 2 points if they are speaking when the 60 seconds expire.",
+    "Bonus Points: Entertaining challenges and speeches, even if not entirely correct, may receive bonus points at the moderator's discretion. Witty interjections that amuse the audience can lead to mutual point gains for the challenger and speaker.",
+    "When a correct challenge is made, the challenger takes over the topic for the remainder of the minute or until they are correctly challenged.",
+    "The game rewards those who make entertaining challenges, offering opportunities for quick points and amusing interjections."
+  ],
+  contacts: [
+    { name: "Vishruth Vijay", number: "9449960095" },
+    { name: "Vikas Kalyanapuram", number: "8762175731" }
+  ],
+  spocs: ["Vishruth Vijay", "Vikas Kalyanapuram"]
+},
   {
     title: "Math puzzle",
     description: "",
@@ -147,69 +273,201 @@ const events = [
     spocs: [],
   },
   {
-    title: "Vedanta Darshana",
-    description: "",
+    title: "Vedanta Darsana ",
+    description:
+      "Embark on a profound journey of self-discovery and intellectual exploration with the Vedanta Enlightenment Test. This unique test is designed to deepen participants' understanding of Vedanta, an ancient philosophical tradition that delves into the fundamental principles of existence, consciousness, and self-realization.",
     prizePool: 3000,
-    eventId: "18",
-    spocs: ["Amar Pratap Singh", "Dhruv Gupta"],
-    contacts: ["8197367978", "9015346166"],
+    eventId: 18,
+
+    rules: [
+      "The test will be a maximum of 1 hour. Please manage your time effectively to address all questions.",
+      "Necessary reference material will be provided for all participants. No external materials are permitted.",
+      "Questions are designed to assess your ability to apply knowledge. Provide thoughtful and insightful responses.",
+      "Submit written responses on provided answer sheets."
+    ],
+    contacts: [
+      { name: "Amar Pratap Singh", number: "8197367978" },
+      { name: "Dhruv Gupta", number: "9015346166" }
+    ],
+    spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
   },
   {
     title: "Gulp and Gobble",
-    description: "",
+    description:
+      "What can be better than getting paid for eating good food? Put your hungry stomach to the test in this competitive eating contest. The faster you can gobble up all the food and gulp the beverages, the better chance you have to win a prize. What can you win? Some cash and more food!",
     prizePool: 3000,
     eventId: "19",
-    spocs: [],
-    contacts: [],
-  },
+
+    rules: [
+      "This is a one-on-one eating contest.",
+      "There will be a table manager for every 10-12 people to judge the participants.",
+      "The top 25 finishers from the first round will advance to the next round.",
+      "The top five finishers from the second round will advance to the third round.",
+      "One winner will be chosen from among the five entrants.",
+      "In the event of a disagreement, the organizers’ decision will be final.",
+      "After each round, participants should display their empty plates to the table supervisors and proceed to the registration desk to register for the next round.",
+      "No one should begin eating the food before the organizers give the all-clear.",
+      "Registrations work on a first-come, first-served basis.",
+      "Results will be announced on our Instagram handle."
+    ],
+    contacts: [
+      /* Add contact details if available */
+    ],
+    spocs: [
+      /* Add SPOCs details if available */
+    ]
+  }
+  ,
   {
     title: "FIFA",
-    description: "",
+    description:
+      "Welcome to FIFA – a thrilling 11v11 football spectacle where the beauty of the game meets strategic brilliance! In this premier football simulation, it's not just about goals; it's about crafting a winning strategy with your unique squad. Choose players with specialized skills, coordinate plays, and outsmart your opponents. In FIFA, tactics take center stage, elevating your gameplay beyond simple ball control. Experience the essence of football where every move counts, and victory belongs to the tactically astute!",
     prizePool: 4000,
     eventId: "20",
-    spocs: ["Keshav Goyal", "Siddharth Ayathu"],
-    contacts: ["8968076237", "6366281143"],
-  },
+
+    rules: [
+      "FIFA 23 with squads will be used.",
+      "You cannot select any fictional or All-Star teams. Any regular-season teams, as installed with the original game, can be selected.",
+      "Each round will be a knock-out round.",
+      "Each player can bring his/her own controller.",
+      "If a controller is defective, a Player can pause the game on the approval of their opponent and notify the referee.",
+      "Both players can select the same team (e.g. Barcelona). In that case, the ‘away’ player will have to pick Away Jersey for that team. In general, ‘away’ players are responsible for picking the jersey that does not resemble the home team jersey.",
+      "In case of a dispute, the selection of home and away side will be decided via a coin toss.",
+      "In case of a tie, the match will go to extra time (Classic for knockout rounds), then penalties.",
+      "Players will not be allowed to switch/sub with some other player.",
+      "In case of any dispute, the word of the referee will be final.",
+      "Half Length: 4 minutes (Until Quarter-Final), 6 minutes (Semi-Finals(2 legs, away goals rules apply) and Finals).",
+      "There will be a third place competition (one leg only).",
+      "Match type: Classic Kick-Off",
+      "Fifa Trainer: Off",
+      "Difficulty Level: Legendary",
+      "Game Speed: Normal",
+      "All Formations, Tactics should be decided before the starting of the match (2 mins will be provided for the same). If you want to pause mid-game, you have to ask your opponent first and you can pause only on his/her approval.",
+      "If players are not present for their match in the allotted time without any justification for the same, they will be considered for disqualification.",
+      "Rules are subject to change, and any change will be at the discretion of the Organizers."
+    ],
+    contacts: [
+      { name: "Keshav Goyal", number: "8968076237" },
+      { name: "Siddharth Ayathu", number: "6366281143" }
+    ],
+    spocs: ["Keshav Goyal", "Siddharth Ayathu"]
+  }
+  ,
   {
     title: "Valorant",
-    description: "",
+    description:
+      "Here is presenting a world-renowned, enthralling, 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities! The main game mode focuses on Search and Destroy where one team attacks by planting a bomb, and the other defends by avoiding detonation. More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine. Tactics beat gunplay!",
     prizePool: 4000,
     eventId: "21",
-    spocs: ["Brij Desai", "Harshith Reddy"],
-    contacts: ["6362043016", "9177785261"],
-  },
+
+    rules: [
+      "Team of 5 + 1 substitute (optional)",
+      "Minimum one player (part of the playing roster of at least one game, not the substitute) should be a IIITB student",
+      "All players should have joined the Discord server before the matches. All forms of communication will be done through Discord.",
+      "All Weapons / Agents / Abilities are allowed unless currently disabled in Ranked Mode.",
+      "Make sure you have the latest version of the game before the day of the match. No delays will be allowed on the day of the match.",
+      "All matches except the Finals (and Semi-Finals depending on the total number of teams) will be knockouts.",
+      "Finals will be conducted offline on the IIITB campus."
+    ],
+    contacts: [
+      { name: "Brij Desai", number: "6362043016" },
+      { name: "Harshith Reddy", number: "9177785261" }
+    ],
+    spocs: ["Brij Desai", "Harshith Reddy"]
+  }
+  ,
   {
     title: "BGMI",
-    description: "",
+    description:
+      "Embark on a thrilling adventure with IIITBs BGMI Showdown, a battleground where teams collide in intense battles. Demonstrate your gaming prowess, securing kills for bonuses as you strive for triumph in this gripping showdown. Brace yourself for an adrenaline-fueled experience of strategic combat and seamless teamwork, as every move counts in this electrifying gaming spectacle!",
     prizePool: 3000,
     eventId: "22",
-    spocs: ["Pushkar Kulkarni", "Kunal Narang"],
-    contacts: ["9136815683", "9012252500"],
-  },
+
+    rules: [
+      "Minimum 2 IIITB members, current or alumni.",
+      "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
+      "You are only allowed to play mobile phones. (No tablets and No controllers allowed)",
+      "Cheating, aim assists, emulation, wall hacks or any tampering with the BGMI client will lead to instaban from the match and tournament.",
+      "Scoring will be based on position and kills",
+      "If there are more registrations than expected, we'll have a prelims of Battle Royale",
+      "Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/",
+      "NOTE: All IIITB students have to play in the allotted venues."
+    ],
+    contacts: [
+      { name: "Pushkar Kulkarni", number: "9136815683" },
+      { name: "Kunal Narang", number: "9012252500" }
+    ],
+    spocs: ["Pushkar Kulkarni", "Kunal Narang"]
+  }
+  ,
   {
     title: "Clash Royale",
-    description: "",
+    description:
+      "Dive into the thrilling world of Clash Royale in our ESports event! Experience the strategic rush of this vintage Supercell classic tower rush and strategy game. Showcase your gaming prowess, join the online competition, and compete for the top spot. It's your chance to enjoy the excitement of Clash Royale, prove your skills, and have a blast in this action-packed gaming showdown!",
     prizePool: 2000,
     eventId: "23",
-    spocs: ["Narayana Srimanth"],
-    contacts: ["9032959454"],
-  },
+
+    rules: [
+      "The tournament is only open to invited participants, who will receive the necessary login information an hour before the event starts.",
+      "The tournament will last for 4 hours and will involve normal matches in Clash Royale.",
+      "Matches will be played according to the standard rules of the game.",
+      "Cheating is not allowed and may result in disqualification.",
+      "The player with the most trophies at the end of the tournament will be declared the winner and will receive a prize.",
+      "Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/"
+    ],
+    contacts: [
+      { name: "Narayana Srimanth", number: "9032959454" }
+    ],
+    spocs: ["Narayana Srimanth"]
+  }
+  ,
   {
     title: "Infinitude",
-    description: "",
+    description:
+      "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
     prizePool: 20000,
     eventId: "24",
-    spocs: ["Nupur Patil", "Shiven Phogat"],
-    contacts: ["9922709459", "9137231118"],
-  },
+    rules: [
+      "Team Size - 8-15 members",
+      "Minimum 4 on stage at all times. No Vulgarity.",
+      "No use of props which litter the stage, such as colors.",
+      "Use of any props along with soundtrack, and any specific requirements of lighting, to be provided beforehand.",
+      "No professional dancers, only college students.",
+      "5-8 minutes per performance + 2 minutes for setup.",
+      "All dance styles and fusion dance are permitted."
+    ],
+    contacts: [
+      { name: "Nupur Patil", number: "9922709459" },
+      { name: "Shiven Phogat", number: "9137231118" }
+    ],
+    spocs: ["Nupur Patil", "Shiven Phogat"]
+  }
+  ,
   {
     title: "Cut to the Chase",
-    description: "",
+    description:
+      "A picture speaks a thousand words, a film is a million pictures… do the math! Show off your writing, acting, and editing prowess to influence the masses with your short yet impactful film.",
     prizePool: 12000,
     eventId: "25",
-    spocs: ["Varshith Vattikuti", "Nathan Mathew Verghese"],
-    contacts: ["9886987649", "8848839946"],
-  },
+    rules: [
+      "The competition will be a 100-hour event. Participants will have to write, shoot, and edit the entire film within 100 hours.",
+      "101 hours prior to the submission deadline, there’ll be a small gathering of all the participants wherein each team will pick 1 chit from 2 jars. 1 jar will have the 1st line of the screenplay (or the 1st line that will be heard in the film: TBD) and the other jar will have a theme. Participants will have to stick to both these restrictions.",
+      "Time Limit: 12 minutes",
+      "Synopsis submission: This will not be a part of the judging criteria, but is a prerequisite for nomination. The synopsis and title must be mailed within the first 24 hours to parvaaz@iiitb.ac.in with the subject in the following format: CutToTheChase_<TeamName>_<ShortFilmName>",
+      "Participation: A student can be a part of multiple teams in any capacity.",
+      "Submission: The video must be in MP4 or AVI format. Submit your film here.",
+      "Nominations: The core organizing team, along with the core team of The Film Division will nominate the best films out of all submissions.",
+      "Screening: The nominated films will be screened in the IIITB Auditorium in front of a live audience on the final day of Infin8.",
+      "Prizes: The judges will give their final verdict after the screening of all the films and cash prizes will be given away to the winners.",
+      "Audience participation: After the screening of all the films and the prize distribution, the audience will be given a 5-minute window to vote for their favourite film. This vote will decide the ‘Most Popular Film.’"
+    ],
+    contacts: [
+      { name: "Varshith Vattikuti", number: "9886987649" },
+      { name: "Nathan Mathew Verghese", number: "8848839946" }
+    ],
+    spocs: ["Varshith Vattikuti", "Nathan Mathew Verghese"]
+  }
+  ,
   {
     title: "Photo Competition",
     description: "",
