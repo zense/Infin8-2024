@@ -2,14 +2,13 @@ const events = [
   {
     title: "Nritta",
     description:
-      "Dazzling solo duo and group dance competitions bound to capture hearts and break all linguistic barriers through dance",
+      "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
     prizePool: 30000,
     eventId: 1,
     image: "../assets/banner.png",
-    rules:
-      "https://drive.google.com/file/d/1vKYP92tGkx-9zqNpBLZXJL6YU033bEdf/view?usp=sharing",
+    rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
+    contacts:[{name:"Aditya Nangarath",number:"7022271553"},{name:"Bysani Akshaya",number:"7799008583"}],
     spocs: ["Aditya Nangarath", "Bysani Akshaya"],
-    contacts: ["7022271553", "7799008583"],
   },
   {
     title: "Blitz",

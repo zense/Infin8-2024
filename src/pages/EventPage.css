@@ -71,6 +71,9 @@
   {
     font-family: Carter One;
   }
+  .rules-list{
+    list-style: inside;
+  }
 
   @media(max-width:810px){
     .eventpage-container{
