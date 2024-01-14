@@ -142,7 +142,7 @@ const events = [
 }
 ,
 {
-  title: "CODM World Championship",
+  title: "CODM ",
   description:
     "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
   prizePool: 3000,
@@ -273,7 +273,7 @@ const events = [
     spocs: [],
   },
   {
-    title: "Vedanta Darśana - Open Book Test",
+    title: "Vedanta Darsana ",
     description:
       "Embark on a profound journey of self-discovery and intellectual exploration with the Vedanta Enlightenment Test. This unique test is designed to deepen participants' understanding of Vedanta, an ancient philosophical tradition that delves into the fundamental principles of existence, consciousness, and self-realization.",
     prizePool: 3000,
