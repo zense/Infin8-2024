@@ -57,8 +57,9 @@ const Sponsors = () => {
           <h1>Contact Us</h1>
         </div>
         <div className="flex mt-10 gap-10">
-        <div className="flex flex-col sm:flex-row items-center justify-around">
-  <div className="flex flex-col items-center justify-around box w-full sm:w-1/3">
+
+        <div className="flex flex-col flex-wrap sm:flex-row items-center justify-around">
+  <div className="flex flex-col flex-wrap items-center justify-around box w-full sm:w-1/3">
     <MdOutlineMail style={{ width: "4.6875rem", height: "3.75rem" }} />
     <h1 className="box-text">Email Us</h1>
     <p>sac@iiitb.ac.in</p>

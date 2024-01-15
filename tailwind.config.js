@@ -18,6 +18,7 @@ export default {
       screens: {
         
         'md': '1005px',
+        "kk":"1018px",
       
       },
     },
