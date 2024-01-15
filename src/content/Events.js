@@ -262,6 +262,14 @@ const Eventss = [
       spocs: ["Arjun Subhedar", "Divyansh Singhal"]
     },
     {
+      title: "Non Trivial – Infinite Trivia `24",
+      description: "Prepare for a rollercoaster of mathematical excitement with Non Trivial! This is not your average quiz; it's a high-energy, fun-filled competition designed to engage participants in multiple thrilling rounds of math trivia. Whether you're a seasoned math whiz or just enjoy the thrill of numbers, this contest promises a riveting experience for all.",
+      prizePool: 3000,
+      rules:[],
+      eventId: "17",
+      contacts: [{}],
+    },
+    {
       title: "Vedanta Darsana ",
       description:
         "Embark on a profound journey of self-discovery and intellectual exploration with the Vedanta Enlightenment Test. This unique test is designed to deepen participants' understanding of Vedanta, an ancient philosophical tradition that delves into the fundamental principles of existence, consciousness, and self-realization.",
@@ -279,6 +287,13 @@ const Eventss = [
         { name: "Dhruv Gupta", number: "9015346166" }
       ],
       spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
+    },
+    {
+      title: "Echos of Expressions",
+      description: "",
+      prizePool: 4000,
+      eventId: "13",
+      contacts: [{name:"Ayush Gupta",number:"8884803648"}],
     },
   ],
   [
@@ -309,7 +324,7 @@ const Eventss = [
     {
       title: "Brush Up",
       description:
-        "Participants step into their imagination and splash their thoughts on their canvases",
+        "This is the painting and sketching competition. Inviting artists of all ages and skill levels to showcase their talent and express their imagination. Any style of art is welcomed, we just want you all to have fun! So grab your brushes and start painting! We can’t wait to see what you come up with! ",
       prizePool: 6000,
       eventId: "3",
       spocs: ["Vrajnandak Nangunoori", "Hemang Seth"],
@@ -446,11 +461,12 @@ const events = [
   {
     title: "Brush Up",
     description:
-      "Participants step into their imagination and splash their thoughts on their canvases",
+        "This is the painting and sketching competition. Inviting artists of all ages and skill levels to showcase their talent and express their imagination. Any style of art is welcomed, we just want you all to have fun! So grab your brushes and start painting! We can’t wait to see what you come up with! ",
     prizePool: 6000,
     eventId: "3",
+    rules:["There will be 2 categories - Painting, Sketching","The art club will provide basic materials like drawing sheets, brushes, pencils, erasers, and paint palettes.","It is recommended that students bring their medium for painting and sketching/shading. The art club will only provide a limited number of acrylic/poster paints.","The artwork must be done at the venue and not beforehand.","The results will be announced on the Infin8 Instagram handle.","Few on-spot registrations are available for IIITB students, however, non-students must register beforehand."],
     spocs: ["Vrajnandak Nangunoori", "Hemang Seth"],
-    contacts: ["8817972743", "9059408976"],
+    contacts: [{name:"Hemang Seth",number:"8817972743"}, {name:"Vrajnandak Nangunoori",number:"9059408976"}],
   },
   {
     title: "Ramp It Up",
@@ -623,12 +639,12 @@ const events = [
 
 ,
   {
-    title: "Slam poetry",
-    description: "",
+    title: "Echos of Expressions",
+    description: "Amidst the chaos of life, immerse yourself in the cathartic world of Slam Poetry. This competition beckons individuals to take a breather, step onto the stage, and unleash the power of spoken word to express their innermost thoughts, emotions, and reflections.",
     prizePool: 4000,
     eventId: "13",
-    spocs: ["Ayush Gupta"],
-    contacts: ["8884803648"],
+    rules:["It will be an offline event and participants need to be present in person.","The participants will be provided a paper to write their poems.","After the topic is released, participants will have 30 mins to submit their work after which submissions will not be accepted.","Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","The poetry recitation must be the same as the submitted work. ","Any disputes regarding handwriting eligibility will be up to the OC.","The use of the Internet is not allowed.","Poems on the chosen topic should be an original creation by the participant.","Unrhyming narrative formula, traditional theatrical devices including shifting voices and tones may be used.","The presentation must just be simple recitation and not a musical or theatrical performance.","Plagiarizing will lead to immediate disqualification"],
+    contacts: [{name:"Ayush Gupta",number:"8884803648"}],
   },
 
 
@@ -697,11 +713,12 @@ const events = [
   ],
 },
   {
-    title: "Math puzzle",
-    description: "",
+    title: "Non Trivial – Infinite Trivia `24",
+    description: "Prepare for a rollercoaster of mathematical excitement with Non Trivial! This is not your average quiz; it's a high-energy, fun-filled competition designed to engage participants in multiple thrilling rounds of math trivia. Whether you're a seasoned math whiz or just enjoy the thrill of numbers, this contest promises a riveting experience for all.",
     prizePool: 3000,
+    rules:["It will be an offline event.","There are multiple rounds each with different formats as stated below.To ensure everyone plays on a level field, seeking assistance from individuals outside your team for direct answers isn't allowed. However, if you're stuck, feel free to seek general guidance from available resources or ask the organizers for hints!To create a fair and challenging playing field, the use of external materials like devices or books during the activity is not allowed. We encourage relying on your own knowledge and teamwork to solve the puzzles! Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","Any instance of “Cheating” shall not be tolerated and will lead to immediate disqualification.","You will be given rough sheets whenever deemed required. You need not carry any paper of your own. Rough sheets will be provided when deemed necessary.","When we have a buzzer round please note that incase of any conflict regarding the clashes in buzzer shall be resolved by the Organisers. The rounds are as follows: Round 1: Derive or Die. Round 2: Solve or Stagnate. Round 3: Stapoo – Solve to go forward.","The format is only temporary and can be altered based on the size of participation."],
     eventId: "17",
-    spocs: [],
+    contacts: [{name:"Shubhranil Basak",number:"9366039521"}],
   },
   {
     title: "Vedanta Darsana ",
@@ -742,11 +759,9 @@ const events = [
       "Results will be announced on our Instagram handle."
     ],
     contacts: [
-      /* Add contact details if available */
+      { name: "Valmik Belgaonkar", number: "8356819477" },
+      { name: "Rishit Mane", number: "7738147865" }
     ],
-    spocs: [
-      /* Add SPOCs details if available */
-    ]
   }
   ,
   {

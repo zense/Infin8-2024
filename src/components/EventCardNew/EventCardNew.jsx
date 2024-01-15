@@ -20,9 +20,9 @@ const EventCardNew = ({
       />
       <div
         className={`p-4 bg-${colour} flex flex-col justify-center items-center shadow text-white`}
-        style={{height: "95px " }}
+        style={{height: "120px " }}
       >
-        <h2 className="text-3xl text1 mb-1">{name}</h2>
+        <h2 className="text-3xl text1 text-center mb-1">{name}</h2>
         <p className="text-2xl text2">{Rollno}</p>
       </div>
     </div>

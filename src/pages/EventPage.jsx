@@ -4,7 +4,7 @@ import vector2 from "../assets/vector2.png";
 import "./EventPage.css";
 import back from "../assets/back.png";
 import white_img from "../assets/white_img.png";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, ScrollRestoration, useLocation, useNavigate, useParams } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import events from "../content/Events";
 import image1 from "../assets/white_img.png";
@@ -39,16 +39,16 @@ const EventPage = () => {
   let { id } = useParams();
   useEffect(() => {
     const element = document.getElementById("cont");
-    element.scrollIntoView();
+    window.scrollTo(0,0)
   }, [])
 
   return (
-    <div className="overflow-hidden w-auto" id="cont"> 
-      <div className="flex bg-purple w-screen eventpage-container">
+    <div className="overflow-hidden w-auto" > 
+      <div className="flex bg-purple w-screen eventpage-container" id="cont">
         <div className="bg-purple relative w-2/3 flex flex-col upper-text-eventpage">
           <div className="flex items-center p-5">
             <img className="mr-1 size-3" src={back} alt="Back Image" />
-            <Link to={"/events"} className="text-white sm:text-2xl back block">
+            <Link to={"/events"} className="text-white sm:text-2xl back block" >
               EVENTS
             </Link>
           </div>

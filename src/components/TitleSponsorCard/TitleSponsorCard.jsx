@@ -5,7 +5,7 @@ import "./TitleSponsorCard.css";
 const TitleSponsorCard = ({ sponsor }) => {
   return (
     //change width value according to the page
-    <div className={`bg-blue flex flex-col`} style={{ width: "550px" }}>
+    <div className={`bg-blue flex flex-col titlesponsor-image`}>
       <div className="image-container">
         <img
           className={` w-full image`}

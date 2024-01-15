@@ -8,6 +8,7 @@ import { Eventss } from "../content/Events";
 import {motion} from "framer-motion"
 
 const Events = () => {
+
   return (
     <>
       <motion.div className="events-wrapper bg-yellow w-screen"

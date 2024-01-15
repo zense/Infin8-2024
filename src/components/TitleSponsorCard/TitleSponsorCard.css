@@ -5,6 +5,11 @@
    
 
 }
+@media (max-width:500px){
+   .titlesponsor-image{
+      width: 90vw;
+   }
+}
 
 .sponsor
 {

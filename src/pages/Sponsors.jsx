@@ -15,7 +15,7 @@ const Sponsors = () => {
   return (
     <>
       <div className="sponsors-wrapper bg-purple w-screen ">
-        <div className="events-header flex justify-center items-center relative w-screen pb-4">
+        <div className="events-header flex justify-center items-center relative w-screen md:pb-4">
           <Link
             className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold"
             to={"/"}
@@ -23,13 +23,13 @@ const Sponsors = () => {
             &lt; Back
           </Link>
           <img src={design} className="rotate-180 w-10 md:w-auto" alt="" />
-          <h1 className="heading text-5xl md:text-9xl text-yellow px-3 md:px-9 py-16 pb-20">
+          <h1 className="heading text-4xl md:text-9xl text-yellow px-3 md:px-9 py-16 md:pb-20">
             SPONSORS
           </h1>
           <img src={design} className="w-10 md:w-auto" alt="" />
         </div>
         <div className="flex flex-col items-center justify-center">
-        <div className="titleS flex justify-center items-center">
+        <div className="titleS flex justify-center items-center mb-5 md:mb-auto">
             Title Sponsor
           </div>
           <div className="md:pt-10">
@@ -37,11 +37,11 @@ const Sponsors = () => {
               sponsor={{ name: "Infin8", logo: "https://st2.depositphotos.com/3588977/9960/i/600/depositphotos_99605378-stock-photo-lilac-breasted-roller.jpg" }}
             />
           </div>
-          <div className="partners flex justify-center items-center mt-32 mb-10">
+          <div className="partners flex justify-center items-center mt-16 md:mt-32 mb-10">
             Our Partners
           </div>
           <div className="event-cards flex flex-wrap items-center justify-center 2xl:px-32 md:pt-1 pb-40">
-            <div className="flex flex-wrap items-center justify-center gap-20 2xl:gap-36 md:gap-30" >
+            <div className="flex flex-wrap items-center justify-center gap-16 2xl:gap-36 md:gap-30" >
             {sponsors.map((element) => (
               <SponsorCard
                 key={element.id}
@@ -58,7 +58,7 @@ const Sponsors = () => {
         </div>
         <div className="flex mt-10 gap-10">
 
-        <div className="flex flex-col flex-wrap sm:flex-row items-center justify-around">
+        <div className="flex flex-col flex-wrap sm:flex-row gap-9 items-center justify-around">
   <div className="flex flex-col flex-wrap items-center justify-around box w-full sm:w-1/3">
     <MdOutlineMail style={{ width: "4.6875rem", height: "3.75rem" }} />
     <h1 className="box-text">Email Us</h1>

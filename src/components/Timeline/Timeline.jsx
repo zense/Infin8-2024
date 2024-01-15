@@ -1,5 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import './Timeline.css'
+import Nukkad from "../../assets/timelineEvents/Nukkad.jpg"
+import clash from "../../assets/timelineEvents/clash.jpg"
+import jijnasa from "../../assets/timelineEvents/Jijnasa.jpg"
+import lost from "../../assets/timelineEvents/Lost.jpg"
+import Nrittas from "../../assets/timelineEvents/Nrittas.png"
+import Nrittag from "../../assets/timelineEvents/Nrittag.png"
+import cards from "../../assets/timelineEvents/Cards.png"
+
+import sargam from "../../assets/timelineEvents/Sargam.png"
+import codm from "../../assets/timelineEvents/codm.png"
+import bgmi from "../../assets/timelineEvents/PUBG.png"
+import league from "../../assets/timelineEvents/League.png"
+import jam from "../../assets/timelineEvents/jam.png"
+import rang from "../../assets/timelineEvents/Stage.png"
+import math from "../../assets/timelineEvents/MATH.png"
+import vedanta from "../../assets/timelineEvents/Vedanta.png"
+
+import gulp from "../../assets/timelineEvents/gulp.png"
+import brush from "../../assets/timelineEvents/brush.png"
+import valo from "../../assets/timelineEvents/valo.png"
+import fifa from "../../assets/timelineEvents/fifa.png"
+import cut from "../../assets/timelineEvents/cut.png"
+import ramp from "../../assets/timelineEvents/ramp.png"
+import battle from "../../assets/timelineEvents/battle.png"
 
 const Timeline = () => {
   const [day, setDay] = useState("btn-1");
@@ -80,14 +104,14 @@ const Timeline = () => {
            </div>
       </div>
       <div className='gallery-container' id='events-btn-1' >
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-1' id='1' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-2' id='2' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-3' id='3' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-4' id='4' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-5' id='5' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-6' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-7' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-8' alt="" />
+        <img src={Nukkad} className='gallery-item gallery-item-1' id='1' alt="" />
+        <img src={clash} className='gallery-item gallery-item-2' id='2' alt="" />
+        <img src={jijnasa} className='gallery-item gallery-item-3' id='3' alt="" />
+        <img src={lost} className='gallery-item gallery-item-4' id='4' alt="" />
+        <img src={Nrittas} className='gallery-item gallery-item-5' id='5' alt="" />
+        <img src={Nrittag} className='gallery-item gallery-item-6' alt="" />
+        <img src={cards} className='gallery-item gallery-item-7' alt="" />
+        <img src={lost} className='gallery-item gallery-item-8' alt="" />
         <button onClick={handlePrevClick} className='button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center'>
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
             <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
@@ -101,14 +125,14 @@ const Timeline = () => {
       </div>
 
       <div className='gallery-container' id='events-btn-2' >
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-1' id='1' alt="" />
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-2' id='2' alt="" />
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-3' id='3' alt="" />
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-4' id='4' alt="" />
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-5' id='5' alt="" />
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-6' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-7' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-8' alt="" />
+        <img src={sargam} className='gallery-item gallery-item-1' id='1' alt="" />
+        <img src={codm} className='gallery-item gallery-item-2' id='2' alt="" />
+        <img src={bgmi} className='gallery-item gallery-item-3' id='3' alt="" />
+        <img src={league} className='gallery-item gallery-item-4' id='4' alt="" />
+        <img src={jam} className='gallery-item gallery-item-5' id='5' alt="" />
+        <img src={rang} className='gallery-item gallery-item-6' alt="" />
+        <img src={math} className='gallery-item gallery-item-7' alt="" />
+        <img src={vedanta} className='gallery-item gallery-item-8' alt="" />
         <button onClick={handlePrevClick} className='button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center'>
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
             <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
@@ -122,14 +146,14 @@ const Timeline = () => {
       </div>
 
       <div className='gallery-container' id='events-btn-3' >
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-1' id='1' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-2' id='2' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-3' id='3' alt="" />
-        <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-4' id='4' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-5' id='5' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-6' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-7' alt="" />
-        <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='gallery-item gallery-item-8' alt="" />
+        <img src={gulp} className='gallery-item gallery-item-1' id='1' alt="" />
+        <img src={brush} className='gallery-item gallery-item-2' id='2' alt="" />
+        <img src={valo} className='gallery-item gallery-item-3' id='3' alt="" />
+        <img src={fifa} className='gallery-item gallery-item-4' id='4' alt="" />
+        <img src={cut} className='gallery-item gallery-item-5' id='5' alt="" />
+        <img src={ramp} className='gallery-item gallery-item-6' alt="" />
+        <img src={battle} className='gallery-item gallery-item-7' alt="" />
+        <img src={fifa} className='gallery-item gallery-item-8' alt="" />
         <button onClick={handlePrevClick} className='button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center'>
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
             <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
