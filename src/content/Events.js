@@ -453,6 +453,7 @@ const events = [
       "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
     prizePool: 30000,
     eventId: 1,
+    lastDate:" 9th Feb 11:59 pm",
     image: "../assets/banner.png",
     rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
     contacts:[{name:"Aditya Nangarath",number:"7022271553"},{name:"Bysani Akshaya",number:"7799008583"}],
@@ -472,6 +473,7 @@ const events = [
         "This is the painting and sketching competition. Inviting artists of all ages and skill levels to showcase their talent and express their imagination. Any style of art is welcomed, we just want you all to have fun! So grab your brushes and start painting! We can’t wait to see what you come up with! ",
     prizePool: 6000,
     eventId: "3",
+    lastDate:" 11th Feb 11:59 pm",
     rules:["There will be 2 categories - Painting, Sketching","The art club will provide basic materials like drawing sheets, brushes, pencils, erasers, and paint palettes.","It is recommended that students bring their medium for painting and sketching/shading. The art club will only provide a limited number of acrylic/poster paints.","The artwork must be done at the venue and not beforehand.","The results will be announced on the Infin8 Instagram handle.","Few on-spot registrations are available for IIITB students, however, non-students must register beforehand."],
     spocs: ["Vrajnandak Nangunoori", "Hemang Seth"],
     contacts: [{name:"Hemang Seth",number:"8817972743"}, {name:"Vrajnandak Nangunoori",number:"9059408976"}],
@@ -482,6 +484,7 @@ const events = [
       "Today's youth is known for fashion. Fashion not only promotes creativity, but its also a form of expressing and empowering oneself. Style is what defines you. From traditional to casual, from vintage to trendy, every fashion style speaks of itself and of the culture it possesses. We're presenting 'Ramp it up' for the girls and boys who would love to show their modish nature by being a part of the show! Gone is the time of just watching ramp shows, now it's your turn to join the show and 'ramp it up'!",
     prizePool: 10000,
     eventId: "4",
+    lastDate:" 11th Feb 11:59 pm",
     rules:["You can form a team of 2 or take part individually.","The time limit for every team/individual would be 1 minute (Including setup and the performance both).","Negative marking if participants exceed the time limit.","Vulgarity is strongly prohibited. Any form of obscenity will lead to debarring the team/individual from the contest.","Teams/individuals will be judged oncostumes, walking stance, attitude, hairstyle, and overall presentation.","The decision of the judges will be final and binding.","All costumes are permitted, which maintain decency including original costumes & fashion designs.","Purchased, professionally made, or rented costumes are permitted.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/"],
     contacts: [{name:"H Sanjeev",number:"9491370927"}, {name:"Shreya Chavan",number:"9347425563"}],
   },
@@ -491,6 +494,7 @@ const events = [
       "Show off all the useless, yet intriguing information you have collected throughout your life. Compete in this trivia competition to prove that you're the geekiest of them all.",
     prizePool: 10000,
     eventId: "5",
+    lastDate:" 10th Feb 11:59 pm",
     rules: [
       "It will be an offline event, participants need to be present at the venue to participate. ",
       "Each team can have 3-5 members.",
@@ -515,6 +519,7 @@ const events = [
       "Battle of Bands is where battalions of music enthusiasts come together and strum their vocal cords against one another in a fierce battle to claim the glory of victory. Spectators will witness a plethora of notes each competing against the other to capture the hearts of dazzled listeners.",
     prizePool: 25000,
     eventId: "6",
+    lastDate:" 11th Feb 11:59 pm",
     rules: [
       "Time Limit: Bands are allocated a maximum of 20 minutes for their performance, inclusive of stage setup.",
       "Member Limit: Each participating band can consist of up to 8 members.",
@@ -547,6 +552,7 @@ const events = [
       "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
     prizePool: 12000,
     eventId: 8,
+    lastDate:" 9th Feb 11:59 pm",
     rules: [
       "Time limit - Maximum 15 minutes from entry to exit.",
       "We can provide basic props if informed in advance.",
@@ -568,7 +574,7 @@ const events = [
     "Unleash your unique talents on the theatrical battlefield. Join the Rang Manch and let the curtains rise on your unique talents as you vie for the spotlight in this thrilling showcase of theatrical brilliance!",
   prizePool: 20000,
   eventId: 9,
- 
+  lastDate:" 10th Feb 11:59 pm",
   rules: [
     "Time limit - The play should be around a minimum of 15 minutes around a maximum of 45 minutes from ‘stage entry’ to ‘stage exit’.",
     "There’s no upper bound on team sizes.",
@@ -589,6 +595,7 @@ const events = [
     "Join us for an evening filled with soulful voices and captivating tunes as talented individuals take the stage to serenade you with their musical prowess. Let the enchanting melodies create a memorable atmosphere, celebrating the beauty of music in this vibrant showcase of vocal talent.",
   prizePool: 10000,
   eventId: 10,
+  lastDate:" 10th Feb 11:59 pm",
   rules: [
     "Time Limit: Solo singers are allotted a maximum of 4 minutes for their entire stage performance.",
     "Musical Diversity: Participants are required to showcase their versatility by presenting one of these - (i) Indian classical/semi-classical (ii) non-classical genre. Separate prizes will be awarded for each category.",
@@ -609,7 +616,7 @@ const events = [
     "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
   prizePool: 3000,
   eventId:11,
-
+  lastDate:" 10th Feb 11:59 pm",
   rules: [
     "Minimum 2 IIITB members, current or alumni.",
     "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
@@ -631,7 +638,7 @@ const events = [
     "Embark on a transformative journey of self-discovery with 'Jijñāsa - Spiritual Quest.' Engage in a riveting quest that challenges your intellect and spiritual insight through a series of interdependent puzzles. Join the exploration for fun and enlightenment, where the fastest and most accurate participant emerges victorious.",
   prizePool:3000,
   eventId: 12,
-
+  lastDate:" 9th Feb 11:59 pm",
   rules: [
     "Participants will be given a booklet and a puzzle, they have to solve the puzzles with the help of a booklet.",
     "Participants are expected to solve three levels of the quiz which are interdependent on each other.",
@@ -651,6 +658,7 @@ const events = [
     description: "Amidst the chaos of life, immerse yourself in the cathartic world of Slam Poetry. This competition beckons individuals to take a breather, step onto the stage, and unleash the power of spoken word to express their innermost thoughts, emotions, and reflections.",
     prizePool: 4000,
     eventId: "13",
+    lastDate:" 10th Feb 11:59 pm",
     rules:["It will be an offline event and participants need to be present in person.","The participants will be provided a paper to write their poems.","After the topic is released, participants will have 30 mins to submit their work after which submissions will not be accepted.","Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","The poetry recitation must be the same as the submitted work. ","Any disputes regarding handwriting eligibility will be up to the OC.","The use of the Internet is not allowed.","Poems on the chosen topic should be an original creation by the participant.","Unrhyming narrative formula, traditional theatrical devices including shifting voices and tones may be used.","The presentation must just be simple recitation and not a musical or theatrical performance.","Plagiarizing will lead to immediate disqualification"],
     contacts: [{name:"Ayush Gupta",number:"8884803648"}],
   },
@@ -662,7 +670,7 @@ const events = [
     "Experience the classic joy of Dumb Charades, every kid's beloved pastime. Engage in three thrilling rounds where only the best move forward to the finals. It's a test of your acting skills and team chemistry. Join the fun and aim for the top spot.",
   prizePool: 4000,
   eventId: "14",
-
+  lastDate:" 9th Feb 11:59 pm",
   rules: [
     "Each group can have 4 or 5 members.",
     "The performance has to be silent with no words as the word ‘dumb’ goes.",
@@ -684,7 +692,7 @@ const events = [
     "Get ready for a laughter-packed session with Cards Against Humanity! Join the fun, where participants use random answer cards to respond to unknown questions. The game, marked by blindfolded judges and diverse judging criteria, promises quick-witted amusement and an evening of delightful chaos.",
   prizePool: 4000,
   eventId: "15",
-
+  lastDate:" 9th Feb 11:59 pm",
   rules: [
     "Participants will be grouped into groups of five.",
     "Each participant will be given 5 cards that contain random answers to random questions.",
@@ -704,7 +712,7 @@ const events = [
     "JAM, originating from the renowned BBC radio show, is a captivating verbal challenge game where participants strive to speak for exactly one minute on a given topic without breaking three fundamental rules. The game has evolved into a delightful and light-hearted event, emphasizing wit, spontaneity, and linguistic agility.",
   prizePool: 8000,
   eventId: "16",
-
+  lastDate:" 10th Feb 11:59 pm",
   rules: [
     "Repetition: Avoid repeating any word or phrase, particularly common and proper nouns. Synonyms, even obscure ones, are encouraged to maintain variety in speech.",
     "Hesitation: Speak fluently without any momentary pauses or stumbling over words. Any noticeable pause can lead to a successful challenge.",
@@ -726,6 +734,7 @@ const events = [
     prizePool: 3000,
     rules:["It will be an offline event.","There are multiple rounds each with different formats as stated below.To ensure everyone plays on a level field, seeking assistance from individuals outside your team for direct answers isn't allowed. However, if you're stuck, feel free to seek general guidance from available resources or ask the organizers for hints!To create a fair and challenging playing field, the use of external materials like devices or books during the activity is not allowed. We encourage relying on your own knowledge and teamwork to solve the puzzles! Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","Any instance of “Cheating” shall not be tolerated and will lead to immediate disqualification.","You will be given rough sheets whenever deemed required. You need not carry any paper of your own. Rough sheets will be provided when deemed necessary.","When we have a buzzer round please note that incase of any conflict regarding the clashes in buzzer shall be resolved by the Organisers. The rounds are as follows: Round 1: Derive or Die. Round 2: Solve or Stagnate. Round 3: Stapoo – Solve to go forward.","The format is only temporary and can be altered based on the size of participation."],
     eventId: "17",
+    lastDate:" 10th Feb 11:59 pm",
     contacts: [{name:"Shubhranil Basak",number:"9366039521"}],
   },
   {
@@ -734,7 +743,7 @@ const events = [
       "Embark on a profound journey of self-discovery and intellectual exploration with the Vedanta Enlightenment Test. This unique test is designed to deepen participants' understanding of Vedanta, an ancient philosophical tradition that delves into the fundamental principles of existence, consciousness, and self-realization.",
     prizePool: 3000,
     eventId: 18,
-
+    lastDate:" 10th Feb 11:59 pm",
     rules: [
       "The test will be a maximum of 1 hour. Please manage your time effectively to address all questions.",
       "Necessary reference material will be provided for all participants. No external materials are permitted.",
@@ -753,7 +762,7 @@ const events = [
       "What can be better than getting paid for eating good food? Put your hungry stomach to the test in this competitive eating contest. The faster you can gobble up all the food and gulp the beverages, the better chance you have to win a prize. What can you win? Some cash and more food!",
     prizePool: 3000,
     eventId: "19",
-
+    lastDate:" 11th Feb 11:59 pm",
     rules: [
       "This is a one-on-one eating contest.",
       "There will be a table manager for every 10-12 people to judge the participants.",
@@ -778,7 +787,7 @@ const events = [
       "Welcome to FIFA – a thrilling 11v11 football spectacle where the beauty of the game meets strategic brilliance! In this premier football simulation, it's not just about goals; it's about crafting a winning strategy with your unique squad. Choose players with specialized skills, coordinate plays, and outsmart your opponents. In FIFA, tactics take center stage, elevating your gameplay beyond simple ball control. Experience the essence of football where every move counts, and victory belongs to the tactically astute!",
     prizePool: 4000,
     eventId: "20",
-
+    lastDate:" 11th Feb 11:59 pm",
     rules: [
       "FIFA 23 with squads will be used.",
       "You cannot select any fictional or All-Star teams. Any regular-season teams, as installed with the original game, can be selected.",
@@ -813,7 +822,7 @@ const events = [
       "Here is presenting a world-renowned, enthralling, 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities! The main game mode focuses on Search and Destroy where one team attacks by planting a bomb, and the other defends by avoiding detonation. More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine. Tactics beat gunplay!",
     prizePool: 4000,
     eventId: "21",
-
+    lastDate:" 11th Feb 11:59 pm",
     rules: [
       "Team of 5 + 1 substitute (optional)",
       "Minimum one player (part of the playing roster of at least one game, not the substitute) should be a IIITB student",
@@ -836,7 +845,7 @@ const events = [
       "Embark on a thrilling adventure with IIITBs BGMI Showdown, a battleground where teams collide in intense battles. Demonstrate your gaming prowess, securing kills for bonuses as you strive for triumph in this gripping showdown. Brace yourself for an adrenaline-fueled experience of strategic combat and seamless teamwork, as every move counts in this electrifying gaming spectacle!",
     prizePool: 3000,
     eventId: "22",
-
+    lastDate:" 10th Feb 11:59 pm",
     rules: [
       "Minimum 2 IIITB members, current or alumni.",
       "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
@@ -859,7 +868,7 @@ const events = [
       "Dive into the thrilling world of Clash Royale in our ESports event! Experience the strategic rush of this vintage Supercell classic tower rush and strategy game. Showcase your gaming prowess, join the online competition, and compete for the top spot. It's your chance to enjoy the excitement of Clash Royale, prove your skills, and have a blast in this action-packed gaming showdown!",
     prizePool: 2000,
     eventId: "23",
-
+    lastDate:" 9th Feb 11:59 pm",
     rules: [
       "The tournament is only open to invited participants, who will receive the necessary login information an hour before the event starts.",
       "The tournament will last for 4 hours and will involve normal matches in Clash Royale.",
@@ -879,6 +888,7 @@ const events = [
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
     prizePool: 200000,
     eventId: "24",
+    lastDate:" 9th Feb 11:59 pm",
     rules: [
       "Team Size - 8-15 members",
       "Minimum 4 on stage at all times. No Vulgarity.",
@@ -899,6 +909,7 @@ const events = [
       "A picture speaks a thousand words, a film is a million pictures… do the math! Show off your writing, acting, and editing prowess to influence the masses with your short yet impactful film.",
     prizePool: 12000,
     eventId: "25",
+    lastDate:" 11th Feb 11:59 pm",
     rules: [
       "The competition will be a 100-hour event. Participants will have to write, shoot, and edit the entire film within 100 hours.",
       "101 hours prior to the submission deadline, there’ll be a small gathering of all the participants wherein each team will pick 1 chit from 2 jars. 1 jar will have the 1st line of the screenplay (or the 1st line that will be heard in the film: TBD) and the other jar will have a theme. Participants will have to stick to both these restrictions.",
@@ -923,6 +934,7 @@ const events = [
     description: "",
     prizePool: 5000,
     eventId: "26",
+    lastDate:" 11th Feb 11:59 pm",
     spocs: ["M Srinivasan", "Vaibhav Thapliyal"],
     contacts: ["9353738745", "8128818422"],
   },

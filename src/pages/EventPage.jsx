@@ -60,7 +60,7 @@ const EventPage = () => {
           <div className="text-white text-xl sm:text-3xl text-right h-1/2 flex flex-col items-end justify-center px-3 sm:px-12 pb-8 sm:pb-0">
             <div className="h1">Last Date to Register</div>
             <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-12">
-              20 February 2024
+            {events[Number(id) - 1].lastDate}
             </div>
             <div className="h1">Prize pool</div>
             <div className="h2 text-3xl sm:text-5xl">
