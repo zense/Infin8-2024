@@ -14,6 +14,22 @@ import "./Team.css"
 const Team = () => {
   const [mode,setMode]=useState("OrgComm");
   let arr=[];
+  useEffect(()=>{
+    const choice = document.getElementById(mode);
+    const ani = document.getElementById("ani")
+    choice.style.color="#000"
+    if(mode==="OrgComm") ani.style.transform = `translateX(0px)`;
+    else if (mode==="DesignTeam") ani.style.transform = `translateX(250px)`
+    else if (mode==="WebDevTeam") ani.style.transform = `translateX(500px)`
+  },[mode])
+  const handleClick = (e)=>{
+    const choice = document.getElementById(mode);
+    if(mode!==e.target.id){
+      choice.style.color="#FFF"
+    }
+   
+    setMode(e.target.id);
+  }
   if(mode=="OrgComm"){
     arr=OrgComm;
   }else if(mode=="WebDevTeam"){
@@ -38,9 +54,12 @@ const Team = () => {
           </div>
           <div className='btn-bar-wrapper'>
             <nav className='btn-bar'>
-              <button  id="OrgComm" className={`btn ${mode==="OrgComm" ? "active":""}`} onClick={()=>setMode("OrgComm")}>Organizing Committee</button>
-              <button id="DesignTeam" className={`btn ${mode==="DesignTeam" ? "active":""}`} onClick={()=>setMode("DesignTeam")}>Design</button>
-              <button id="WebDevTeam" className={`btn ${mode==="WebDevTeam" ? "active":""}`} onClick={()=>setMode("WebDevTeam")}>Website Dev</button>
+              <div className='flex relative'>
+              <button  id="OrgComm" className={`btn`} onClick={handleClick}>Organizing Committee</button>
+              <button id="DesignTeam" className={`btn`} onClick={handleClick}>Design</button>
+              <button id="WebDevTeam" className={`btn`} onClick={handleClick}>Website Dev</button>
+              <div className='absolute slider-team bg-yellow left-0' id='ani'></div>
+              </div>
             </nav>
           </div>
         </div>

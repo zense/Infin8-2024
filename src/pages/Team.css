@@ -66,15 +66,17 @@ body{
     overflow-wrap: normal;
 }
 .btn-bar{
-    width:800px;
+    width:750px;
     height:90px;
     flex-shrink:0;
     background-color:#1C6C9D;
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
     margin-top:8vh;
     border-radius:10vw;
+    position: relative;
+    padding-left:10px;
 }
 .btn-bar-wrapper{
     display:flex;
@@ -124,6 +126,17 @@ body{
     background-color: #FDC500;
     color:#000;
     border-radius:10vw;
+}
+.slider-team{
+    width: 240px;
+    height: 50px;
+    border-radius: 10vw;
+    z-index: 0;
+    transition: all 0.3s ease;
+}
+button{
+    z-index: 1;
+    text-align: center;
 }
 @media screen and (max-width:804px) {
     .btn-bar{
