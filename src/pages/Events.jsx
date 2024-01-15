@@ -10,7 +10,9 @@ import {motion} from "framer-motion"
 const Events = () => {
   return (
     <>
-      <motion.div className="events-wrapper bg-yellow w-screen" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:0.5}}> 
+      <motion.div className="events-wrapper bg-yellow w-screen"
+      //  initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:0.5}}
+       > 
         <div className="events-header flex justify-center items-center relative w-screen">
           <Link
             className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold"

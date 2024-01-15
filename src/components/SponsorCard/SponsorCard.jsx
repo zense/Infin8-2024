@@ -3,10 +3,10 @@ import "./SponsorCard.css";
 // use width=60 for smaller cards and width =
 const SponsorCard = ({ sponsor }) => {
   return (
-    <div className={`w-72   flex flex-col `}>
+    <div className={`w-92 flex flex-col`}>
       <div className="image-container">
         <img
-          className={`image w-72 image`}
+          className={`image w-full image`}
           src={sponsor.logo}
           alt={sponsor.name}
         />

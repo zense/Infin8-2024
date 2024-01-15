@@ -7,18 +7,19 @@ const Timeline = () => {
   useEffect(() => {
     const choice = document.getElementById(day)
     const todisable = document.getElementsByClassName("gallery-container")
+    const ani = document.getElementById("ani")
     for(let i = 0; i<todisable.length;i++){
       todisable[i].style.display="none"
     }
-    choice.classList.add("bg-yellow")
     choice.classList.remove("text-yellow")
+    ani.style.transform = `translateX(${100*(Number(day[day.length-1])-1)}px)`
+    console.log(`${100*(Number(day[day.length-1])-1)}px`)
     const toshow = document.getElementById(`events-${day}`);
     toshow.style.display = "flex"
   }, [day])
 
   const handleClick = (e) =>{
     const choice = document.getElementById(day)
-    choice.classList.remove("bg-yellow")
     choice.classList.add("text-yellow")
     setDay(e.target.id)
   }
@@ -55,16 +56,28 @@ const Timeline = () => {
       <div className="timeline-heading w-full text-yellow flex items-center justify-center text-9xl pt-20">
         <h1>TIMELINE</h1>
       </div>
-      <div className='w-full h-20 flex items-center justify-center day-btns z-10 text-xl md:gap- pt-28'>
-        <div className="btn-1 border-yellow border-4 px-3 p-1 text-yellow cursor-pointer" id='btn-1' onClick={handleClick}>
+      <div className='w-full flex items-center justify-center day-btns z-10 text-2xl mt-20'>
+        <div className='flex border-4 border-yellow rounded-xl relative'>
+
+        <span className="btn-1 text-yellow cursor-pointer btns text-center" id='btn-1'
+         onClick={handleClick}
+        >
             Day 1
-        </div>
-        <div className="btn-2 border-yellow border-4 px-3 p-1 text-yellow cursor-pointer" id='btn-2' onClick={handleClick}>
+        </span>
+        <span className="btn-2 text-yellow cursor-pointer btns text-center" id='btn-2'
+         onClick={handleClick}
+        >
             Day 2
-        </div>
-        <div className="btn-3 border-yellow border-4 px-3 p-1 text-yellow cursor-pointer" id='btn-3' onClick={handleClick}>
+        </span>
+        <span className="btn-3 text-yellow cursor-pointer btns text-center" id='btn-3'
+         onClick={handleClick}
+        >
             Day 3
+        </span>
+        <div className='start-home hover-animation absolute h-full width bg-yellow rounded-sm' id='ani'>
+
         </div>
+           </div>
       </div>
       <div className='gallery-container' id='events-btn-1' >
         <img src="https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75" className='gallery-item gallery-item-1' id='1' alt="" />

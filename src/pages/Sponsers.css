@@ -1,6 +1,8 @@
+.sponsors-wrapper{
+  background-image: url(../assets/Intersect.svg);
+}
 .heading {
   color: #fcd200;
-
   text-align: center;
   font-family: Mochiy Pop P One;
   font-size: 6.875rem;
@@ -9,6 +11,17 @@
 }
 .titleS {
   background-color: #fa0;
+  width: 20rem;
+  height: 5rem;
+  flex-shrink: 0;
+  color: #000;
+
+  text-align: center;
+  font-family: Righteous;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .titleS h1 {
   font-family: Righteous;

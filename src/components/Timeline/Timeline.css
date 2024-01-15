@@ -85,6 +85,17 @@
 .button-next{
     right: 20px;
 }
+.btns{
+    width: 100px;
+}
+.btn-1, .btn-2, .btn-3{
+    display: inline-block;
+    z-index: 1;
+}
+.hover-animation{
+    width: 100px;
+    transition: all 0.7s ease;
+}
 
 @media(max-width:810px){
     .timeline-heading{
@@ -101,3 +112,31 @@
         height: 220vw;
     }
 }
+
+/* nav .start-home, span:nth-child(1):hover~.hover-animation{
+    transform: translateX(0) !important;
+    background-color: #FDC500;
+} */
+/* span:nth-child(1):hover{
+    color: #000;
+} */
+/* span:nth-child(1):hover ~span:not(:hover){
+    color: #FDC500;
+} */
+/* nav .start-home, span:nth-child(2):hover~.hover-animation{
+    transform: translateX(100px) !important;
+    background-color:#FDC500;
+} */
+/* span:nth-child(2):hover ~span:nth-child(2){
+    color: #FDC500 !important;
+} */
+/* span:nth-child(2):hover{
+    color: #000;
+} */
+/* nav .start-home, span:nth-child(3):hover~.hover-animation{
+    transform: translateX(200px) !important;
+    background-color: #FDC500;
+} */
+/* span:nth-child(3):hover{
+    color: #000;
+} */
