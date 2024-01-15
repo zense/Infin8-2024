@@ -13,6 +13,7 @@ export default {
       'textdarkblue': "#4A3AFF",
       "dark-purple":"#6E1069",
       'blue':'#17ADC1',
+      'yellowt':'#FFD819',
     },
     extend: {
       screens: {

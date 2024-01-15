@@ -4,8 +4,9 @@ import TeamCard from '../components/TeamCard/TeamCard.jsx'
 import WebDevTeam from "../content/WebDevTeam.js"
 import DesignTeam from "../content/DesignTeam.js"
 import OrgComm from "../content/OrgComm.js"
-import group39915 from "../assets/Group 39915.png"
-import group39916 from "../assets/Group 39916.png"
+import vec1 from "../assets/vec1.svg"
+import vec2 from "../assets/vec2.svg"
+import team_background from "../assets/team_background.png"
 import { useState } from 'react'
 import back from "../assets/back.png"
 import { Link } from 'react-router-dom'
@@ -30,10 +31,10 @@ const Team = () => {
               <button className='home-btn'>Back</button>
             </div>
           </Link>
-          <div className='team-txt-container'>
-            <img className='dec-img' src={group39916} alt='decoration-image'/>
-            <h1 className='team-txt'>Team</h1>
-            <img className='dec-img' src={group39915} alt='decoration-image'/>
+          <div className='team-txt-container gap-4'>
+            <img className='dec-img w-28' src={vec1} alt='decoration-image'/>
+            <h1 className='team-txt text-8xl'>Team</h1>
+            <img className='dec-img w-28' src={vec2} alt='decoration-image'/>
           </div>
           <div className='btn-bar-wrapper'>
             <nav className='btn-bar'>
@@ -60,12 +61,13 @@ const Team = () => {
                 </div>
                 )
               }
+              const flag2=(index<3)
               return(
                   <div className='img-wrapper'>
                     <TeamCard
                       name={element.name}
                       Rollno={element.Rollno}
-                      colour="blue"
+                      colour={"yellow"}
                       imageDestination={element.imageDestination}
                       />
                   </div>
@@ -73,7 +75,7 @@ const Team = () => {
             })}
         </div>
       </div>
-        {/* <Footer/> */}
+        <Footer/>
     </>
   )
 }
