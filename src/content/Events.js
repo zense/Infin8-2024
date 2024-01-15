@@ -411,8 +411,16 @@ const Eventss = [
         { name: "Nathan Mathew Verghese", number: "8848839946" }
       ],
       spocs: ["Varshith Vattikuti", "Nathan Mathew Verghese"]
-    }
-    ,
+    },
+    {
+      title: "Ramp It Up",
+      description:
+        "Today's youth is known for fashion. Fashion not only promotes creativity, but its also a form of expressing and empowering oneself. Style is what defines you. From traditional to casual, from vintage to trendy, every fashion style speaks of itself and of the culture it possesses. We're presenting 'Ramp it up' for the girls and boys who would love to show their modish nature by being a part of the show! Gone is the time of just watching ramp shows, now it's your turn to join the show and 'ramp it up'!",
+      prizePool: 10000,
+      eventId: "4",
+      rules:["You can form a team of 2 or take part individually.","The time limit for every team/individual would be 1 minute (Including setup and the performance both).","Negative marking if participants exceed the time limit.","Vulgarity is strongly prohibited. Any form of obscenity will lead to debarring the team/individual from the contest.","Teams/individuals will be judged oncostumes, walking stance, attitude, hairstyle, and overall presentation.","The decision of the judges will be final and binding.","All costumes are permitted, which maintain decency including original costumes & fashion designs.","Purchased, professionally made, or rented costumes are permitted.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/"],
+      contacts: [{name:"H Sanjeev",number:"9491370927"}, {name:"Shreya Chavan",number:"9347425563"}],
+    },
     {
       title: "Battle of Bands",
       description:
@@ -471,11 +479,11 @@ const events = [
   {
     title: "Ramp It Up",
     description:
-      "Designers and models line up to flaunt their beauty mesmerising the audience.",
+      "Today's youth is known for fashion. Fashion not only promotes creativity, but its also a form of expressing and empowering oneself. Style is what defines you. From traditional to casual, from vintage to trendy, every fashion style speaks of itself and of the culture it possesses. We're presenting 'Ramp it up' for the girls and boys who would love to show their modish nature by being a part of the show! Gone is the time of just watching ramp shows, now it's your turn to join the show and 'ramp it up'!",
     prizePool: 10000,
     eventId: "4",
-    spocs: ["H Sanjeev", "Shreya Chavan"],
-    contacts: ["9491370927", "9347425563"],
+    rules:["You can form a team of 2 or take part individually.","The time limit for every team/individual would be 1 minute (Including setup and the performance both).","Negative marking if participants exceed the time limit.","Vulgarity is strongly prohibited. Any form of obscenity will lead to debarring the team/individual from the contest.","Teams/individuals will be judged oncostumes, walking stance, attitude, hairstyle, and overall presentation.","The decision of the judges will be final and binding.","All costumes are permitted, which maintain decency including original costumes & fashion designs.","Purchased, professionally made, or rented costumes are permitted.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/"],
+    contacts: [{name:"H Sanjeev",number:"9491370927"}, {name:"Shreya Chavan",number:"9347425563"}],
   },
   {
     title: "League of Fanatics",
