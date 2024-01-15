@@ -23,7 +23,7 @@ const Sponsors = () => {
             &lt; Back
           </Link>
           <img src={design} className="rotate-180 w-10 md:w-auto" alt="" />
-          <h1 className="heading text-4xl md:text-9xl text-yellow px-3 md:px-9 py-16 pb-20">
+          <h1 className="heading text-5xl md:text-9xl text-yellow px-3 md:px-9 py-16 pb-20">
             SPONSORS
           </h1>
           <img src={design} className="w-10 md:w-auto" alt="" />
@@ -57,25 +57,25 @@ const Sponsors = () => {
           <h1>Contact Us</h1>
         </div>
         <div className="flex mt-10 gap-10">
-          <div className="flex flex-col items-center justify-around box w-1/3">
-            <MdOutlineMail style={{ width: "4.6875rem", height: "3.75rem" }} />
-            <h1 className="box-text">Email Us</h1>
-            <p>sac@iiitb.ac.in</p>
-          </div>
-          <div className="flex flex-col items-center justify-around box w-1/3">
-            {/* <img src="../assets/phone.svg" alt="" /> */}
-            <IoCallOutline style={{ width: "4.6875rem", height: "3.75rem" }} />
-            <h1 className="box-text">Call Us</h1>
-            <pre>Nathan: +91 8848839946</pre>
+        <div className="flex flex-col sm:flex-row items-center justify-around">
+  <div className="flex flex-col items-center justify-around box w-full sm:w-1/3">
+    <MdOutlineMail style={{ width: "4.6875rem", height: "3.75rem" }} />
+    <h1 className="box-text">Email Us</h1>
+    <p>sac@iiitb.ac.in</p>
+  </div>
+  <div className="flex flex-col items-center justify-around box w-full sm:w-1/3">
+    <IoCallOutline style={{ width: "4.6875rem", height: "3.75rem" }} />
+    <h1 className="box-text">Call Us</h1>
+    <pre>Nathan: +91 8848839946</pre>
+    <p>Divyam: +91 7717608434</p>
+  </div>
+  <div className="flex flex-col box w-full sm:w-1/3 items-center justify-around">
+    <FaInstagram style={{ width: "4.6875rem", height: "3.75rem" }} />
+    <h1 className="box-text">Connect with us</h1>
+    <p>@infin8_iiitb</p>
+  </div>
+</div>
 
-            <p>Divyam: +91 7717608434</p>
-          </div>
-          <div className="flex flex-col box w-1/3 items-center justify-around">
-            {/* <img src="../assets/phone.svg" alt="" /> */}
-            <FaInstagram style={{ width: "4.6875rem", height: "3.75rem" }} />
-            <h1 className="box-text">Connect with us</h1>
-            <p>@infin8_iiitb</p>
-          </div>
         </div>
         <div className="mt-16">
           <Footer />{" "}
