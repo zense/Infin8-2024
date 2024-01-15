@@ -25,6 +25,7 @@ import fifa from "../../assets/timelineEvents/fifa.png";
 import cut from "../../assets/timelineEvents/cut.png";
 import ramp from "../../assets/timelineEvents/ramp.png";
 import battle from "../../assets/timelineEvents/battle.png";
+import photo from "../../assets/timelineEvents/photo.png";
 
 const Timeline = () => {
   const [day, setDay] = useState("btn-1");
@@ -249,7 +250,7 @@ const Timeline = () => {
         <img src={cut} className="gallery-item gallery-item-5" id="5" alt="" />
         <img src={ramp} className="gallery-item gallery-item-6" alt="" />
         <img src={battle} className="gallery-item gallery-item-7" alt="" />
-        <img src={fifa} className="gallery-item gallery-item-8" alt="" />
+        <img src={photo} className="gallery-item gallery-item-8" alt="" />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
