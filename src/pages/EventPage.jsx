@@ -77,7 +77,6 @@ const EventPage = () => {
             src={eval(`image${id}`)}
             alt="White Image"
           />
-          {console.log(`image${id}`)}
           <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue">
             REGISTER
           </button>
@@ -107,13 +106,11 @@ const EventPage = () => {
         </div>
 
         <div className="flex justify-center w-full">
-          <p className="bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
-            <ul className="rules-list">
-              {events[Number(id) - 1].rules.map((rule) => (
-                <li>{rule}</li>
+            <ul className="rules-list bg-yellow h-auto w-5/6 p-7 sm:text-2xl text-red font-medium rounded-2xl">
+              {events[Number(id) - 1].rules.map((rule,index) => (
+                <li key={index}>{rule}</li>
               ))}
             </ul>
-          </p>
         </div>
       </div>
 
@@ -126,8 +123,8 @@ const EventPage = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row  items-center justify-center sm:w-3/4 w-1/2 gap-4 sm:gap-9 sm:text-3xl p-3">
-            {events[Number(id) - 1].contacts.map((contact) => (
-              <div className="flex flex-col person  text-dark-purple items-center justify-center">
+            {events[Number(id) - 1].contacts.map((contact,index) => (
+              <div className="flex flex-col person  text-dark-purple items-center justify-center" key={index}>
                 <div>{contact.name}</div>
                 <div>{contact.number}</div>
               </div>

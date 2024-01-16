@@ -130,6 +130,28 @@ const Eventss = [
       { name: "Shiven Phogat", number: "9137231118" }
     ],
   },
+  {
+    title: "CODM ",
+    description:
+      "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
+    prizePool: 3000,
+    eventId:11,
+  
+    rules: [
+      "Minimum 2 IIITB members, current or alumni.",
+      "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
+      "You are only allowed to play on mobile phones. (No tablets and No controllers allowed)",
+      "Cheating, aim assists, emulation, wall hacks, or any tampering with the CODM client will lead to an instaban from the match and tournament.",
+      "Scoring will be based on position and kills.",
+      "If there are more registrations than expected, we'll have a prelims of Battle Royale.",
+      "Results will be announced on our Instagram handle [Instagram Link](https://www.instagram.com/infin8_iiitb/).",
+      "NOTE: All IIITB students have to play in the allotted venues."
+    ],
+    contacts: [
+      { name: "Prasanth Kumar", number: "7989839700" },
+      { name: "Sasank Karamsetty", number: "8328596959" }
+    ]
+  },
   ],
   [
     {
@@ -150,28 +172,6 @@ const Eventss = [
         { name: "Rishabh Dixit", number: "6366258170" },
         { name: "Vedant Manglurkar", number: "7588069853" }
       ],
-    },
-    {
-      title: "CODM ",
-      description:
-        "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
-      prizePool: 3000,
-      eventId:11,
-    
-      rules: [
-        "Minimum 2 IIITB members, current or alumni.",
-        "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
-        "You are only allowed to play on mobile phones. (No tablets and No controllers allowed)",
-        "Cheating, aim assists, emulation, wall hacks, or any tampering with the CODM client will lead to an instaban from the match and tournament.",
-        "Scoring will be based on position and kills.",
-        "If there are more registrations than expected, we'll have a prelims of Battle Royale.",
-        "Results will be announced on our Instagram handle [Instagram Link](https://www.instagram.com/infin8_iiitb/).",
-        "NOTE: All IIITB students have to play in the allotted venues."
-      ],
-      contacts: [
-        { name: "Prasanth Kumar", number: "7989839700" },
-        { name: "Sasank Karamsetty", number: "8328596959" }
-      ]
     },
     {
       title: "BGMI",
@@ -616,7 +616,7 @@ const events = [
     "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
   prizePool: 3000,
   eventId:11,
-  lastDate:" 10th Feb 11:59 pm",
+  lastDate:" 9th Feb 11:59 pm",
   rules: [
     "Minimum 2 IIITB members, current or alumni.",
     "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",

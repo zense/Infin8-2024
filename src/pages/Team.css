@@ -138,20 +138,8 @@ button{
     z-index: 1;
     text-align: center;
 }
-@media screen and (max-width:804px) {
-    .btn-bar{
-        width:700px;
-    }
-    .btn{
-        margin:5px;
-    }
-}
+
 @media screen and (max-width:752px) {
-    .btn-bar{
-        border-radius:5px;
-        width:80vw;
-        height:12vh;
-    }
     .head-tag{
         width:50vw;
         height:15vh;
@@ -172,25 +160,11 @@ button{
     body{
         overflow-x:hidden;
     }
-    .btn{
-        font-size:15px;
-        /* width:17vw; */
-        width:150px;
-        height:40px;
-    }
-    .btn-bar{
-        width:85vw;
-        height:10vh;
-    }
     .head-tag{
         height:10vh;
     }
 }
 @media screen and(max-width:703px) {
-    .btn-bar{
-        width:75vw;
-        /* height:1vh; */
-    }
     /* .btn{
         font-size:15px;
         width:17vw;
@@ -200,5 +174,23 @@ button{
 @media screen and (max-width:425px) {
     .img-wrapper{
         padding:0px;
+    }
+}
+
+@media (max-width:760px){
+    .btn-bar{
+        border-radius:5px;
+        width:80vw;
+        height:12vh;
+        padding: 0;
+    }
+    .slider-team{
+        display: none;
+    }
+    .btn{
+        font-size:15px;
+        /* width:17vw; */
+        width:100px;
+        height:40px;
     }
 }

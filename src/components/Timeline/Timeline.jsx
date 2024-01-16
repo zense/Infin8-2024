@@ -41,7 +41,6 @@ const Timeline = () => {
     ani.style.transform = `translateX(${
       100 * (Number(day[day.length - 1]) - 1)
     }px)`;
-    console.log(`${100 * (Number(day[day.length - 1]) - 1)}px`);
     const toshow = document.getElementById(`events-${day}`);
     toshow.style.display = "flex";
   }, [day]);
@@ -141,7 +140,7 @@ const Timeline = () => {
         />
         <img src={Nrittag} className="gallery-item gallery-item-6" alt="" />
         <img src={cards} className="gallery-item gallery-item-7" alt="" />
-        <img src={bgmi} className="gallery-item gallery-item-8" alt="" />
+        <img src={codm} className="gallery-item gallery-item-8" alt="" />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
@@ -187,7 +186,7 @@ const Timeline = () => {
           id="1"
           alt=""
         />
-        <img src={codm} className="gallery-item gallery-item-2" id="2" alt="" />
+        <img src={bgmi} className="gallery-item gallery-item-2" id="2" alt="" />
         <img src={slam} className="gallery-item gallery-item-3" id="3" alt="" />
         <img
           src={league}

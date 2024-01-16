@@ -73,7 +73,7 @@ const Team = () => {
               const flag=index===3;
               if(flag){
                 return(
-                <div className='head-tag-wrapper conditional-tag'>
+                <div className='head-tag-wrapper conditional-tag' key={index}>
                   <div className='head-tag'>
                     <h1>Comrades</h1>
                   </div>
@@ -82,7 +82,7 @@ const Team = () => {
               }
               const flag2=(index<3)
               return(
-                  <div className='img-wrapper'>
+                  <div className='img-wrapper' key={index}>
                     <TeamCard
                       name={element.name}
                       Rollno={element.Rollno}

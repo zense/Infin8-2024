@@ -28,8 +28,8 @@ const Events = () => {
           <img src={eventsDesign} className="w-12 md:w-24" alt="" />
         </div>
         {Eventss.map((eventsOfDay, index) => (
-          <>
-            <div className="flex justify-center items-center day-heading text-yellow mt-5 mb-10">
+          <div key={index}>
+            <div className="flex justify-center items-center day-heading text-yellow mt-5 mb-10" >
               <h1 className="bg-red w-60 text-center py-3 text-2xl">{`Day ${
                 index + 1
               }`}</h1>
@@ -37,7 +37,7 @@ const Events = () => {
             <div className="event-cards flex flex-wrap items-center justify-center 2xl:px-32 md:pt-10 pb-40">
               <div className="flex flex-wrap items-center justify-center gap-20 2xl:gap-36 md:gap-32">
                 {eventsOfDay.map((event) => (
-                  <Link to={`/events/${event.eventId}`}>
+                  <Link to={`/events/${event.eventId}`} key={event.eventId}>
                     <EventCardNew
                       name={event.title}
                       Rollno={"Prize pool : " + event.prizePool}
@@ -51,7 +51,7 @@ const Events = () => {
                 ))}
               </div>
             </div>
-          </>
+          </div>
         ))}
       </motion.div>
       <Footer />
