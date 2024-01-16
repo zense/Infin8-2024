@@ -16,7 +16,7 @@ import jam from "../../assets/timelineEvents/just.png";
 import rang from "../../assets/timelineEvents/stage.png";
 import math from "../../assets/timelineEvents/math.png";
 import vedanta from "../../assets/timelineEvents/vedanta.png";
-import slam from "../../assets/timelineEvents/slam.png"
+import slam from "../../assets/timelineEvents/slam.png";
 
 import gulp from "../../assets/timelineEvents/gulp.png";
 import brush from "../../assets/timelineEvents/brush.png";
@@ -55,9 +55,9 @@ const Timeline = () => {
     Array.from(images).forEach((ele) => {
       let idstring = ele.classList[1];
       let id = idstring[idstring.length - 1];
-      id = (Number(id) - 1) % 8;
+      id = (Number(id) - 1) % 9;
       if (id == 0) {
-        id = 8;
+        id = 9;
       }
       ele.classList.remove(ele.classList[1]);
       ele.classList.add(`gallery-item-${id}`);
@@ -68,9 +68,9 @@ const Timeline = () => {
     Array.from(images).forEach((ele) => {
       let idstring = ele.classList[1];
       let id = idstring[idstring.length - 1];
-      id = (Number(id) + 1) % 8;
+      id = (Number(id) + 1) % 9;
       if (id == 0) {
-        id = 8;
+        id = 9;
       }
       ele.classList.remove(ele.classList[1]);
       ele.classList.add(`gallery-item-${id}`);
@@ -141,6 +141,7 @@ const Timeline = () => {
         <img src={Nrittag} className="gallery-item gallery-item-6" alt="" />
         <img src={cards} className="gallery-item gallery-item-7" alt="" />
         <img src={codm} className="gallery-item gallery-item-8" alt="" />
+        <img src={lost} className="gallery-item gallery-item-9" alt="" />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
@@ -198,6 +199,7 @@ const Timeline = () => {
         <img src={rang} className="gallery-item gallery-item-6" alt="" />
         <img src={math} className="gallery-item gallery-item-7" alt="" />
         <img src={vedanta} className="gallery-item gallery-item-8" alt="" />
+        <img src={league} className="gallery-item gallery-item-9" alt="" />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
@@ -250,6 +252,7 @@ const Timeline = () => {
         <img src={ramp} className="gallery-item gallery-item-6" alt="" />
         <img src={battle} className="gallery-item gallery-item-7" alt="" />
         <img src={photo} className="gallery-item gallery-item-8" alt="" />
+        <img src={cut} className="gallery-item gallery-item-9" alt="" />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"

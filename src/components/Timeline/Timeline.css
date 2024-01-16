@@ -66,13 +66,17 @@
     transform: translate(340%, 110%) rotate(60deg);
 }
 
-.gallery-item-8{
-    z-index: -1;
-    transform: translate(-300%, -40%) rotate(-60deg);
-}
 .gallery-item-7{
     z-index: -1;
-    transform: translate(-490%, 320%) rotate(60deg);
+    transform: translate(20%, 320%) rotate(60deg);
+}
+.gallery-item-8{
+    z-index: -1;
+    transform: translate(-500%, 320%) rotate(-60deg);
+}
+.gallery-item-9{
+    z-index: -1;
+    transform: translate(-300%, -40%) rotate(-60deg);
 }
 .button{
     z-index: 100;

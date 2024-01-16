@@ -27,7 +27,8 @@ html{
 }
 .logo {
   /* width: 600px; */
-  width: min(35vw, 550px);
+  width: min(35vw, 650px);
+  padding-bottom: 40px;
 }
 .eventTheme {
   background-image: url("../assets/banner.png");
@@ -83,6 +84,15 @@ html{
   100% {
     transform: rotate(360deg);
   }
+}
+
+.navbar-list li{
+  padding-inline: 20px !important;
+  padding: 5px;
+  border-radius: 20px;
+}
+.navbar-list li:hover{
+  background-color: #700013;
 }
 
 @media (min-width: 1300) {

@@ -138,6 +138,9 @@ button{
     z-index: 1;
     text-align: center;
 }
+.button-back-team:hover{
+    color: #FFD819;
+}
 
 @media screen and (max-width:752px) {
     .head-tag{

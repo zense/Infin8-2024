@@ -17,7 +17,7 @@ const Sponsors = () => {
       <div className="sponsors-wrapper bg-purple w-screen ">
         <div className="events-header flex justify-center items-center relative w-screen md:pb-4">
           <Link
-            className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold"
+            className="absolute button-back-sponsors top-0 left-0 text-white text-xl md:text-3xl p-4 font-bold"
             to={"/"}
           >
             &lt; Back

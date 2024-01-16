@@ -16,7 +16,7 @@ const Events = () => {
        > 
         <div className="events-header flex justify-center items-center relative w-screen">
           <Link
-            className="absolute button-back-events top-0 left-0 text-white text-xl md:text-2xl p-4 font-bold"
+            className="absolute button-back-events top-0 left-0 text-white text-xl md:text-4xl p-4 font-bold"
             to={"/"}
           >
             &lt; Back
@@ -30,7 +30,7 @@ const Events = () => {
         {Eventss.map((eventsOfDay, index) => (
           <div key={index}>
             <div className="flex justify-center items-center day-heading text-yellow mt-5 mb-10" >
-              <h1 className="bg-red w-60 text-center py-3 text-2xl">{`Day ${
+              <h1 className="bg-red w-60 text-center py-3 text-3xl">{`Day ${
                 index + 1
               }`}</h1>
             </div>

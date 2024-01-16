@@ -37,36 +37,26 @@ const Footer = () => {
           <div className="h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center pb-6">
             <h1 className="text-5xl font-bold pb-9">Get in touch.</h1>
             <div className="flex justify-between w-full">
-              <a href="https://twitter.com/infin8_iiitb">Twitter</a>
-              <SocialIcon
-                bgColor="#E5203B"
-                fgColor="yellow"
-                url="https://twitter.com/infin8_iiitb"
-              />
+              <a className="flex items-center justify-between w-full" href="https://twitter.com/infin8_iiitb">Twitter
+                <i class="fa-brands fa-twitter"></i>
+              </a>
             </div>
             <div className="flex justify-between w-full">
-              <a href="https://www.instagram.com/infin8_iiitb/">Instagram</a>
-              <SocialIcon
-                bgColor="#E5203B"
-                fgColor="yellow"
-                url="https://www.instagram.com/infin8_iiitb/"
-              />
+              <a className="flex items-center justify-between w-full" href="https://www.instagram.com/infin8_iiitb/">Instagram
+              <i class="fa-brands fa-instagram"></i>
+              </a>
+              
             </div>
             <div className="flex justify-between w-full">
-              <a href="https://www.facebook.com/infin8.iiitb/">Facebook</a>
-              <SocialIcon
-                bgColor="#E5203B"
-                fgColor="yellow"
-                url="https://www.facebook.com/infin8.iiitb/"
-              />
+              <a className="flex items-center justify-between w-full" href="https://www.facebook.com/infin8.iiitb/">Facebook
+              <i class="fa-brands fa-facebook"></i></a>
+
+              
             </div>
             <div className="flex justify-between w-full">
-              <a href="https://www.linkedin.com/company/infin8-iiitb/">LinkedIn</a>
-              <SocialIcon
-                bgColor="#E5203B"
-                fgColor="yellow"
-                url="https://www.linkedin.com/company/infin8-iiitb/"
-              />
+              <a className="flex items-center justify-between w-full" href="https://www.linkedin.com/company/infin8-iiitb/">LinkedIn
+              <i class="fa-brands fa-linkedin"></i></a>
+              
             </div>
           </div>
         </div>

@@ -13,3 +13,6 @@
 .button-back-events{
   font-family: 'Righteous', sans-serif;
 }
+.button-back-events:hover{
+  color: #D90429;
+}

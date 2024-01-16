@@ -16,7 +16,7 @@ const AnimatedRoutes = () => {
         <Route path='/' element={<App />} />
         <Route path='/events' element={<Events />} />
         <Route path='/events/:id' element={<EventPage />} />
-        <Route path='/sponsors' element={<Sponsors />} />
+        {/* <Route path='/sponsors' element={<Sponsors />} /> */}
         <Route path='/team' element={<Team />} />
        
         <Route path='*' element={<Error />} />

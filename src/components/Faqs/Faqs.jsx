@@ -9,13 +9,13 @@ const Faqs = () => {
         else{
             const arrow = document.getElementsByClassName(`svg-${e.target.id}`)
             
-            if(ans.style.height === '100px'){
+            if(ans.style.height === 'auto'){
                 ans.style.height = '0px'
                 arrow[0].style.transform = 'rotate(0deg)'
                 ans.style.padding = '0'
             }
             else{
-                ans.style.height = '100px'
+                ans.style.height = 'auto'
                 arrow[0].style.transform = 'rotate(180deg)'
                 ans.style.padding = '0.75rem'
             }

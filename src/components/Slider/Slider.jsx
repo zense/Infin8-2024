@@ -1,5 +1,17 @@
 import React, { useEffect } from 'react'
 import './Slider.css'
+import image1 from "../../assets/slider/image1.jpg"
+import image2 from "../../assets/slider/image2.jpg"
+import image3 from "../../assets/slider/image3.jpeg"
+import image4 from "../../assets/slider/image4.jpeg"
+import image5 from "../../assets/slider/image5.jpeg"
+import image6 from "../../assets/slider/image6.jpeg"
+import image7 from "../../assets/slider/image7.jpeg"
+import image8 from "../../assets/slider/image8.jpeg"
+import image9 from "../../assets/slider/image9.jpeg"
+import image10 from "../../assets/slider/image10.jpeg"
+import image11 from "../../assets/slider/image11.jpg"
+import image12 from "../../assets/slider/image12.jpeg"
 
 const Slider = () => {
     // let track = null,gallery = null
@@ -49,14 +61,30 @@ const Slider = () => {
   return (
     <div className='slider-screen w-screen overflow-auto relative' id='gallery'>
         <div className="image-track flex gap-6" data-mouse-down-at="0" id='image-track' data-prev-percentage="0">
-            <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='image' alt="" draggable={false} />
-            <img src="https://images.unsplash.com/photo-1682695795557-17447f921f79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8" className='image' alt="" draggable={false}/>
-            <img src="https://images.unsplash.com/photo-1682687981630-cefe9cd73072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" className='image' alt="" draggable={false} />
-            <img src="https://images.unsplash.com/photo-1703769605297-93464fbf186f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D" className='image' alt="" draggable={false}/>
-            <img src="https://images.unsplash.com/photo-1682687218147-9806132dc697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8" className='image' alt="" draggable={false}/>
-            <img src="https://images.unsplash.com/photo-1682695795557-17447f921f79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8" className='image' alt="" draggable={false}/>
-            <img src="https://images.unsplash.com/photo-1682687981630-cefe9cd73072?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" className='image' alt="" draggable={false}/>
-            <img src="https://images.unsplash.com/photo-1703769605297-93464fbf186f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D" className='image' id='lastImage' alt="" draggable={false}/>
+            <img src={image1} className='image' alt="" draggable={false} />
+            <img src={image2} className='image' alt="" draggable={false}/>
+            <img src={image3} className='image' alt="" draggable={false} />
+            <img src={image4} className='image' alt="" draggable={false} />
+            <img src={image5} className='image' alt="" draggable={false} />
+            <img src={image6} className='image' alt="" draggable={false} />
+            <img src={image7} className='image' alt="" draggable={false} />
+            <img src={image8} className='image' alt="" draggable={false} />
+            <img src={image9} className='image' alt="" draggable={false} />
+            <img src={image10} className='image' alt="" draggable={false} />
+            <img src={image11} className='image' alt="" draggable={false} />
+            <img src={image12} className='image' alt="" draggable={false} />
+            <img src={image1} className='image' alt="" draggable={false} />
+            <img src={image2} className='image' alt="" draggable={false}/>
+            <img src={image3} className='image' alt="" draggable={false} />
+            <img src={image4} className='image' alt="" draggable={false} />
+            <img src={image5} className='image' alt="" draggable={false} />
+            <img src={image6} className='image' alt="" draggable={false} />
+            <img src={image7} className='image' alt="" draggable={false} />
+            <img src={image8} className='image' alt="" draggable={false} />
+            <img src={image9} className='image' alt="" draggable={false} />
+            <img src={image10} className='image' alt="" draggable={false} />
+            <img src={image11} className='image' alt="" draggable={false} />
+            <img src={image12} className='image' alt="" draggable={false} />
         </div>
     </div>
   )

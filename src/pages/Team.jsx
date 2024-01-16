@@ -41,11 +41,11 @@ const Team = () => {
     <>
       <div className="wrapper h-auto">
         <div className='header'>
-          <Link to={"/"}>
-            <div className='back-btn-wrapper'>
-              <img src={back} alt='back-img'/>
-              <button className='home-btn'>Back</button>
-            </div>
+        <Link
+            className="absolute button-back-team top-0 left-0 text-white text-xl md:text-3xl p-4 font-bold"
+            to={"/"}
+          >
+            &lt; Back
           </Link>
           <div className='team-txt-container gap-4'>
             <img className='dec-img w-28' src={vec1} alt='decoration-image'/>

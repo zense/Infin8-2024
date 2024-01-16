@@ -46,7 +46,7 @@ const EventPage = () => {
     <div className="overflow-hidden w-auto" > 
       <div className="flex bg-purple w-screen eventpage-container" id="cont">
         <div className="bg-purple relative w-2/3 flex flex-col upper-text-eventpage">
-          <div className="flex items-center p-5">
+          <div className="flex items-center p-5 back-button">
             <img className="mr-1 size-3" src={back} alt="Back Image" />
             <Link to={"/events"} className="text-white sm:text-2xl back block" >
               EVENTS

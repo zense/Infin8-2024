@@ -76,3 +76,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.button-back-sponsors:hover{
+  color: #fcd200;
+}

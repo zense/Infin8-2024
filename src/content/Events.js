@@ -83,7 +83,7 @@ const Eventss = [
     title: "Nritta",
     description:
       "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
-    prizePool: 30000,
+    prizePool: 10000,
     eventId: 1,
     image: "../assets/banner.png",
     rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
@@ -114,7 +114,7 @@ const Eventss = [
     title: "Infinitude",
     description:
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
-    prizePool: 200000,
+    prizePool: 20000,
     eventId: "24",
     rules: [
       "Team Size - 8-15 members",
@@ -172,6 +172,17 @@ const Eventss = [
         { name: "Rishabh Dixit", number: "6366258170" },
         { name: "Vedant Manglurkar", number: "7588069853" }
       ],
+    },
+    {
+      title: "Case in Point ",
+      description: "A Brand challenge competition where participants get a Business oriented Case study problem on which they have to come up with a solution in the form of presentation and present in front of judges. The Company you are working in is facing a situation (problem statement). Now it's solely up to the participant to turn the company's fortunes around. The task is to come up with solutions and help the company with new strategies and some innovative solutions.",
+      prizePool: 5000,
+      eventId: "27",
+      lastDate:" 11th Feb 11:59 pm",
+      rules:[
+        "Maximum 2 members can be in a team.","The company will be given to you on spot and you will get 1 hour to work on it.","Usage of internet would be allowed.","After the allotted time is over, each team would have to pitch their ideas to the judges within a span of 5-10 minutes.","Any kind of team-ups or exchange of ideas between different teams will lead to immediate disqualification."
+      ],
+      contacts: [{name:"Allu Pavankarthik Reddy",number:"7795933534"}],
     },
     {
       title: "BGMI",
@@ -462,7 +473,7 @@ const events = [
     title: "Nritta",
     description:
       "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
-    prizePool: 30000,
+    prizePool: 10000,
     eventId: 1,
     lastDate:" 9th Feb 11:59 pm",
     image: "../assets/banner.png",
@@ -897,7 +908,7 @@ const events = [
     title: "Infinitude",
     description:
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
-    prizePool: 200000,
+    prizePool: 20000,
     eventId: "24",
     lastDate:" 9th Feb 11:59 pm",
     rules: [
@@ -951,6 +962,17 @@ const events = [
     ],
     contacts: [{name:"M Srinivasan",number:"9353738745"}, {name:"Vaibhav Thapliyal",number:"8128818422"}],
   },
+  {
+    title: "Case in Point ",
+    description: "A Brand challenge competition where participants get a Business oriented Case study problem on which they have to come up with a solution in the form of presentation and present in front of judges. The Company you are working in is facing a situation (problem statement). Now it's solely up to the participant to turn the company's fortunes around. The task is to come up with solutions and help the company with new strategies and some innovative solutions.",
+    prizePool: 13000,
+    eventId: "27",
+    lastDate:" 11th Feb 11:59 pm",
+    rules:[
+      "Maximum 2 members can be in a team.","The company will be given to you on spot and you will get 1 hour to work on it.","Usage of internet would be allowed.","After the allotted time is over, each team would have to pitch their ideas to the judges within a span of 5-10 minutes.","Any kind of team-ups or exchange of ideas between different teams will lead to immediate disqualification."
+    ],
+    contacts: [{name:"Allu Pavankarthik Reddy",number:"7795933534"}],
+  }
 ];
 
 export default events;

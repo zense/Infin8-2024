@@ -53,3 +53,7 @@
         width: 40vw;
     }
 }
+
+a:hover{
+    color: white;
+}

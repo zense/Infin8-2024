@@ -6,7 +6,7 @@ import lotus from "../../assets/aboutus-lotus.svg"
 
 const Aboutus = () => {
   return (
-    <div className='au-container flex w-screen mt-36 relative overflow-hidden'>
+    <div className='au-container flex w-screen  relative overflow-hidden'>
       <img src={lotus} className='absolute w-96 h-96 lotus' alt="" />
       <div className="au-heading w-2/5 h-auto bg-yellow flex flex-col items-center justify-center pr-10">
           <h1 className='au-about text-red text-9xl' >About</h1>
