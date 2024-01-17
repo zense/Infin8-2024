@@ -36,6 +36,9 @@
     background-size: contain;
     box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
 }
+.gallery-item:hover{
+    cursor: pointer;
+}
 
 .gallery-item-1{
     transform: translate(-210%, -30%) rotate(-35deg);
