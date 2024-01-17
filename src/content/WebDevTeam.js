@@ -18,7 +18,7 @@ const WebDevTeam=[
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Vaihav Mittal",
+        name:"Vaibhav Mittal",
         Rollno:"web",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"

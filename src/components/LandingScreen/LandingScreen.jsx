@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.svg'
 import vector from '../../assets/vector.png'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -65,7 +65,7 @@ const LandingScreen = () => {
           <div className='main-landing h-5/6 w-full flex'>
             <div className="left w-1/2 h-4/5 flex flex-col justify-center items-center">
               <img src={logo} className='logo' alt="logo" />
-              <div className="eventTheme h-28 items-center justify-center flex text-yellow text-5xl">Rangtarang Elysium</div>
+              <div className="eventTheme h-28 items-center justify-center flex text-yellow text-5xl">A Radiant Reverie</div>
             </div>
             <div className="countdown-container right flex w-3/5 h-4/5 justify-center items-center gap-7 text-6xl">
               <div className='flex flex-col items-center gap-3'>

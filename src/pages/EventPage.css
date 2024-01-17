@@ -71,8 +71,14 @@
   {
     font-family: Carter One;
   }
+  .reg:hover{
+    background-color: #348994;
+  }
   .rules-list{
     list-style: inside;
+  }
+  .back:hover{
+    color: #54BECC ;
   }
 
   @media(max-width:810px){

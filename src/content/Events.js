@@ -40,7 +40,7 @@ const Eventss = [
     ],
   },
   {
-    title: "Jijñāsa - Spiritual Quest",
+    title: "Jijñāsa",
     description:
       "Embark on a transformative journey of self-discovery with 'Jijñāsa - Spiritual Quest.' Engage in a riveting quest that challenges your intellect and spiritual insight through a series of interdependent puzzles. Join the exploration for fun and enlightenment, where the fastest and most accurate participant emerges victorious.",
     prizePool:3000,
@@ -273,7 +273,7 @@ const Eventss = [
       spocs: ["Arjun Subhedar", "Divyansh Singhal"]
     },
     {
-      title: "Non Trivial – Infinite Trivia `24",
+      title: "The Non-Trivial Trivia",
       description: "Prepare for a rollercoaster of mathematical excitement with Non Trivial! This is not your average quiz; it's a high-energy, fun-filled competition designed to engage participants in multiple thrilling rounds of math trivia. Whether you're a seasoned math whiz or just enjoy the thrill of numbers, this contest promises a riveting experience for all.",
       prizePool: 3000,
       rules:[],
@@ -655,7 +655,7 @@ const events = [
   ]
 },
 {
-  title: "Jijñāsa - Spiritual Quest",
+  title: "Jijñāsa",
   description:
     "Embark on a transformative journey of self-discovery with 'Jijñāsa - Spiritual Quest.' Engage in a riveting quest that challenges your intellect and spiritual insight through a series of interdependent puzzles. Join the exploration for fun and enlightenment, where the fastest and most accurate participant emerges victorious.",
   prizePool:3000,
@@ -751,7 +751,7 @@ const events = [
   ],
 },
   {
-    title: "Non Trivial – Infinite Trivia `24",
+    title: "The Non-Trivial Trivia",
     description: "Prepare for a rollercoaster of mathematical excitement with Non Trivial! This is not your average quiz; it's a high-energy, fun-filled competition designed to engage participants in multiple thrilling rounds of math trivia. Whether you're a seasoned math whiz or just enjoy the thrill of numbers, this contest promises a riveting experience for all.",
     prizePool: 3000,
     rules:["It will be an offline event.","There are multiple rounds each with different formats as stated below.To ensure everyone plays on a level field, seeking assistance from individuals outside your team for direct answers isn't allowed. However, if you're stuck, feel free to seek general guidance from available resources or ask the organizers for hints!To create a fair and challenging playing field, the use of external materials like devices or books during the activity is not allowed. We encourage relying on your own knowledge and teamwork to solve the puzzles! Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","Any instance of “Cheating” shall not be tolerated and will lead to immediate disqualification.","You will be given rough sheets whenever deemed required. You need not carry any paper of your own. Rough sheets will be provided when deemed necessary.","When we have a buzzer round please note that incase of any conflict regarding the clashes in buzzer shall be resolved by the Organisers. The rounds are as follows: Round 1: Derive or Die. Round 2: Solve or Stagnate. Round 3: Stapoo – Solve to go forward.","The format is only temporary and can be altered based on the size of participation."],

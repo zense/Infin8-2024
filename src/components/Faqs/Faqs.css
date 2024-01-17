@@ -26,10 +26,6 @@
 .faq-a{
     height: 0;
     overflow: hidden;
-    transition: all 0.5s;
-}
-svg{
-    transition: all 0.5s;
 }
 @media(max-width:810px){
     .faqs-heading-container{

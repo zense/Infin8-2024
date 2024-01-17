@@ -31,7 +31,10 @@ const Faqs = () => {
                     return (
                         <div className="faq-element w-11/12 bg-yellow rounded-3xl p-4" key={index}>
                             <div className="faq-q flex items-center justify-between font-bold text-2xl p-3" id={index} onClick={handleClick}>
+                                <div className='w-11/12'>
+                                    
                                 {faq.question}
+                                </div>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
