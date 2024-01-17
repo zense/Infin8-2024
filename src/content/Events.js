@@ -2,6 +2,7 @@ const Eventss = [
   [
     {
       title: "Nukkad Naatak",
+      link:"https://forms.gle/TARh6ZBYS951Tdat7",
       description:
         "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
       prizePool: 12000,
@@ -471,6 +472,7 @@ const Eventss = [
 const events = [
   {
     title: "Nritta",
+    link:"https://forms.gle/mhbVvqAbXhnYkDXt8",
     description:
       "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
     prizePool: 10000,
@@ -483,6 +485,7 @@ const events = [
   },
   {
     title: "Blitz",
+    link:"",
     description:
       "An unconventional debate format which does not follow the quintessential rules of the Asian and European Parliamentary system",
     prizePool: 4500,
@@ -491,6 +494,7 @@ const events = [
   },
   {
     title: "Brush Up",
+    link:"https://forms.gle/dZX5QScB5aPfsSuN7",
     description:
         "This is the painting and sketching competition. Inviting artists of all ages and skill levels to showcase their talent and express their imagination. Any style of art is welcomed, we just want you all to have fun! So grab your brushes and start painting! We can’t wait to see what you come up with! ",
     prizePool: 6000,
@@ -502,6 +506,7 @@ const events = [
   },
   {
     title: "Ramp It Up",
+    link:"https://forms.gle/ezqwyqmk8rVD6zVC6",
     description:
       "Today's youth is known for fashion. Fashion not only promotes creativity, but its also a form of expressing and empowering oneself. Style is what defines you. From traditional to casual, from vintage to trendy, every fashion style speaks of itself and of the culture it possesses. We're presenting 'Ramp it up' for the girls and boys who would love to show their modish nature by being a part of the show! Gone is the time of just watching ramp shows, now it's your turn to join the show and 'ramp it up'!",
     prizePool: 10000,
@@ -512,6 +517,7 @@ const events = [
   },
   {
     title: "League of Fanatics",
+    link:"https://forms.gle/G7VrDAEvC2PFmqt76",
     description:
       "Show off all the useless, yet intriguing information you have collected throughout your life. Compete in this trivia competition to prove that you're the geekiest of them all.",
     prizePool: 10000,
@@ -537,6 +543,8 @@ const events = [
   },
   {
     title: "Battle of Bands",
+    link:"https://forms.gle/8MqGeC4k1uNzB6EW6",
+
     description:
       "Battle of Bands is where battalions of music enthusiasts come together and strum their vocal cords against one another in a fierce battle to claim the glory of victory. Spectators will witness a plethora of notes each competing against the other to capture the hearts of dazzled listeners.",
     prizePool: 25000,
@@ -561,6 +569,8 @@ const events = [
   ,
   {
     title: "Case in Point",
+    link:"",
+
     description:
       "Explore your entrepreneurship skills by posing as the owner of a famous company and showcase what you would have done differently to change the course of the company",
     prizePool: 13000,
@@ -570,6 +580,9 @@ const events = [
   },
   {
     title: "Nukkad Naatak",
+    link:"https://forms.gle/TARh6ZBYS951Tdat7",
+
+    link:"",
     description:
       "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
     prizePool: 12000,
@@ -592,6 +605,8 @@ const events = [
 
 {
   title: "Rang Manch",
+  link:"https://forms.gle/1tHCoeyxcxkTWkj46",
+
   description:
     "Unleash your unique talents on the theatrical battlefield. Join the Rang Manch and let the curtains rise on your unique talents as you vie for the spotlight in this thrilling showcase of theatrical brilliance!",
   prizePool: 20000,
@@ -613,6 +628,8 @@ const events = [
 
 {
   title: "Sargam",
+  link:"https://forms.gle/eCxcpvKGatPGpibh6",
+
   description:
     "Join us for an evening filled with soulful voices and captivating tunes as talented individuals take the stage to serenade you with their musical prowess. Let the enchanting melodies create a memorable atmosphere, celebrating the beauty of music in this vibrant showcase of vocal talent.",
   prizePool: 10000,
@@ -634,6 +651,8 @@ const events = [
 ,
 {
   title: "CODM ",
+  link:"https://forms.gle/ycoGjWtYPJ4ZKgxN6",
+
   description:
     "Immerse yourself in the exhilarating IIITBs CODM World Championship, where teams engage in intense team deathmatches. Showcase your gaming prowess, secure kills for bonuses, and strive for victory in this thrilling championship. Get ready for the adrenaline-fueled action of strategic combat and teamwork!",
   prizePool: 3000,
@@ -656,6 +675,8 @@ const events = [
 },
 {
   title: "Jijñāsa",
+  link:"https://forms.gle/pGFzi9VdDdw6dcBe8",
+
   description:
     "Embark on a transformative journey of self-discovery with 'Jijñāsa - Spiritual Quest.' Engage in a riveting quest that challenges your intellect and spiritual insight through a series of interdependent puzzles. Join the exploration for fun and enlightenment, where the fastest and most accurate participant emerges victorious.",
   prizePool:3000,
@@ -677,6 +698,8 @@ const events = [
 ,
   {
     title: "Echos of Expressions",
+    link:"https://forms.gle/iMTTWLP2d7TnB5yXA",
+
     description: "Amidst the chaos of life, immerse yourself in the cathartic world of Slam Poetry. This competition beckons individuals to take a breather, step onto the stage, and unleash the power of spoken word to express their innermost thoughts, emotions, and reflections.",
     prizePool: 4000,
     eventId: "13",
@@ -688,6 +711,8 @@ const events = [
 
 {
   title: "Lost in Action",
+  link:"https://forms.gle/pAPeMMMTjuc4Sacy9",
+
   description:
     "Experience the classic joy of Dumb Charades, every kid's beloved pastime. Engage in three thrilling rounds where only the best move forward to the finals. It's a test of your acting skills and team chemistry. Join the fun and aim for the top spot.",
   prizePool: 4000,
@@ -710,6 +735,8 @@ const events = [
 ,
 {
   title: "Cards Against Humanity",
+  link:"https://forms.gle/9xHP2sRmNYNzuUR9A",
+
   description:
     "Get ready for a laughter-packed session with Cards Against Humanity! Join the fun, where participants use random answer cards to respond to unknown questions. The game, marked by blindfolded judges and diverse judging criteria, promises quick-witted amusement and an evening of delightful chaos.",
   prizePool: 4000,
@@ -730,6 +757,8 @@ const events = [
 },
 {
   title: "JAM (Just A Minute)",
+  link:"https://forms.gle/AoCJc3hFJMVuDDAu5",
+
   description:
     "JAM, originating from the renowned BBC radio show, is a captivating verbal challenge game where participants strive to speak for exactly one minute on a given topic without breaking three fundamental rules. The game has evolved into a delightful and light-hearted event, emphasizing wit, spontaneity, and linguistic agility.",
   prizePool: 8000,
@@ -752,6 +781,8 @@ const events = [
 },
   {
     title: "The Non-Trivial Trivia",
+    link:"https://forms.gle/A5Wf2rmmJMbK1bBf9",
+
     description: "Prepare for a rollercoaster of mathematical excitement with Non Trivial! This is not your average quiz; it's a high-energy, fun-filled competition designed to engage participants in multiple thrilling rounds of math trivia. Whether you're a seasoned math whiz or just enjoy the thrill of numbers, this contest promises a riveting experience for all.",
     prizePool: 3000,
     rules:["It will be an offline event.","There are multiple rounds each with different formats as stated below.To ensure everyone plays on a level field, seeking assistance from individuals outside your team for direct answers isn't allowed. However, if you're stuck, feel free to seek general guidance from available resources or ask the organizers for hints!To create a fair and challenging playing field, the use of external materials like devices or books during the activity is not allowed. We encourage relying on your own knowledge and teamwork to solve the puzzles! Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","Any instance of “Cheating” shall not be tolerated and will lead to immediate disqualification.","You will be given rough sheets whenever deemed required. You need not carry any paper of your own. Rough sheets will be provided when deemed necessary.","When we have a buzzer round please note that incase of any conflict regarding the clashes in buzzer shall be resolved by the Organisers. The rounds are as follows: Round 1: Derive or Die. Round 2: Solve or Stagnate. Round 3: Stapoo – Solve to go forward.","The format is only temporary and can be altered based on the size of participation."],
@@ -761,6 +792,8 @@ const events = [
   },
   {
     title: "Vedanta Darsana ",
+    link:"https://forms.gle/yzHs9i8AvAvc3i86A",
+
     description:
       "Embark on a profound journey of self-discovery and intellectual exploration with the Vedanta Enlightenment Test. This unique test is designed to deepen participants' understanding of Vedanta, an ancient philosophical tradition that delves into the fundamental principles of existence, consciousness, and self-realization.",
     prizePool: 3000,
@@ -780,6 +813,8 @@ const events = [
   },
   {
     title: "Gulp and Gobble",
+    link:"https://forms.gle/N1aRQTKdM9c2g76H6",
+
     description:
       "What can be better than getting paid for eating good food? Put your hungry stomach to the test in this competitive eating contest. The faster you can gobble up all the food and gulp the beverages, the better chance you have to win a prize. What can you win? Some cash and more food!",
     prizePool: 3000,
@@ -805,6 +840,8 @@ const events = [
   ,
   {
     title: "FIFA",
+    link:"https://forms.gle/N4ZGvhdnjLVWKJVw8",
+
     description:
       "Welcome to FIFA – a thrilling 11v11 football spectacle where the beauty of the game meets strategic brilliance! In this premier football simulation, it's not just about goals; it's about crafting a winning strategy with your unique squad. Choose players with specialized skills, coordinate plays, and outsmart your opponents. In FIFA, tactics take center stage, elevating your gameplay beyond simple ball control. Experience the essence of football where every move counts, and victory belongs to the tactically astute!",
     prizePool: 4000,
@@ -840,6 +877,8 @@ const events = [
   ,
   {
     title: "Valorant",
+    link:"https://forms.gle/mvUxeP6vHUPj8EpAA",
+
     description:
       "Here is presenting a world-renowned, enthralling, 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities! The main game mode focuses on Search and Destroy where one team attacks by planting a bomb, and the other defends by avoiding detonation. More than guns and bullets, you’ll choose an Agent armed with adaptive, swift, and lethal abilities that create opportunities to let your gunplay shine. Tactics beat gunplay!",
     prizePool: 4000,
@@ -863,6 +902,8 @@ const events = [
   ,
   {
     title: "BGMI",
+    link:"https://forms.gle/DXucyw2RxZWhmByf8",
+
     description:
       "Embark on a thrilling adventure with IIITBs BGMI Showdown, a battleground where teams collide in intense battles. Demonstrate your gaming prowess, securing kills for bonuses as you strive for triumph in this gripping showdown. Brace yourself for an adrenaline-fueled experience of strategic combat and seamless teamwork, as every move counts in this electrifying gaming spectacle!",
     prizePool: 3000,
@@ -886,6 +927,8 @@ const events = [
   },
   {
     title: "Clash Royale",
+    link:"https://forms.gle/U9nmQjfbpwUyFKdp8",
+
     description:
       "Dive into the thrilling world of Clash Royale in our ESports event! Experience the strategic rush of this vintage Supercell classic tower rush and strategy game. Showcase your gaming prowess, join the online competition, and compete for the top spot. It's your chance to enjoy the excitement of Clash Royale, prove your skills, and have a blast in this action-packed gaming showdown!",
     prizePool: 2000,
@@ -906,6 +949,8 @@ const events = [
   ,
   {
     title: "Infinitude",
+    link:"https://forms.gle/SJ1QFAUyKY7SG7A19",
+
     description:
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
     prizePool: 20000,
@@ -927,6 +972,8 @@ const events = [
   },
   {
     title: "Cut to the Chase",
+    link:"https://forms.gle/h3966zymr2QeyR2b7",
+
     description:
       "A picture speaks a thousand words, a film is a million pictures… do the math! Show off your writing, acting, and editing prowess to influence the masses with your short yet impactful film.",
     prizePool: 12000,
@@ -953,6 +1000,8 @@ const events = [
   ,
   {
     title: "Pxl8",
+    link:"https://forms.gle/6q3cq3TkBKXLgMLt9",
+
     description: "'Symmetry' will be the theme. Participate and capture symmetry in your shots through geometry or framing of objects, and showcase the world through an artist's eyes",
     prizePool: 5000,
     eventId: "26",
@@ -964,6 +1013,8 @@ const events = [
   },
   {
     title: "Case in Point ",
+    link:"https://forms.gle/km7ViLcDcYxqnmz18",
+
     description: "A Brand challenge competition where participants get a Business oriented Case study problem on which they have to come up with a solution in the form of presentation and present in front of judges. The Company you are working in is facing a situation (problem statement). Now it's solely up to the participant to turn the company's fortunes around. The task is to come up with solutions and help the company with new strategies and some innovative solutions.",
     prizePool: 13000,
     eventId: "27",

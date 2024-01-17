@@ -80,7 +80,10 @@
   .back:hover{
     color: #54BECC ;
   }
-
+  .contact_bg
+  {
+    background-image: url(../assets/Intersect.svg);
+  }
   @media(max-width:810px){
     .eventpage-container{
       flex-direction: column;
@@ -100,5 +103,7 @@
     }
     .contact{
       width: 100% !important;
+      
     }
+   
   }

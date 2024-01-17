@@ -42,10 +42,13 @@ const EventPage = () => {
     window.scrollTo(0,0)
   }, [])
 
+  const redirectToExternalLink = () => {
+    window.location.href = events[Number(id) - 1].link;
+  };
   return (
     <div className="overflow-hidden w-auto" > 
       <div className="flex bg-purple w-screen eventpage-container" id="cont">
-        <div className="bg-purple relative w-2/3 flex flex-col upper-text-eventpage">
+        <div className="bg-purple relative w-2/3 flex flex-col  upper-text-eventpage">
           <div className="flex items-center p-5 back-button">
             <Link to={"/events"} className="text-white sm:text-2xl back block" >
               &lt;
@@ -77,9 +80,11 @@ const EventPage = () => {
             src="/white_img.png"
             alt="White Image"
           />
-          <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue">
+       
+          <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue"  onClick={redirectToExternalLink}>
             REGISTER
           </button>
+         
         </div>
       </div>
       <div className="w-screen blue-stripe bg-blue hidden md:block"></div>
@@ -114,7 +119,7 @@ const EventPage = () => {
         </div>
       </div>
 
-      <div className="bg-purple w-screen p-10   px-0 flex justify-center">
+      <div className="bg-purple w-screen p-10 contact_bg  px-0 flex justify-center">
         <div className="bg-blue w-5/6 flex p-7">
           <div className=" sm:w-1/4 w-1/2 p-4 sm:p-7 flex flex-col justify-center items-center gap-5 ">
             <img src={vector3}></img>
