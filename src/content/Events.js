@@ -301,7 +301,7 @@ const Eventss = [
       spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
     },
     {
-      title: "Echos of Expressions",
+      title: "Echeos of Expressions",
       description: "",
       prizePool: 4000,
       eventId: "13",
@@ -697,7 +697,7 @@ const events = [
 
 ,
   {
-    title: "Echos of Expressions",
+    title: "Echeos of Expressions",
     link:"https://forms.gle/iMTTWLP2d7TnB5yXA",
 
     description: "Amidst the chaos of life, immerse yourself in the cathartic world of Slam Poetry. This competition beckons individuals to take a breather, step onto the stage, and unleash the power of spoken word to express their innermost thoughts, emotions, and reflections.",
