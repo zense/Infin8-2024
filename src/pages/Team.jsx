@@ -11,28 +11,28 @@ import { Link } from 'react-router-dom'
 import "./Team.css"
 
 
-import sac1 from "../assets/teams/sac1.jpeg"
-import sac2 from "../assets/teams/sac2.jpg"
-import sac3 from "../assets/teams/sac3.jpeg"
-import sac4 from "../assets/teams/sac4.jpeg"
-import sac5 from "../assets/teams/sac5.jpeg"
-import sac6 from "../assets/teams/sac6.jpeg"
-import sac7 from "../assets/teams/sac7.jpeg"
-import sac8 from "../assets/teams/sac8.jpeg"
-import sac9 from "../assets/teams/sac9.jpeg"
-import sac10 from "../assets/teams/sac10.jpeg"
+// import sac1 from "../assets/teams/sac1.jpeg"
+// import sac2 from "../assets/teams/sac2.jpg"
+// import sac3 from "../assets/teams/sac3.jpeg"
+// import sac4 from "../assets/teams/sac4.jpeg"
+// import sac5 from "../assets/teams/sac5.jpeg"
+// import sac6 from "../assets/teams/sac6.jpeg"
+// import sac7 from "../assets/teams/sac7.jpeg"
+// import sac8 from "../assets/teams/sac8.jpeg"
+// import sac9 from "../assets/teams/sac9.jpeg"
+// import sac10 from "../assets/teams/sac10.jpeg"
 
-import des1 from "../assets/teams/des1.jpeg"
-import des2 from "../assets/teams/des2.jpeg"
-import des3 from "../assets/teams/des3.jpeg"
-import des4 from "../assets/teams/des4.jpeg"
-import des5 from "../assets/teams/des5.jpeg"
-import des6 from "../assets/teams/des6.jpeg"
+// import des1 from "../assets/teams/des1.jpeg"
+// import des2 from "../assets/teams/des2.jpeg"
+// import des3 from "../assets/teams/des3.jpeg"
+// import des4 from "../assets/teams/des4.jpeg"
+// import des5 from "../assets/teams/des5.jpeg"
+// import des6 from "../assets/teams/des6.jpeg"
 
-import web1 from "../assets/teams/web1.jpeg"
-import web2 from "../assets/teams/web2.png"
-import web3 from "../assets/teams/web3.jpg"
-import web4 from "../assets/teams/web4.jpeg"
+// import web1 from "../assets/teams/web1.jpeg"
+// import web2 from "../assets/teams/web2.png"
+// import web3 from "../assets/teams/web3.jpg"
+// import web4 from "../assets/teams/web4.jpeg"
 
 
 
@@ -67,10 +67,10 @@ const Team = () => {
       <div className="wrapper h-auto">
         <div className='header'>
         <Link
-            className="absolute button-back-team top-0 left-0 text-white text-xl md:text-3xl p-4 font-bold"
+            className="absolute button-back-team top-0 left-0 text-white text-xl md:text-4xl p-4 font-bold"
             to={"/"}
           >
-            &lt; Back
+            &lt; BACK
           </Link>
           <div className='team-txt-container gap-4'>
             <img className='dec-img w-28' src={vec1} alt='decoration-image'/>
@@ -100,7 +100,7 @@ const Team = () => {
                     <TeamCard
                       name={element.name}
                       colour={"yellow"}
-                      imageDestination={eval(`${element.Rollno}${index+1}`)}
+                      imageDestination={`${element.Rollno}${index+1}.jpeg`}
                       />
                   </div>
               )

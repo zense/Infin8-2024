@@ -11,7 +11,7 @@
   font-family: 'Mochiy Pop P One', sans-serif;
 }
 .button-back-events{
-  font-family: 'Righteous', sans-serif;
+  font-family: 'Righteous', sans-serif !important;
 }
 .button-back-events:hover{
   color: #D90429;

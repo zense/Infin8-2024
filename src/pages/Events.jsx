@@ -19,7 +19,7 @@ const Events = () => {
             className="absolute button-back-events top-0 left-0 text-white text-xl md:text-4xl p-4 font-bold"
             to={"/"}
           >
-            &lt; Back
+            &lt; BACK
           </Link>
           <img src={eventsDesign} className="rotate-180 w-12 md:w-24" alt="" />
           <h1 className="events-heading text-5xl md:text-8xl text-red px-3 md:px-9 py-20">

@@ -141,6 +141,9 @@ button{
 .button-back-team:hover{
     color: #FFD819;
 }
+.button-back-team{
+    font-family: 'Righteous', sans-serif;
+}
 
 @media screen and (max-width:752px) {
     .head-tag{
