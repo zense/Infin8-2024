@@ -30,7 +30,7 @@ import des5 from "../assets/teams/des5.jpeg"
 import des6 from "../assets/teams/des6.jpeg"
 
 import web1 from "../assets/teams/web1.jpeg"
-import web2 from "../assets/teams/web2.jpeg"
+import web2 from "../assets/teams/web2.png"
 import web3 from "../assets/teams/web3.jpg"
 import web4 from "../assets/teams/web4.jpeg"
 

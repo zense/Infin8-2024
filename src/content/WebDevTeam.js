@@ -1,12 +1,12 @@
 const WebDevTeam=[
     {
-        name:"Ananthakrishna K",
+        name:"Rudra Pathak",
         Rollno:"web",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Rudra Pathak",
+        name:"Ananthakrishna K",
         Rollno:"web",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"

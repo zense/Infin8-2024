@@ -26,9 +26,11 @@ import cut from "../../assets/timelineEvents/cut.png";
 import ramp from "../../assets/timelineEvents/ramp.png";
 import battle from "../../assets/timelineEvents/battle.png";
 import photo from "../../assets/timelineEvents/photo.png";
+import { Link, useNavigate } from "react-router-dom";
 
 const Timeline = () => {
   const [day, setDay] = useState("btn-1");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const choice = document.getElementById(day);
@@ -118,30 +120,34 @@ const Timeline = () => {
           className="gallery-item gallery-item-1"
           id="1"
           alt=""
+          onClick={()=>navigate("/events/8")}
         />
         <img
           src={clash}
           className="gallery-item gallery-item-2"
           id="2"
           alt=""
+          onClick={()=>navigate("/events/23")}
         />
         <img
           src={jijnasa}
           className="gallery-item gallery-item-3"
           id="3"
           alt=""
+          onClick={()=>navigate("/events/12")}
         />
-        <img src={lost} className="gallery-item gallery-item-4" id="4" alt="" />
+        <img src={lost} className="gallery-item gallery-item-4" id="4" alt="" onClick={()=>navigate("/events/14")} />
         <img
           src={Nrittas}
           className="gallery-item gallery-item-5"
           id="5"
           alt=""
+          onClick={()=>navigate("/events/1")}
         />
-        <img src={Nrittag} className="gallery-item gallery-item-6" alt="" />
-        <img src={cards} className="gallery-item gallery-item-7" alt="" />
-        <img src={codm} className="gallery-item gallery-item-8" alt="" />
-        <img src={lost} className="gallery-item gallery-item-9" alt="" />
+        <img src={Nrittag} className="gallery-item gallery-item-6" alt="" onClick={()=>navigate("/events/24")} />
+        <img src={cards} className="gallery-item gallery-item-7" alt="" onClick={()=>navigate("/events/15")} />
+        <img src={codm} className="gallery-item gallery-item-8" alt="" onClick={()=>navigate("/events/11")} />
+        <img src={lost} className="gallery-item gallery-item-9" alt=""  onClick={()=>navigate("/events/14")}/>
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
@@ -186,20 +192,22 @@ const Timeline = () => {
           className="gallery-item gallery-item-1"
           id="1"
           alt=""
+          onClick={()=>navigate("/events/10")}
         />
-        <img src={bgmi} className="gallery-item gallery-item-2" id="2" alt="" />
-        <img src={slam} className="gallery-item gallery-item-3" id="3" alt="" />
+        <img src={bgmi} className="gallery-item gallery-item-2" id="2" alt="" onClick={()=>navigate("/events/22")} />
+        <img src={slam} className="gallery-item gallery-item-3" id="3" alt="" onClick={()=>navigate("/events/13")}/>
         <img
           src={league}
           className="gallery-item gallery-item-4"
           id="4"
           alt=""
+          onClick={()=>navigate("/events/5")}
         />
-        <img src={jam} className="gallery-item gallery-item-5" id="5" alt="" />
-        <img src={rang} className="gallery-item gallery-item-6" alt="" />
-        <img src={math} className="gallery-item gallery-item-7" alt="" />
-        <img src={vedanta} className="gallery-item gallery-item-8" alt="" />
-        <img src={league} className="gallery-item gallery-item-9" alt="" />
+        <img src={jam} className="gallery-item gallery-item-5" id="5" alt="" onClick={()=>navigate("/events/16")} />
+        <img src={rang} className="gallery-item gallery-item-6" alt="" onClick={()=>navigate("/events/9")} />
+        <img src={math} className="gallery-item gallery-item-7" alt=""  onClick={()=>navigate("/events/17")}/>
+        <img src={vedanta} className="gallery-item gallery-item-8" alt="" onClick={()=>navigate("/events/18")} />
+        <img src={league} className="gallery-item gallery-item-9" alt="" onClick={()=>navigate("/events/5")} />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
@@ -239,20 +247,21 @@ const Timeline = () => {
       </div>
 
       <div className="gallery-container" id="events-btn-3">
-        <img src={gulp} className="gallery-item gallery-item-1" id="1" alt="" />
+        <img src={gulp} className="gallery-item gallery-item-1" id="1" alt="" onClick={()=>navigate("/events/19")}/>
         <img
           src={brush}
           className="gallery-item gallery-item-2"
           id="2"
           alt=""
+          onClick={()=>navigate("/events/3")}
         />
-        <img src={valo} className="gallery-item gallery-item-3" id="3" alt="" />
-        <img src={fifa} className="gallery-item gallery-item-4" id="4" alt="" />
-        <img src={cut} className="gallery-item gallery-item-5" id="5" alt="" />
-        <img src={ramp} className="gallery-item gallery-item-6" alt="" />
-        <img src={battle} className="gallery-item gallery-item-7" alt="" />
-        <img src={photo} className="gallery-item gallery-item-8" alt="" />
-        <img src={cut} className="gallery-item gallery-item-9" alt="" />
+        <img src={valo} className="gallery-item gallery-item-3" id="3" alt="" onClick={()=>navigate("/events/21")}/>
+        <img src={fifa} className="gallery-item gallery-item-4" id="4" alt="" onClick={()=>navigate("/events/20")}/>
+        <img src={cut} className="gallery-item gallery-item-5" id="5" alt="" onClick={()=>navigate("/events/25")}/>
+        <img src={ramp} className="gallery-item gallery-item-6" alt="" onClick={()=>navigate("/events/4")}/>
+        <img src={battle} className="gallery-item gallery-item-7" alt="" onClick={()=>navigate("/events/11")}/>
+        <img src={photo} className="gallery-item gallery-item-8" alt="" onClick={()=>navigate("/events/26")}/>
+        <img src={cut} className="gallery-item gallery-item-9" alt="" onClick={()=>navigate("/events/25")}/>
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"
