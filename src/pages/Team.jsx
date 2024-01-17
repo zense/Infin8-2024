@@ -27,6 +27,7 @@ import des2 from "../assets/teams/des2.jpeg"
 import des3 from "../assets/teams/des3.jpeg"
 import des4 from "../assets/teams/des4.jpeg"
 import des5 from "../assets/teams/des5.jpeg"
+import des6 from "../assets/teams/des6.jpeg"
 
 import web1 from "../assets/teams/web1.jpeg"
 import web2 from "../assets/teams/web2.jpeg"
