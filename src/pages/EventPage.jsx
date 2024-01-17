@@ -42,8 +42,10 @@ const EventPage = () => {
     window.scrollTo(0,0)
   }, [])
 
+
   const redirectToExternalLink = () => {
     window.location.href = events[Number(id) - 1].link;
+    console.log(events[Number(id) - 1].link);
   };
   return (
     <div className="overflow-hidden w-auto" > 

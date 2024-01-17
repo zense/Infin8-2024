@@ -582,7 +582,7 @@ const events = [
     title: "Nukkad Naatak",
     link:"https://forms.gle/TARh6ZBYS951Tdat7",
 
-    link:"",
+    
     description:
       "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
     prizePool: 12000,
