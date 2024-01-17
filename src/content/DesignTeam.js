@@ -1,69 +1,33 @@
 const DesignTeam=[
     {
-        name:"Basak",
-        Rollno:"1234",
+        name:"Bijeet Basak",
+        Rollno:"des",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Keshav",
-        Rollno:"xxxxx",
+        name:"Santhosh Vodnala",
+        Rollno:"des",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Tahir",
-        Rollno:"xxxxx",
+        name:"Saniya Ismail",
+        Rollno:"des",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Tahir Khadarabad",
+        Rollno:"des",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Keshav Goyal",
+        Rollno:"des",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },
-    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
-        colour:"white",
-        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },
-    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
-        colour:"white",
-        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },
-    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
-        colour:"white",
-        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },
-
-    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
-        colour:"white",
-        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
-        colour:"white",
-        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },
-    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
-        colour:"white",
-        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
-    },
+    }
 ]
 export default DesignTeam;

@@ -1,43 +1,61 @@
 const OrgComm=[
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Rutuja Prabhudesai",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Aditi Singh",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Soumya Venigalla",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Nathan Mathew Verghese",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Kartik Satish Gawande",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Pranathi S V",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     }
     ,    {
-        name:"Aloo Bhujia",
-        Rollno:"xxxxx",
+        name:"Amruth Gadepalli",
+        Rollno:"sac",
+        colour:"white",
+        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
+    }
+    ,    {
+        name:"Shashank Devarmani",
+        Rollno:"sac",
+        colour:"white",
+        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
+    }
+    ,    {
+        name:"Divyam Sareen",
+        Rollno:"sac",
+        colour:"white",
+        imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
+    }
+    ,    {
+        name:"Khushi Yadav",
+        Rollno:"sac",
         colour:"white",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     }

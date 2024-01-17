@@ -6,11 +6,35 @@ import DesignTeam from "../content/DesignTeam.js"
 import OrgComm from "../content/OrgComm.js"
 import vec1 from "../assets/vec1.svg"
 import vec2 from "../assets/vec2.svg"
-import team_background from "../assets/team_background.png"
 import { useState } from 'react'
-import back from "../assets/back.png"
 import { Link } from 'react-router-dom'
 import "./Team.css"
+
+
+import sac1 from "../assets/teams/sac1.jpeg"
+import sac2 from "../assets/teams/sac2.jpg"
+import sac3 from "../assets/teams/sac3.jpeg"
+import sac4 from "../assets/teams/sac4.jpeg"
+import sac5 from "../assets/teams/sac5.jpeg"
+import sac6 from "../assets/teams/sac6.jpeg"
+import sac7 from "../assets/teams/sac7.jpeg"
+import sac8 from "../assets/teams/sac8.jpeg"
+import sac9 from "../assets/teams/sac9.jpeg"
+import sac10 from "../assets/teams/sac10.jpeg"
+
+import des1 from "../assets/teams/des1.jpeg"
+import des2 from "../assets/teams/des2.jpeg"
+import des3 from "../assets/teams/des3.jpeg"
+import des4 from "../assets/teams/des4.jpeg"
+import des5 from "../assets/teams/des5.jpeg"
+
+import web1 from "../assets/teams/web1.jpeg"
+import web2 from "../assets/teams/web2.jpeg"
+import web3 from "../assets/teams/web3.jpg"
+import web4 from "../assets/teams/web4.jpeg"
+
+
+
 const Team = () => {
   const [mode,setMode]=useState("OrgComm");
   let arr=[];
@@ -63,31 +87,19 @@ const Team = () => {
             </nav>
           </div>
         </div>
-        <div className='head-tag-wrapper'>
+        {/* <div className='head-tag-wrapper'>
           <div className='head-tag'>
             <h1>Heads</h1>
           </div>
-        </div>
+        </div> */}
         <div className="card-container">
             {arr.map((element,index)=>{
-              const flag=index===3;
-              if(flag){
-                return(
-                <div className='head-tag-wrapper conditional-tag' key={index}>
-                  <div className='head-tag'>
-                    <h1>Comrades</h1>
-                  </div>
-                </div>
-                )
-              }
-              const flag2=(index<3)
               return(
                   <div className='img-wrapper' key={index}>
                     <TeamCard
                       name={element.name}
-                      Rollno={element.Rollno}
                       colour={"yellow"}
-                      imageDestination={element.imageDestination}
+                      imageDestination={eval(`${element.Rollno}${index+1}`)}
                       />
                   </div>
               )
