@@ -7,9 +7,9 @@ import lost from "../../assets/timelineEvents/lost.jpg";
 import Nrittas from "../../assets/timelineEvents/nrittas.png";
 import Nrittag from "../../assets/timelineEvents/nrittag.png";
 import cards from "../../assets/timelineEvents/cards.png";
+import codm from "../../assets/timelineEvents/codm.png";
 
 import sargam from "../../assets/timelineEvents/sargam.png";
-import codm from "../../assets/timelineEvents/codm.png";
 import bgmi from "../../assets/timelineEvents/pubg.png";
 import league from "../../assets/timelineEvents/league.png";
 import jam from "../../assets/timelineEvents/just.png";
@@ -17,6 +17,7 @@ import rang from "../../assets/timelineEvents/stage.png";
 import math from "../../assets/timelineEvents/math.png";
 import vedanta from "../../assets/timelineEvents/vedanta.png";
 import slam from "../../assets/timelineEvents/slam.png";
+import casein from "../../assets/timelineEvents/case.png";
 
 import gulp from "../../assets/timelineEvents/gulp.png";
 import brush from "../../assets/timelineEvents/brush.png";
@@ -207,7 +208,7 @@ const Timeline = () => {
         <img src={rang} className="gallery-item gallery-item-6" alt="" onClick={()=>navigate("/events/9")} />
         <img src={math} className="gallery-item gallery-item-7" alt=""  onClick={()=>navigate("/events/17")}/>
         <img src={vedanta} className="gallery-item gallery-item-8" alt="" onClick={()=>navigate("/events/18")} />
-        <img src={league} className="gallery-item gallery-item-9" alt="" onClick={()=>navigate("/events/5")} />
+        <img src={casein} className="gallery-item gallery-item-9" alt="" onClick={()=>navigate("/events/5")} />
         <button
           onClick={handlePrevClick}
           className="button button-prev bg-yellow rounded-full w-20 h-20 flex items-center justify-center"

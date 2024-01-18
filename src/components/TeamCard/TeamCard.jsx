@@ -3,7 +3,7 @@ import "./TeamCard.css";
 
 const TeamCard = ({ name, Rollno, colour, imageDestination,link }) => {
   return (
-    <div className="max-w-xs overflow-hidden bg-white shadow-lg">
+    <div className="card-team overflow-hidden bg-white shadow-lg">
       <img
         className="object-cover w-full h-40"
         src={imageDestination}

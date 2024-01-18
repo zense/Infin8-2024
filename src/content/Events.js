@@ -177,7 +177,7 @@ const Eventss = [
     {
       title: "Case in Point ",
       description: "A Brand challenge competition where participants get a Business oriented Case study problem on which they have to come up with a solution in the form of presentation and present in front of judges. The Company you are working in is facing a situation (problem statement). Now it's solely up to the participant to turn the company's fortunes around. The task is to come up with solutions and help the company with new strategies and some innovative solutions.",
-      prizePool: 5000,
+      prizePool: 13000,
       eventId: "27",
       lastDate:" 11th Feb 11:59 pm",
       rules:[
@@ -301,7 +301,7 @@ const Eventss = [
       spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
     },
     {
-      title: "Echeos of Expressions",
+      title: "Echoes of Expressions",
       description: "",
       prizePool: 4000,
       eventId: "13",
@@ -697,7 +697,7 @@ const events = [
 
 ,
   {
-    title: "Echeos of Expressions",
+    title: "Echoes of Expressions",
     link:"https://forms.gle/iMTTWLP2d7TnB5yXA",
 
     description: "Amidst the chaos of life, immerse yourself in the cathartic world of Slam Poetry. This competition beckons individuals to take a breather, step onto the stage, and unleash the power of spoken word to express their innermost thoughts, emotions, and reflections.",
@@ -772,7 +772,7 @@ const events = [
     "Speaker Points: The speaker gains a point if the challenge is deemed incorrect. Speakers also earn 2 points if they are speaking when the 60 seconds expire.",
     "Bonus Points: Entertaining challenges and speeches, even if not entirely correct, may receive bonus points at the moderator's discretion. Witty interjections that amuse the audience can lead to mutual point gains for the challenger and speaker.",
     "When a correct challenge is made, the challenger takes over the topic for the remainder of the minute or until they are correctly challenged.",
-    "The game rewards those who make entertaining challenges, offering opportunities for quick points and amusing interjections."
+    "The game rewards those who make entertaining challenges, offering opportunities for quick points and amusing interjections.","Reference - Please watch the first few rounds in the video below for reference. It’s a very fun and light-hearted event so we might have bonus points for entertaining speeches and challenges ;) https://www.youtube.com/watch?v=2Zu-2eNYmMM"
   ],
   contacts: [
     { name: "Vishruth Vijay", number: "9449960095" },
@@ -911,7 +911,7 @@ const events = [
     lastDate:" 10th Feb 11:59 pm",
     rules: [
       "Minimum 2 IIITB members, current or alumni.",
-      "Max 5 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
+      "Max 4 in a squad and on time. If the team isn't filled on start time, the team has to play handicapped.",
       "You are only allowed to play mobile phones. (No tablets and No controllers allowed)",
       "Cheating, aim assists, emulation, wall hacks or any tampering with the BGMI client will lead to instaban from the match and tournament.",
       "Scoring will be based on position and kills",
@@ -949,7 +949,7 @@ const events = [
   ,
   {
     title: "Infinitude",
-    link:"https://forms.gle/SJ1QFAUyKY7SG7A19",
+    link:"https://forms.gle/ikiT38tRQThoJBE56",
 
     description:
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
@@ -972,7 +972,7 @@ const events = [
   },
   {
     title: "Cut to the Chase",
-    link:"https://forms.gle/h3966zymr2QeyR2b7",
+    link:"https://docs.google.com/forms/d/e/1FAIpQLSdU8y0o_62fZ_RpcL50Ht-7Ho6RtuYXHCxYpkzPc7O3xL4nbw/viewform?usp=sf_link",
 
     description:
       "A picture speaks a thousand words, a film is a million pictures… do the math! Show off your writing, acting, and editing prowess to influence the masses with your short yet impactful film.",
