@@ -153,7 +153,7 @@ html{
   }
   .navbar-list {
     flex-direction: column;
-    gap: 40px !important;
+    gap: 20px !important;
   }
   .nav-menu {
     display: flex !important;

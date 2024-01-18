@@ -48,7 +48,7 @@ const LandingScreen = () => {
             <div className='nav-menu bg-red text-white rounded-3xl text-xl w-20 justify-center items-center mx-3 p-1' onClick={menuclick}>Menu</div>
             <div className='nav-container w-full flex items-center justify-end px-40 h-1/6' id='nav' >
               <div className="navbar bg-red text-white rounded-3xl text-xl">
-                <ul className=' navbar-list flex gap-5 p-2 px-10'>
+                <ul className=' navbar-list flex md:gap-5 p-2 px-10'>
                   {/* <li className=''><Link to={"/"} >Home</Link></li> */}
                   <li><Link to={"/events"} >Events</Link></li>
                   {/* <li><Link to={"/sponsors"} >Sponsosrs</Link></li> */}

@@ -38,7 +38,7 @@ const DesignTeam=[
         name:"Radhika Aggarwal",
         Rollno:"des",
         colour:"white",
-        link:"https://www.instagram.com/_radhika20?igsh=MXZzcWoxMGR2OXh1ZQ==",
+        link:"https://www.instagram.com/__radhika20_?igsh=MXZzcWoxMGR2OXh1ZQ==",
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     }
 ]

@@ -8,10 +8,12 @@
 .text2 {
     font-family: 'Poly';
 }
-
+.card-team{
+    max-width: 340px;
+}
 @media (max-width:500px){
     .card-team{
-     width: 85vw;   
+     width: 80vw;   
     }
 
 }

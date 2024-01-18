@@ -151,6 +151,9 @@ button{
         width:50vw;
         height:15vh;
     }
+    .team-txt-container{
+        margin-top: 50px;
+    }
     .team-txt{
         font-size:15vw;
     }
