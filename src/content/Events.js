@@ -179,7 +179,7 @@ const Eventss = [
       description: "A Brand challenge competition where participants get a Business oriented Case study problem on which they have to come up with a solution in the form of presentation and present in front of judges. The Company you are working in is facing a situation (problem statement). Now it's solely up to the participant to turn the company's fortunes around. The task is to come up with solutions and help the company with new strategies and some innovative solutions.",
       prizePool: 13000,
       eventId: "27",
-      lastDate:" 11th Feb 11:59 pm",
+      lastDate:" 10th Feb 11:59 pm",
       rules:[
         "Maximum 2 members can be in a team.","The company will be given to you on spot and you will get 1 hour to work on it.","Usage of internet would be allowed.","After the allotted time is over, each team would have to pitch their ideas to the judges within a span of 5-10 minutes.","Any kind of team-ups or exchange of ideas between different teams will lead to immediate disqualification."
       ],
@@ -224,7 +224,7 @@ const Eventss = [
         "The 12 teams that qualify for the second round, will be split into TWO groups of SIX teams, each group consisting of TWO teams from each track.",
         "SIX teams will qualify for the third round (THREE from each group, irrespective of the track).",
         "Rounds 2 and 3 will not be track-specific.",
-        "League of Fanatics- Infin8’ 24 2 Further details about the rounds and the point structure for them will be announced at the event venue. ",
+        "Further details about the rounds and the point structure for them will be announced at the event venue. ",
       ],
       contacts: [
         { name: "Harsh Modani", number: "9380126399" },
@@ -482,6 +482,7 @@ const events = [
     rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
     contacts:[{name:"Aditya Nangarath",number:"7022271553"},{name:"Bysani Akshaya",number:"7799008583"}],
     spocs: ["Aditya Nangarath", "Bysani Akshaya"],
+    time:"16th Feb 2 pm"
   },
   {
     title: "Blitz",
@@ -503,6 +504,7 @@ const events = [
     rules:["There will be 2 categories - Painting, Sketching","The art club will provide basic materials like drawing sheets, brushes, pencils, erasers, and paint palettes.","It is recommended that students bring their medium for painting and sketching/shading. The art club will only provide a limited number of acrylic/poster paints.","The artwork must be done at the venue and not beforehand.","The results will be announced on the Infin8 Instagram handle.","Few on-spot registrations are available for IIITB students, however, non-students must register beforehand."],
     spocs: ["Vrajnandak Nangunoori", "Hemang Seth"],
     contacts: [{name:"Hemang Seth",number:"8817972743"}, {name:"Vrajnandak Nangunoori",number:"9059408976"}],
+    time:"18th Feb 9 am"
   },
   {
     title: "Ramp It Up",
@@ -514,6 +516,7 @@ const events = [
     lastDate:" 11th Feb 11:59 pm",
     rules:["You can form a team of 2 or take part individually.","The time limit for every team/individual would be 1 minute (Including setup and the performance both).","Negative marking if participants exceed the time limit.","Vulgarity is strongly prohibited. Any form of obscenity will lead to debarring the team/individual from the contest.","Teams/individuals will be judged oncostumes, walking stance, attitude, hairstyle, and overall presentation.","The decision of the judges will be final and binding.","All costumes are permitted, which maintain decency including original costumes & fashion designs.","Purchased, professionally made, or rented costumes are permitted.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/"],
     contacts: [{name:"H Sanjeev",number:"9491370927"}, {name:"Shreya Chavan",number:"9347425563"}],
+    time:"18th Feb 1:30 pm"
   },
   {
     title: "League of Fanatics",
@@ -530,16 +533,17 @@ const events = [
       "Organizers reserve the right to disqualify teams on any grounds they deem fit at their discretion.",
       "For rounds involving buzzers, the following rules apply: In case a team presses the buzzer before the question is completely announced/ displayed on the screen, they will have to answer with the information provided until then. Teams need to answer immediately once they press the buzzer. Buzzes will be awarded by the OC, and their decision is final.",
       "The event will take place in three rounds. ",
-      "The first round is divided into 3 tracks: i) Anime + Sports ii) Movies and series + Video Games iii) Music + Books and will be conducted on an online platform. Nevertheless, teams need to present at the venue for this round. Irrespective of the number of teams in a track, only FOUR teams from each track will qualify for the second round.",
+      "The first round is divided into 3 tracks: ","i) Anime + Sports","ii) Movies and series + Video Games","iii) Music + Books and will be conducted on an online platform. ","Nevertheless, teams need to present at the venue for this round. Irrespective of the number of teams in a track, only FOUR teams from each track will qualify for the second round.",
       "The 12 teams that qualify for the second round, will be split into TWO groups of SIX teams, each group consisting of TWO teams from each track.",
       "SIX teams will qualify for the third round (THREE from each group, irrespective of the track).",
       "Rounds 2 and 3 will not be track-specific.",
-      "League of Fanatics- Infin8’ 24 2 Further details about the rounds and the point structure for them will be announced at the event venue. ",
+      "Further details about the rounds and the point structure for them will be announced at the event venue. ",
     ],
     contacts: [
       { name: "Harsh Modani", number: "9380126399" },
       { name: "Harshavardhan", number: "9645894725" }
     ],
+    time:"17th Feb 10 am"
   },
   {
     title: "Battle of Bands",
@@ -564,7 +568,8 @@ const events = [
       { name: "Karanveer Singh", number: "6268463824" },
       { name: "Saket Gurjar", number: "8502883397" }
     ],
-    spocs: ["Karanveer Singh", "Saket Gurjar"]
+    spocs: ["Karanveer Singh", "Saket Gurjar"],
+    time:"18th Feb 3 pm"
   }
   ,
   {
@@ -577,6 +582,7 @@ const events = [
     eventId: "7",
     spocs: ["Karthik Reddy"],
     contacts: ["7795933534"],
+    time:"17th Feb 10 am"
   },
   {
     title: "Nukkad Naatak",
@@ -601,6 +607,7 @@ const events = [
       { name: "Aaditya Gole", number: "7972513736" },
       { name: "Chandrima Nandi", number: "9028872476" }
     ],
+    time:"16th Feb 9 am"
   },
 
 {
@@ -623,7 +630,8 @@ const events = [
     { name: "Arjun Subhedar", number: "7028770201" },
     { name: "Divyansh Singhal", number: "7023333611" }
   ],
-  spocs: ["Arjun Subhedar", "Divyansh Singhal"]
+  spocs: ["Arjun Subhedar", "Divyansh Singhal"],
+  time:"17th Feb 2 pm"
 },
 
 {
@@ -647,6 +655,7 @@ const events = [
     { name: "Rishabh Dixit", number: "6366258170" },
     { name: "Vedant Manglurkar", number: "7588069853" }
   ],
+  time:"17th Feb 9 am"
 }
 ,
 {
@@ -671,7 +680,8 @@ const events = [
   contacts: [
     { name: "Prasanth Kumar", number: "7989839700" },
     { name: "Sasank Karamsetty", number: "8328596959" }
-  ]
+  ],
+  time:"16th Feb 10 am"
 },
 {
   title: "Jijñāsa",
@@ -692,7 +702,8 @@ const events = [
   contacts: [
     { name: "Amar Pratap Singh", number: "8197367978" },
     { name: "Dhruv Gupta", number: "9015346166" }
-  ]
+  ],
+  time:"16th Feb 9 am"
 }
 
 ,
@@ -704,8 +715,9 @@ const events = [
     prizePool: 4000,
     eventId: "13",
     lastDate:" 10th Feb 11:59 pm",
-    rules:["It will be an offline event and participants need to be present in person.","The participants will be provided a paper to write their poems.","After the topic is released, participants will have 30 mins to submit their work after which submissions will not be accepted.","Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","The poetry recitation must be the same as the submitted work. ","Any disputes regarding handwriting eligibility will be up to the OC.","The use of the Internet is not allowed.","Poems on the chosen topic should be an original creation by the participant.","Unrhyming narrative formula, traditional theatrical devices including shifting voices and tones may be used.","The presentation must just be simple recitation and not a musical or theatrical performance.","Plagiarizing will lead to immediate disqualification"],
+    rules:["It will be an offline event and participants need to be present in person.","The participants will be provided a paper to write their poems.","After the topic is released, participants will have 30 mins to submit their work after which submissions will not be accepted.","Organizers hold the power to disqualify any participants on any grounds they deem fit at their discretion.","The poetry recitation must be the same as the submitted work. ","Any disputes regarding handwriting eligibility will be up to the OC.","The use of the Internet is not allowed.","Poems on the chosen topic should be an original creation by the participant.","Unrhyming narrative formula, traditional theatrical devices including shifting voices and tones may be used.","The presentation must just be simple recitation and not a musical or theatrical performance.","Plagiarizing will lead to immediate disqualification","No props are allowed during recitation, theatrocs are allowed through body language and voice only."],
     contacts: [{name:"Ayush Gupta",number:"8884803648"}],
+    time:"17th Feb 4 pm"
   },
 
 
@@ -731,6 +743,7 @@ const events = [
     { name: "Vyom Sharma", number: "7060886758" },
     { name: "Bhavjyot Singh", number: "9855498265" }
   ],
+  time:"16th Feb 11:30 am"
 }
 ,
 {
@@ -754,6 +767,7 @@ const events = [
   contacts: [
     { name: "Jinesh Pagaria", number: "9653616341" }
   ],
+  time:"16th Feb 4 pm"
 },
 {
   title: "JAM (Just A Minute)",
@@ -778,6 +792,7 @@ const events = [
     { name: "Vishruth Vijay", number: "9449960095" },
     { name: "Vikas Kalyanapuram", number: "8762175731" }
   ],
+  time:"17th Feb 11 am"
 },
   {
     title: "The Non-Trivial Trivia",
@@ -789,6 +804,7 @@ const events = [
     eventId: "17",
     lastDate:" 10th Feb 11:59 pm",
     contacts: [{name:"Shubhranil Basak",number:"9366039521"}],
+    time:"17th Feb 3 pm"
   },
   {
     title: "Vedanta Darsana ",
@@ -809,7 +825,8 @@ const events = [
       { name: "Amar Pratap Singh", number: "8197367978" },
       { name: "Dhruv Gupta", number: "9015346166" }
     ],
-    spocs: ["Amar Pratap Singh", "Dhruv Gupta"]
+    spocs: ["Amar Pratap Singh", "Dhruv Gupta"],
+    time:"17th Feb 4 pm"
   },
   {
     title: "Gulp and Gobble",
@@ -836,6 +853,7 @@ const events = [
       { name: "Valmik Belgaonkar", number: "8356819477" },
       { name: "Rishit Mane", number: "7738147865" }
     ],
+    time:"18th Feb 8 am"
   }
   ,
   {
@@ -872,7 +890,8 @@ const events = [
       { name: "Keshav Goyal", number: "8968076237" },
       { name: "Siddharth Ayathu", number: "6366281143" }
     ],
-    spocs: ["Keshav Goyal", "Siddharth Ayathu"]
+    spocs: ["Keshav Goyal", "Siddharth Ayathu"],
+    time:"18th Feb 9:30 am"
   }
   ,
   {
@@ -897,7 +916,8 @@ const events = [
       { name: "Brij Desai", number: "6362043016" },
       { name: "Harshith Reddy", number: "9177785261" }
     ],
-    spocs: ["Brij Desai", "Harshith Reddy"]
+    spocs: ["Brij Desai", "Harshith Reddy"],
+    time:"18th Feb 9:30 am"
   }
   ,
   {
@@ -923,7 +943,8 @@ const events = [
       { name: "Pushkar Kulkarni", number: "9136815683" },
       { name: "Kunal Narang", number: "9012252500" }
     ],
-    spocs: ["Pushkar Kulkarni", "Kunal Narang"]
+    spocs: ["Pushkar Kulkarni", "Kunal Narang"],
+    time:"17th Feb 9:30 am"
   },
   {
     title: "Clash Royale",
@@ -945,6 +966,7 @@ const events = [
     contacts: [
       { name: "Narayana Srimanth", number: "9032959454" }
     ],
+    time:"16th Feb 10 am"
   }
   ,
   {
@@ -969,6 +991,7 @@ const events = [
       { name: "Nupur Patil", number: "9922709459" },
       { name: "Shiven Phogat", number: "9137231118" }
     ],
+    time:"16th Feb 5 pm"
   },
   {
     title: "Cut to the Chase",
@@ -995,7 +1018,8 @@ const events = [
       { name: "Varshith Vattikuti", number: "9886987649" },
       { name: "Nathan Mathew Verghese", number: "8848839946" }
     ],
-    spocs: ["Varshith Vattikuti", "Nathan Mathew Verghese"]
+    spocs: ["Varshith Vattikuti", "Nathan Mathew Verghese"],
+    time:"18th Feb 11 am"
   }
   ,
   {
@@ -1010,6 +1034,7 @@ const events = [
       "Click good pics on the given theme and submit the best you feel.","Photos must be clicked using a mobile phone only by the one who is submitting.","RAW Image editing is allowed.","Basic visual editing such as cropping, lighting, shadow, hue, and saturation adjustments are allowed provided automatic filters are not used.","Either landscape or portrait mode is allowed.","The submission links will be sent to registered participants via mail.","Each participant is allowed to submit a single picture, submitting more than one picture may lead to his/her disqualification from the competition.","Results will be announced on our Instagram handle.","The decision of the organizing committee and the jury will be final.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/","All artists will retain full ownership of their submissions but, by entering, you agree to allow us to use the entries in the promotion of the Infin8.","Any personal information collected from the participants will be used only for the purposes of administering the contest."
     ],
     contacts: [{name:"M Srinivasan",number:"9353738745"}, {name:"Vaibhav Thapliyal",number:"8128818422"}],
+    time:""
   },
   {
     title: "Case in Point ",
@@ -1018,11 +1043,12 @@ const events = [
     description: "A Brand challenge competition where participants get a Business oriented Case study problem on which they have to come up with a solution in the form of presentation and present in front of judges. The Company you are working in is facing a situation (problem statement). Now it's solely up to the participant to turn the company's fortunes around. The task is to come up with solutions and help the company with new strategies and some innovative solutions.",
     prizePool: 13000,
     eventId: "27",
-    lastDate:" 11th Feb 11:59 pm",
+    lastDate:" 10th Feb 11:59 pm",
     rules:[
       "Maximum 2 members can be in a team.","The company will be given to you on spot and you will get 1 hour to work on it.","Usage of internet would be allowed.","After the allotted time is over, each team would have to pitch their ideas to the judges within a span of 5-10 minutes.","Any kind of team-ups or exchange of ideas between different teams will lead to immediate disqualification."
     ],
     contacts: [{name:"Allu Pavankarthik Reddy",number:"7795933534"}],
+    time:"17th Feb 1.30 pm"
   }
 ];
 

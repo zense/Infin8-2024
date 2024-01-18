@@ -14,7 +14,7 @@ const OrgComm=[
         imageDestination:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHsHHeEkVexOjk8riVmMH60PXLO_-UQzpBcd12qMNikQswtTrpzJLerzxK1YaKQ9q_9XE&usqp=CAU"
     },
     {
-        name:"Soumya Venigalla",
+        name:"Sowmya Venigalla",
         Rollno:"sac",
         colour:"white",
         link:"https://www.instagram.com/sowmya.venigalla?igsh=MTk0NzV4Mm9yaGkzNA==",

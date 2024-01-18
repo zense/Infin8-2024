@@ -64,8 +64,16 @@ const EventPage = () => {
           </div>
 
           <div className="text-white text-xl sm:text-3xl text-right h-1/2 flex flex-col items-end justify-center px-3 sm:px-12 pb-8 sm:pb-0">
+            {
+              Number(id)!==26 ? <>
+                  <div className="h1">When?</div>
+                    <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-8">
+                    {events[Number(id) - 1].time}
+                    </div>
+              </>:""
+            }
             <div className="h1">Last Date to Register</div>
-            <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-12">
+            <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-8">
             {events[Number(id) - 1].lastDate}
             </div>
             <div className="h1">Prize pool</div>
@@ -79,12 +87,12 @@ const EventPage = () => {
 
         <div className="flex items-center flex-col bg-dark-purple flex justify-center md:w-1/3 eventpage-image sm:pb-0 pb-12">
           <img
-            className=" mt-10 w-3/4"
+            className=" w-3/4"
             src={`/${events[Number(id) - 1].eventId}p.png`}
             alt="White Image"
           />
        
-          <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue"  onClick={redirectToExternalLink}>
+          <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue mb-5"  onClick={redirectToExternalLink}>
             REGISTER
           </button>
          
