@@ -44,7 +44,8 @@ const EventPage = () => {
 
 
   const redirectToExternalLink = () => {
-    window.location.href = events[Number(id) - 1].link;
+    // window.location.href = events[Number(id) - 1].link;
+    window.open(events[Number(id) - 1].link)
     console.log(events[Number(id) - 1].link);
   };
   return (
@@ -79,7 +80,7 @@ const EventPage = () => {
         <div className="flex items-center flex-col bg-dark-purple flex justify-center md:w-1/3 eventpage-image sm:pb-0 pb-12">
           <img
             className=" mt-10 w-3/4"
-            src="/white_img.png"
+            src={`/${events[Number(id) - 1].eventId}p.png`}
             alt="White Image"
           />
        

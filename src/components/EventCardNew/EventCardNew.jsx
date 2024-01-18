@@ -16,7 +16,7 @@ const EventCardNew = ({
         className="object-cover w-full h-40 shadow"
         src={imageDestination}
         alt={`${name}'s profile`}
-        style={{height: "370px" }}
+        style={{height: "auto",width:"auto" }}
       />
       <div
         className={`p-4 bg-${colour} flex flex-col justify-center items-center shadow text-white`}

@@ -101,6 +101,7 @@ const Team = () => {
                       name={element.name}
                       colour={"yellow"}
                       imageDestination={`${element.Rollno}${index+1}.jpeg`}
+                      link={'google.com'}
                       />
                   </div>
               )

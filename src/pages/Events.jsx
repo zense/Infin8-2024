@@ -43,9 +43,7 @@ const Events = () => {
                       Rollno={"Prize pool : " + event.prizePool}
                       colour={"red"}
                       addShadows={true}
-                      imageDestination={
-                        "https://img.freepik.com/free-vector/cute-happy-penguin-cartoon-icon-illustration-animal-nature-icon-concept-isolated-flat-cartoon-style_138676-2095.jpg?w=826&t=st=1705073952~exp=1705074552~hmac=aa0f14ae0a6b2243baf74089b0b99ef3cfd8ac524c24c911cbe67df18efd5b75"
-                      }
+                      imageDestination={`${event.eventId}p.png`}
                     />
                   </Link>
                 ))}

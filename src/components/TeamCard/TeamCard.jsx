@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./TeamCard.css";
 
-const TeamCard = ({ name, Rollno, colour, imageDestination }) => {
+const TeamCard = ({ name, Rollno, colour, imageDestination,link }) => {
   return (
     <div className="max-w-xs overflow-hidden bg-white shadow-lg">
       <img
@@ -10,14 +10,16 @@ const TeamCard = ({ name, Rollno, colour, imageDestination }) => {
         alt={`${name}'s profile`}
         style={{ width: "340px", height: "270px" }}
       />
+      <a href={link} target="_blank">
       <div
         className={` bg-${colour} flex flex-col justify-center items-center   text-white`}
         style={{ width: "auto", height: "155px" }}
-      >
-        <i className="fa-brands fa-instagram w-9 h-9"></i>
+        >
+        <i className="fa-brands fa-instagram text-4xl pb-2"></i>
         <h2 className="text-3xl text1 text-center  mb-4">{name}</h2>
         <p className="text-2xl text2">{Rollno}</p>
       </div>
+        </a>
     </div>
   );
 };
