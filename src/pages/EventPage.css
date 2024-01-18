@@ -9,7 +9,7 @@
     z-index: 2;
   }
   .eventpage-container{
-    height: 90vh;
+    min-height: 90vh;
   }
   .blue-stripe{
     height: 10vh;

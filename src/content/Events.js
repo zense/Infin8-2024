@@ -590,7 +590,7 @@ const events = [
 
     
     description:
-      "Explore the vibrant world of street theater with 'NUKKAD NATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
+      "Explore the vibrant world of street theater with 'NUKKAD NAATAK.' This event invites you to harness the power of compelling performances to raise your voice and drive societal change.",
     prizePool: 12000,
     eventId: 8,
     lastDate:" 9th Feb 11:59 pm",

@@ -67,7 +67,7 @@ const EventPage = () => {
             {
               Number(id)!==26 ? <>
                   <div className="h1">When?</div>
-                    <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-8">
+                    <div className="h2 text-3xl md:text-5xl pb-5 sm:pb-8">
                     {events[Number(id) - 1].time}
                     </div>
               </>:""
