@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="w-screen  bg-bgredlight footer" id="contactus">
       <div className="skewtext flex items-center justify-center relative ">
         <div className="infin8-text bg-yellow text-bgredlight absolute flex text-8xl p-5">
-          <p className="moving-infin8 w-screen">
+          <p className="moving-infin8">
             INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;2024.&nbsp;INFIN8.&nbsp;
           </p>
         </div>
@@ -37,24 +37,24 @@ const Footer = () => {
           <div className="h-full flex flex-col text-yellow text-3xl font-semibold items-center justify-center pb-6">
             <h1 className="text-5xl font-bold pb-9">Get in touch.</h1>
             <div className="flex justify-between w-full">
-              <a className="flex items-center justify-between w-full" href="https://twitter.com/infin8_iiitb">Twitter
+              <a className="flex items-center justify-between w-full" href="https://twitter.com/infin8_iiitb" target="_blank" >Twitter
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </div>
             <div className="flex justify-between w-full">
-              <a className="flex items-center justify-between w-full" href="https://www.instagram.com/infin8_iiitb/">Instagram
+              <a className="flex items-center justify-between w-full" href="https://www.instagram.com/infin8_iiitb/" target="_blank">Instagram
               <i class="fa-brands fa-instagram"></i>
               </a>
               
             </div>
             <div className="flex justify-between w-full">
-              <a className="flex items-center justify-between w-full" href="https://www.facebook.com/infin8.iiitb/">Facebook
+              <a className="flex items-center justify-between w-full" href="https://www.facebook.com/infin8.iiitb/" target="_blank">Facebook
               <i class="fa-brands fa-facebook"></i></a>
 
               
             </div>
             <div className="flex justify-between w-full">
-              <a className="flex items-center justify-between w-full" href="https://www.linkedin.com/company/infin8-iiitb/">LinkedIn
+              <a className="flex items-center justify-between w-full" href="https://www.linkedin.com/company/infin8-iiitb/" target="_blank">LinkedIn
               <i class="fa-brands fa-linkedin"></i></a>
               
             </div>

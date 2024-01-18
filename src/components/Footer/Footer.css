@@ -4,20 +4,21 @@
 }
 .skewtext{
     height: 50vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .infin8-text{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #EEE;
     overflow: hidden;
     transform: rotateZ(5deg);
-    width: 100vw;
+    width: 110vw;
 }
 .logos img{
     width: 250px;
 }
 
 .moving-infin8{
+    width: 110vw;
     animation: move-animation 100s infinite linear;
 }
 
@@ -34,9 +35,6 @@
 }
 
 @media(max-width:810px){
-    .infin8-text{
-        width: 97vw !important;
-    }
     .handles{
         flex-direction: column-reverse;
     }

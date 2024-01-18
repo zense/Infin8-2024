@@ -1,11 +1,11 @@
 const faqs = [
     {
         question:"How do we register?",
-        answer:"- Please go to the events page where you will have to fill up google forms of the event that you wish to participate in. If you are an IIITB student, you do not have to pay for the events. But if you aren't a student of IIITB, then you will have to go to the description section provided in the form, there you'll find the link to the payment portal, pay the amount and take a screen shot of the payment receipt and submit that screen shot in the form."
+        answer:"Visit the events page and fill out the Google Form for the event you wish to participate in. A QR code is available in the form. Non-IIITB students should scan the QR code, complete the payment, take a screenshot of the receipt, and submit it through the form. IIITB students are exempt from event fees; however, they should also upload a picture of their student ID as part of the registration process."
     },
     {
         question:"How do I verify my identity in college events? ",
-        answer:"- If you are an IIITB student, then carry your ID card. If you are not an IIITB student, then we'll verify your payment and provide you the tickets via the email id you've provided in form. That will be considered as your identity verification. "
+        answer:"If you are an IIITB student, please carry your ID card. For non-IIITB students, we will verify your payment and send you the tickets to the email address you provided in the form. This email confirmation will be considered as your identity verification"
     },
     {
         question:"Should I buy a ticket for individual events, or can I get a single ticket for all the events?",
