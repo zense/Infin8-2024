@@ -171,7 +171,7 @@ const Eventss = [
       ],
       contacts: [
         { name: "Rishabh Dixit", number: "6366258170" },
-        { name: "Vedant Manglurkar", number: "7588069853" }
+        { name: "Vedant Mangrulkar", number: "7588069853" }
       ],
     },
     {
@@ -653,7 +653,7 @@ const events = [
   ],
   contacts: [
     { name: "Rishabh Dixit", number: "6366258170" },
-    { name: "Vedant Manglurkar", number: "7588069853" }
+    { name: "Vedant Mangrulkar", number: "7588069853" }
   ],
   time:"17th Feb 9 am"
 }

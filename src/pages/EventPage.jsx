@@ -63,17 +63,17 @@ const EventPage = () => {
             <div className="">{events[Number(id) - 1].title}</div>
           </div>
 
-          <div className="text-white text-xl sm:text-3xl text-right h-1/2 flex flex-col items-end justify-center px-3 sm:px-12 pb-8 sm:pb-0">
+          <div className="text-white text-xl sm:text-3xl text-right h-1/2 flex flex-col items-end justify-center px-3 sm:px-12 pb-8 sm:pb-8">
             {
               Number(id)!==26 ? <>
                   <div className="h1">When?</div>
-                    <div className="h2 text-3xl md:text-5xl pb-5 sm:pb-8">
+                    <div className="h2 text-3xl md:text-5xl pb-5 sm:pb-6">
                     {events[Number(id) - 1].time}
                     </div>
               </>:""
             }
             <div className="h1">Last Date to Register</div>
-            <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-8">
+            <div className="h2 text-3xl sm:text-5xl pb-5 sm:pb-6">
             {events[Number(id) - 1].lastDate}
             </div>
             <div className="h1">Prize pool</div>
@@ -87,12 +87,12 @@ const EventPage = () => {
 
         <div className="flex items-center flex-col bg-dark-purple flex justify-center md:w-1/3 eventpage-image sm:pb-0 pb-12">
           <img
-            className=" w-3/4"
+            className=" w-3/4 mt-5"
             src={`/${events[Number(id) - 1].eventId}p.png`}
             alt="White Image"
           />
        
-          <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue mb-5"  onClick={redirectToExternalLink}>
+          <button className=" text-white text-4xl reg h-20 w-3/4 bg-blue sm:mb-5"  onClick={redirectToExternalLink}>
             REGISTER
           </button>
          
@@ -141,7 +141,7 @@ const EventPage = () => {
           <div className="flex flex-col sm:flex-row  items-center justify-center sm:w-3/4 w-1/2 gap-4 sm:gap-9 sm:text-3xl p-3">
             {events[Number(id) - 1].contacts.map((contact,index) => (
               <div className="flex flex-col person  text-dark-purple items-center justify-center" key={index}>
-                <div>{contact.name}</div>
+                <div className="text-center" >{contact.name}</div>
                 <div>{contact.number}</div>
               </div>
             ))}
