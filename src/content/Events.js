@@ -482,7 +482,7 @@ const events = [
     rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
     contacts:[{name:"Aditya Nangarath",number:"7022271553"},{name:"Bysani Akshaya",number:"7799008583"}],
     spocs: ["Aditya Nangarath", "Bysani Akshaya"],
-    time:"16th Feb 2 pm"
+    time:"16th Feb 5 pm"
   },
   {
     title: "Blitz",
@@ -991,7 +991,7 @@ const events = [
       { name: "Nupur Patil", number: "9922709459" },
       { name: "Shiven Phogat", number: "9137231118" }
     ],
-    time:"16th Feb 5 pm"
+    time:"16th Feb 2 pm"
   },
   {
     title: "Cut to the Chase",
