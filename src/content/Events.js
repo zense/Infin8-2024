@@ -84,7 +84,7 @@ const Eventss = [
     title: "Nritta",
     description:
       "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
-    prizePool: 10000,
+    prizePool: 8000,
     eventId: 1,
     image: "../assets/banner.png",
     rules:["No Vulgarity.","No use of props which litter the stage, such as colors.","Use of any props to be informed beforehand. Soundtrack also to be provided beforehand.","No professional dancers, only college students.","3-5 minutes per performance.","All dance styles and fusion dance is permitted.","Venue (tentative) - Basketball Court "],
@@ -115,7 +115,7 @@ const Eventss = [
     title: "Infinitude",
     description:
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
-    prizePool: 20000,
+    prizePool: 22000,
     eventId: "24",
     rules: [
       "Team Size - 8-15 members",
@@ -475,7 +475,7 @@ const events = [
     link:"https://forms.gle/mhbVvqAbXhnYkDXt8",
     description:
       "Anticipate an electrifying spectacle of dance at the grand event, 'Nritta.' Elevate your performance as a solo artist or collaborate in a duo, and let the stage be your canvas for up to 5 minutes of captivating expression.  Make every moment count and immerse yourself in the rhythmic world of 'Nritta.' The spotlight awaits, so get ready to leave an indelible mark on the stage with your dance prowess.",
-    prizePool: 10000,
+    prizePool: 8000,
     eventId: 1,
     lastDate:" 9th Feb 11:59 pm",
     image: "../assets/banner.png",
@@ -975,7 +975,7 @@ const events = [
 
     description:
       "Step into the cultural tapestry of Infinitude, a group dance competition that adds a dynamic flair to our festivities! Embrace the opportunity with a nominal registration fee and the allure of enticing prizes for the top performers. Let the rhythm of your collective expression become a highlight of our cultural celebration!",
-    prizePool: 20000,
+    prizePool: 22000,
     eventId: "24",
     lastDate:" 9th Feb 11:59 pm",
     rules: [
