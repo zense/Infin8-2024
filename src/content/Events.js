@@ -1026,12 +1026,12 @@ const events = [
     title: "Pxl8",
     link:"https://forms.gle/6q3cq3TkBKXLgMLt9",
 
-    description: "'Symmetry' will be the theme. Participate and capture symmetry in your shots through geometry or framing of objects, and showcase the world through an artist's eyes",
+    description: "'Symmetry' will be the theme. Participate and capture symmetry in your shots through geometry or framing of objects, and showcase the world through an artist's eyes.",
     prizePool: 5000,
     eventId: "26",
     lastDate:" 11th Feb 11:59 pm",
     rules:[
-      "Click good pics on the given theme and submit the best you feel.","Photos must be clicked using a mobile phone only by the one who is submitting.","RAW Image editing is allowed.","Basic visual editing such as cropping, lighting, shadow, hue, and saturation adjustments are allowed provided automatic filters are not used.","Either landscape or portrait mode is allowed.","The submission links will be sent to registered participants via mail.","Each participant is allowed to submit a single picture, submitting more than one picture may lead to his/her disqualification from the competition.","Results will be announced on our Instagram handle.","The decision of the organizing committee and the jury will be final.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/","All artists will retain full ownership of their submissions but, by entering, you agree to allow us to use the entries in the promotion of the Infin8.","Any personal information collected from the participants will be used only for the purposes of administering the contest."
+      "Click good pics on the given theme and submit the best you feel.","Photos must be clicked using a mobile phone only by the one who is submitting.","RAW Image editing is allowed.","Basic visual editing such as cropping, lighting, shadow, hue, and saturation adjustments are allowed provided automatic filters are not used.","Either landscape or portrait mode is allowed.","The submission links will be sent to registered participants via mail.","Each participant is allowed to submit a single picture, submitting more than one picture may lead to his/her disqualification from the competition.","Results will be announced on our Instagram handle.","The decision of the organizing committee and the jury will be final.","Results will be announced on our Instagram handle https://www.instagram.com/infin8_iiitb/","All artists will retain full ownership of their submissions but, by entering, you agree to allow us to use the entries in the promotion of the Infin8.","Any personal information collected from the participants will be used only for the purposes of administering the contest.","Please note that the pictures must be taken in the month of February 2024 only."
     ],
     contacts: [{name:"M Srinivasan",number:"9353738745"}, {name:"Vaibhav Thapliyal",number:"8128818422"}],
     time:""
