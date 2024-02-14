@@ -260,7 +260,7 @@ const Timeline = () => {
         <img src={fifa} className="gallery-item gallery-item-4" id="4" alt="" onClick={()=>navigate("/events/20")}/>
         <img src={cut} className="gallery-item gallery-item-5" id="5" alt="" onClick={()=>navigate("/events/25")}/>
         <img src={ramp} className="gallery-item gallery-item-6" alt="" onClick={()=>navigate("/events/4")}/>
-        <img src={battle} className="gallery-item gallery-item-7" alt="" onClick={()=>navigate("/events/11")}/>
+        <img src={battle} className="gallery-item gallery-item-7" alt="" onClick={()=>navigate("/events/6")}/>
         <img src={photo} className="gallery-item gallery-item-8" alt="" onClick={()=>navigate("/events/26")}/>
         <img src={cut} className="gallery-item gallery-item-9" alt="" onClick={()=>navigate("/events/25")}/>
         <button
