@@ -21,8 +21,8 @@ function App() {
       <LandingScreen/>
       <Aboutus/>
       <Slider/>
-      <Timeline/>
       <MegaEvents/>
+      <Timeline/>
       <Faqs/>
       <Footer/>
     </motion.div>

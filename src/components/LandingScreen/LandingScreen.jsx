@@ -25,7 +25,7 @@ const LandingScreen = () => {
       }
     })
     
-  
+    
     useEffect(() => {
       if(window.innerWidth < 810){
         let list = document.getElementById('nav');
@@ -71,9 +71,10 @@ const LandingScreen = () => {
             <div className="left w-1/2 h-4/5 flex flex-col justify-center items-center" id='left-main' onClick={handleRemove}>
               <img src={logo} className='logo' alt="logo" onClick={handleRemove}/>
               <div className="eventTheme h-28 items-center justify-center flex text-yellow text-5xl"onClick={handleRemove}>A Radiant Reverie</div>
+              <h1 className='dates' >16 / 17 / 18 February</h1>
             </div>
             <div className="countdown-container right flex w-3/5 h-4/5 justify-center items-center gap-7 text-6xl" onClick={handleRemove}>
-              <div className='flex flex-col items-center gap-3'>
+              {/* <div className='flex flex-col items-center gap-3'>
                 <div className='countdown w-36 h-36 flex items-center justify-center '>{days}</div>
                 <h1 className='countdown-text text-purple text-5xl'>Days</h1>
               </div>
@@ -88,6 +89,9 @@ const LandingScreen = () => {
               <div className='flex flex-col items-center gap-3'>
                 <div className='countdown w-36 h-36 flex items-center justify-center'>{seconds}</div>
                 <h1 className='countdown-text text-purple text-5xl'>Seconds</h1>
+              </div> */}
+              <div className='flex flex-col items-center gap-3'>
+                <div className='countdown w-80 h-80 flex items-center justify-center'>Day {Math.abs(days)}</div>
               </div>
             </div>
           </div>
