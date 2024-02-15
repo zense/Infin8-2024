@@ -22,7 +22,7 @@ function App() {
       <Aboutus/>
       <Slider/>
       <Timeline/>
-      {/* <MegaEvents/> */}
+      <MegaEvents/>
       <Faqs/>
       <Footer/>
     </motion.div>

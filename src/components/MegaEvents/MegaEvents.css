@@ -4,15 +4,13 @@
     height: 80vh;
     font-family: 'Archivo', sans-serif;
     overflow: hidden;
-}
-.MegaEvents-screen img{
-    z-index: 2;
-    height: min(600px,35vw);
+    background-image: url(../../assets/mega-bg.png);
 }
 .bg-text{
     transform: rotateZ(-5deg) skew(-10deg);
     overflow: hidden;
     z-index: 0;
+    color: #FDC500;
 }
 .bg-text-top{
     top: 20%;
@@ -23,7 +21,13 @@
 .bg-text-mobile{
     display: none;
      -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #881E82;
+    -webkit-text-stroke-color: #FDC500;
+}
+.mega-over{
+    z-index: 1;
+}
+.mega-img{
+    height: min(500px,30vw);
 }
 
 @media(max-width:810px){
@@ -36,6 +40,16 @@
     }
     .MegaEvents-screen img{
         height: 90vw;
+    }
+    .items-begin{
+        align-items: flex-start;
+    }
+    .mega-over{
+        flex-direction: column;
+        width: 100%;
+    }
+    .bg-text-top{
+        top: 10%;
     }
     .bg-text-bottom{
         top: 80%;
